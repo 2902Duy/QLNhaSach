@@ -66,10 +66,11 @@ go
 
 Create table [TAIKHOAN]
 (
-	[USERNAME] Char(30) NOT NULL,
-	[PASSWORD] Char(100) NULL
+	[USERNAME] varchar(30) NOT NULL,
+	[PASSWORD] varchar(100) NULL
 ) 
 go
+
 
 Create table [KHOSACH]
 (
