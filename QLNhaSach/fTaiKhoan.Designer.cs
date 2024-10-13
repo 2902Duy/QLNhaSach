@@ -1,5 +1,5 @@
-﻿namespace QLNhaSach 
-{ 
+﻿namespace BookStore
+{
     partial class fTaiKhoan
     {
         /// <summary>

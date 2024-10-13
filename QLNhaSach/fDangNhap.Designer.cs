@@ -1,4 +1,4 @@
-﻿namespace QLNhaSach
+﻿namespace BookStore
 {
     partial class fDangNhap
     {

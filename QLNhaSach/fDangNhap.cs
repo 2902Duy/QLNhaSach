@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace QLNhaSach
+namespace BookStore
 {
     public partial class fDangNhap : Form
     {
@@ -25,7 +25,7 @@ namespace QLNhaSach
 
         private void btnDangNhap_Click(object sender, EventArgs e)
         {
-            fView formView = new fView();
+            fTongHop formView = new fTongHop();
             formView.Show();
         }
 

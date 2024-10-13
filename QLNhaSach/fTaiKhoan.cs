@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace QLNhaSach
+namespace BookStore
 {
     public partial class fTaiKhoan : Form
     {
