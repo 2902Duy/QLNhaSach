@@ -128,6 +128,11 @@
             this.lblThongBao.Name = "lblThongBao";
             this.lblThongBao.Size = new System.Drawing.Size(0, 16);
             this.lblThongBao.TabIndex = 6;
+            this.lblThongBao.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.lblThongBao.Location = new System.Drawing.Point(186, 240);
+            this.lblThongBao.Name = "lblThongBao";
+            this.lblThongBao.Size = new System.Drawing.Size(0, 16);
+            this.lblThongBao.TabIndex = 7;
             // 
             // fDangNhap
             // 
@@ -136,12 +141,16 @@
             this.ClientSize = new System.Drawing.Size(443, 263);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.lblThongBao);
+            this.ClientSize = new System.Drawing.Size(590, 316);
+            this.Controls.Add(this.lblThongBao);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.chkHienMatKhau);
             this.Controls.Add(this.btnDangNhap);
             this.Controls.Add(this.lblMatKhau);
             this.Controls.Add(this.lblTaiKhoan);
             this.Controls.Add(this.txtMatKhau);
             this.Controls.Add(this.txtTaiKhoan);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "fDangNhap";
             this.Text = "ĐĂNG NHẬP TÀI KHOẢN";
             this.Load += new System.EventHandler(this.fDangNhap_Load);
@@ -162,6 +171,7 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.ErrorProvider err;
         private System.Windows.Forms.Label lblThongBao;
+
     }
 }
 
