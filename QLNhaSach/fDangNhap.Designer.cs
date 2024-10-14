@@ -35,13 +35,10 @@
             this.lblMatKhau = new System.Windows.Forms.Label();
             this.btnDangNhap = new System.Windows.Forms.Button();
             this.chkHienMatKhau = new System.Windows.Forms.CheckBox();
-<<<<<<< HEAD
             this.label1 = new System.Windows.Forms.Label();
             this.err = new System.Windows.Forms.ErrorProvider(this.components);
-            ((System.ComponentModel.ISupportInitialize)(this.err)).BeginInit();
-=======
             this.lblThongBao = new System.Windows.Forms.Label();
->>>>>>> b7b1724c6c679835db652224d6d8fbfb4162a72c
+            ((System.ComponentModel.ISupportInitialize)(this.err)).BeginInit();
             this.SuspendLayout();
             // 
             // txtTaiKhoan
@@ -111,7 +108,6 @@
             this.chkHienMatKhau.UseVisualStyleBackColor = true;
             this.chkHienMatKhau.CheckedChanged += new System.EventHandler(this.chkHienMatKhau_CheckedChanged);
             // 
-<<<<<<< HEAD
             // label1
             // 
             this.label1.AutoSize = true;
@@ -125,30 +121,23 @@
             // err
             // 
             this.err.ContainerControl = this;
-=======
+            // 
             // lblThongBao
             // 
             this.lblThongBao.AutoSize = true;
-            this.lblThongBao.BackColor = System.Drawing.SystemColors.Control;
-            this.lblThongBao.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblThongBao.ForeColor = System.Drawing.Color.Red;
-            this.lblThongBao.Location = new System.Drawing.Point(155, 132);
+            this.lblThongBao.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.lblThongBao.Location = new System.Drawing.Point(186, 240);
             this.lblThongBao.Name = "lblThongBao";
             this.lblThongBao.Size = new System.Drawing.Size(0, 16);
-            this.lblThongBao.TabIndex = 6;
->>>>>>> b7b1724c6c679835db652224d6d8fbfb4162a72c
+            this.lblThongBao.TabIndex = 7;
             // 
             // fDangNhap
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-<<<<<<< HEAD
             this.ClientSize = new System.Drawing.Size(590, 316);
-            this.Controls.Add(this.label1);
-=======
-            this.ClientSize = new System.Drawing.Size(470, 257);
             this.Controls.Add(this.lblThongBao);
->>>>>>> b7b1724c6c679835db652224d6d8fbfb4162a72c
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.chkHienMatKhau);
             this.Controls.Add(this.btnDangNhap);
             this.Controls.Add(this.lblMatKhau);
@@ -173,12 +162,10 @@
         private System.Windows.Forms.Label lblMatKhau;
         private System.Windows.Forms.Button btnDangNhap;
         private System.Windows.Forms.CheckBox chkHienMatKhau;
-<<<<<<< HEAD
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.ErrorProvider err;
-=======
         private System.Windows.Forms.Label lblThongBao;
->>>>>>> b7b1724c6c679835db652224d6d8fbfb4162a72c
+
     }
 }
 
