@@ -32,6 +32,7 @@ namespace QLNhaSach
                 {
                     err.SetError(txtTaiKhoan, "Tên tài khoản không được bỏ trống và phải có ít nhất 3 kí tự");
                 }
+              
                 else
                 {
                     fTongHop formView = new fTongHop();
@@ -66,6 +67,11 @@ namespace QLNhaSach
         private void txtTaiKhoan_TextChanged(object sender, EventArgs e)
         {
             
+        }
+
+        private void txtMatKhau_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
