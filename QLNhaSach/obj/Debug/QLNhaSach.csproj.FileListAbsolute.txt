@@ -109,3 +109,6 @@ C:\Users\ThinkPad\OneDrive\Desktop\program\QLNhaSach\QLNhaSach\bin\Debug\DAL.dll
 C:\Users\ThinkPad\OneDrive\Desktop\program\QLNhaSach\QLNhaSach\bin\Debug\EntityFramework.xml
 C:\Users\ThinkPad\OneDrive\Desktop\program\QLNhaSach\QLNhaSach\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\ThinkPad\OneDrive\Desktop\program\QLNhaSach\QLNhaSach\obj\Debug\QLNhaSach.csproj.Up2Date
+C:\Users\ThinkPad\OneDrive\Desktop\QLNhaSach\QLNhaSach\obj\Debug\QLNhaSach.fDangNhap.resources
+C:\Users\ThinkPad\OneDrive\Desktop\QLNhaSach\QLNhaSach\obj\Debug\QLNhaSach.fTaiKhoan.resources
+C:\Users\ThinkPad\OneDrive\Desktop\QLNhaSach\QLNhaSach\obj\Debug\QLNhaSach.fTongHop.resources

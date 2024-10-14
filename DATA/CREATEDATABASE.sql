@@ -89,13 +89,14 @@ Primary Key ([TENNHAXUATBAN])
 ) 
 go
 
+
 Create table [CHITIETHOADON]
 (
 	[MAHOADON] Varchar(6) NOT NULL,
 	[MASACH] Varchar(6) NOT NULL,
 	[GIABAN] Integer NULL Check (GIABAN>0),
-	[SOLUONG] Integer NULL Check (SOLUONG>1),
-	[THANHTIEN] Money NULL Check (THANHTIEN>0),
+	[SOLUONG] Integer NULL Check (SOLUONG>0),
+	[THANHTIEN] Integer NULL Check (THANHTIEN>0),
 Primary Key ([MAHOADON],[MASACH])
 ) 
 go
@@ -113,6 +114,7 @@ Alter table [CHITIETHOADON] add  foreign key([MAHOADON]) references [HOADON] ([M
 go
 Alter table [SACH] add  foreign key([TENNHAXUATBAN]) references [NHAXUATBAN] ([TENNHAXUATBAN])  on update no action on delete no action 
 go
+
 
 
 Set quoted_identifier on

@@ -56,6 +56,42 @@ values (N'Truyện Kiều',N'Truyện thơ nôm',1814,'TG02',65000,89000,N'NXB t
 	   (N'Đắc nhân tâm',N'Tâm lý',1936,N'TG014',89000,126000,N'NXB trẻ'),
 	   (N'Thép đã tôi thế đấy',N'Truyện ngắn',1930,N'TG016',100000,168000,N'NXB văn học');
 	   
+	   INSERT INTO HOADON (KHACHHANG, NGAYLAP, TONGTIEN) VALUES 
+		(N'Nguyễn Văn An', '2023-10-01', 200000),
+		(N'Trần Thị Bình', '2024-08-02', 150000),
+		(N'Nguyễn Văn Cương', '2024-10-09', 300000),
+		(N'Phạm Văn Dũng', '2022-10-04', 250000),
+		(N'Lê Thị Em', '2023-10-05', 400000);
 
-	   
+	   INSERT INTO CHITIETHOADON (MAHOADON, MASACH, GIABAN, SOLUONG, THANHTIEN) VALUES 
+		('HD001', 'SS1010', 89000, 2, 178000),  
+		('HD001', 'SS1020', 96000, 1, 96000),  
+		('HD002', 'SS1045', 57000, 1, 57000),  
+		('HD002', 'SS1060', 89000, 1, 89000),  
+		('HD003', 'SS1070', 98000, 3, 294000),  
+		('HD004', 'SS1080', 56000, 2, 112000), 
+		('HD004', 'SS1085', 89000, 2, 178000),   
+		('HD005', 'SS1090', 126000, 2, 252000);  
+		INSERT INTO KHOSACH (MASACH, SL) VALUES 
+		('SS1010', 10),
+		('SS1015', 15),
+		('SS1020', 8),
+		('SS1025', 12),
+		('SS1030', 5),
+		('SS1035', 20),
+		('SS1040', 7),
+		('SS1045', 18),
+		('SS1050', 11),
+		('SS1055', 16),
+		('SS1060', 9),
+		('SS1065', 14),
+		('SS1070', 13),
+		('SS1075', 4),
+		('SS1080', 10),
+		('SS1085', 6),
+		('SS1090', 3),
+		('SS1095', 5);
+
+
+
 		

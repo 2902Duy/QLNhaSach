@@ -17,7 +17,7 @@ namespace QLNhaSach
         public fDangNhap()
         {
             InitializeComponent();
-            txtMatKhau.UseSystemPasswordChar = false;
+            txtMatKhau.UseSystemPasswordChar = true;
         }
 
         private void lblMatKhau_Click(object sender, EventArgs e)
@@ -30,7 +30,7 @@ namespace QLNhaSach
 
             try
             {
-                DANGNHAPBUS dn = new DANGNHAPBUS();
+                BUSTAIKHOAN dn = new BUSTAIKHOAN();
                 err.Clear();
                 if (string.IsNullOrEmpty(txtTaiKhoan.Text) || txtTaiKhoan.Text.Length < 3)
                 {

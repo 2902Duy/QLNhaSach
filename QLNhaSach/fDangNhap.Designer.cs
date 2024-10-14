@@ -42,19 +42,17 @@
             // 
             // txtTaiKhoan
             // 
-            this.txtTaiKhoan.Location = new System.Drawing.Point(119, 84);
-            this.txtTaiKhoan.Multiline = true;
+            this.txtTaiKhoan.Location = new System.Drawing.Point(144, 95);
             this.txtTaiKhoan.Name = "txtTaiKhoan";
-            this.txtTaiKhoan.Size = new System.Drawing.Size(202, 28);
+            this.txtTaiKhoan.Size = new System.Drawing.Size(202, 20);
             this.txtTaiKhoan.TabIndex = 0;
             this.txtTaiKhoan.TextChanged += new System.EventHandler(this.txtTaiKhoan_TextChanged);
             // 
             // txtMatKhau
             // 
-            this.txtMatKhau.Location = new System.Drawing.Point(119, 145);
-            this.txtMatKhau.Multiline = true;
+            this.txtMatKhau.Location = new System.Drawing.Point(144, 155);
             this.txtMatKhau.Name = "txtMatKhau";
-            this.txtMatKhau.Size = new System.Drawing.Size(202, 28);
+            this.txtMatKhau.Size = new System.Drawing.Size(202, 20);
             this.txtMatKhau.TabIndex = 1;
             this.txtMatKhau.TextChanged += new System.EventHandler(this.txtMatKhau_TextChanged);
             // 
@@ -93,7 +91,7 @@
             // chkHienMatKhau
             // 
             this.chkHienMatKhau.AutoSize = true;
-            this.chkHienMatKhau.Location = new System.Drawing.Point(326, 154);
+            this.chkHienMatKhau.Location = new System.Drawing.Point(364, 158);
             this.chkHienMatKhau.Name = "chkHienMatKhau";
             this.chkHienMatKhau.Size = new System.Drawing.Size(95, 17);
             this.chkHienMatKhau.TabIndex = 5;
