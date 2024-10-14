@@ -17,7 +17,7 @@ namespace QLNhaSach
         public fDangNhap()
         {
             InitializeComponent();
-            txtMatKhau.UseSystemPasswordChar = true;
+            txtMatKhau.UseSystemPasswordChar = false;
         }
 
         private void lblMatKhau_Click(object sender, EventArgs e)
