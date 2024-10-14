@@ -7,11 +7,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using BUS;
 
 namespace QLNhaSach
 {
     public partial class fDangNhap : Form
     {
+
         public fDangNhap()
         {
             InitializeComponent();
@@ -25,6 +27,7 @@ namespace QLNhaSach
 
         private void btnDangNhap_Click(object sender, EventArgs e)
         {
+<<<<<<< HEAD
             try
             {
                 err.Clear();
@@ -43,6 +46,20 @@ namespace QLNhaSach
             {
                 
             }
+=======
+            DANGNHAPBUS dangnhap = new DANGNHAPBUS();
+            if(dangnhap.kiemTraDangNhap(txtTaiKhoan.Text,txtMatKhau.Text))
+            {
+                this.Hide();
+                fTongHop formView = new fTongHop();
+                formView.Show();
+            }    
+            else
+            {
+                lblThongBao.Text = "Thông tin tài khoản hoặc mật khẩu sai";
+            }    
+            
+>>>>>>> b7b1724c6c679835db652224d6d8fbfb4162a72c
         }
 
         
