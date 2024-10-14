@@ -37,7 +37,6 @@
             this.chkHienMatKhau = new System.Windows.Forms.CheckBox();
             this.label1 = new System.Windows.Forms.Label();
             this.err = new System.Windows.Forms.ErrorProvider(this.components);
-            this.lblThongBao = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.err)).BeginInit();
             this.SuspendLayout();
             // 
@@ -117,32 +116,11 @@
             // 
             this.err.ContainerControl = this;
             // 
-            // lblThongBao
-            // 
-            this.lblThongBao.AutoSize = true;
-            this.lblThongBao.BackColor = System.Drawing.SystemColors.Control;
-            this.lblThongBao.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblThongBao.ForeColor = System.Drawing.Color.Red;
-            this.lblThongBao.Location = new System.Drawing.Point(116, 107);
-            this.lblThongBao.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.lblThongBao.Name = "lblThongBao";
-            this.lblThongBao.Size = new System.Drawing.Size(0, 16);
-            this.lblThongBao.TabIndex = 6;
-            this.lblThongBao.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.lblThongBao.Location = new System.Drawing.Point(186, 240);
-            this.lblThongBao.Name = "lblThongBao";
-            this.lblThongBao.Size = new System.Drawing.Size(0, 16);
-            this.lblThongBao.TabIndex = 7;
-            // 
             // fDangNhap
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(443, 263);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.lblThongBao);
             this.ClientSize = new System.Drawing.Size(590, 316);
-            this.Controls.Add(this.lblThongBao);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.chkHienMatKhau);
             this.Controls.Add(this.btnDangNhap);
@@ -170,7 +148,6 @@
         private System.Windows.Forms.CheckBox chkHienMatKhau;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.ErrorProvider err;
-        private System.Windows.Forms.Label lblThongBao;
 
     }
 }
