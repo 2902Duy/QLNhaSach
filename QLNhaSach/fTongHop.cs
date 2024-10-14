@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace BookStore
+namespace QLNhaSach
 {
     public partial class fTongHop : Form
     {
@@ -20,8 +20,14 @@ namespace BookStore
 
         private void tmiTaiKhoan_Click(object sender, EventArgs e)
         {
+           
             fTaiKhoan TaiKhoan = new fTaiKhoan();
             TaiKhoan.Show();
+        }
+
+        private void fTongHop_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

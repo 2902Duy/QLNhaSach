@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace BookStore
+namespace QLNhaSach
 {
     public partial class fDangNhap : Form
     {
@@ -25,8 +25,23 @@ namespace BookStore
 
         private void btnDangNhap_Click(object sender, EventArgs e)
         {
-            fTongHop formView = new fTongHop();
-            formView.Show();
+            try
+            {
+                err.Clear();
+                if (string.IsNullOrEmpty(txtTaiKhoan.Text) || txtTaiKhoan.Text.Length < 3)
+                {
+                    err.SetError(txtTaiKhoan, "Tên tài khoản không được bỏ trống và phải có ít nhất 3 kí tự");
+                }
+                else
+                {
+                    fTongHop formView = new fTongHop();
+                    formView.Show();
+                }
+            }
+            catch 
+            {
+                
+            }
         }
 
         
@@ -41,6 +56,16 @@ namespace BookStore
             {
                 txtMatKhau.UseSystemPasswordChar= true;
             }
+        }
+
+        private void fDangNhap_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtTaiKhoan_TextChanged(object sender, EventArgs e)
+        {
+            
         }
     }
 }

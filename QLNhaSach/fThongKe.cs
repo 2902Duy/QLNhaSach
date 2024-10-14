@@ -27,5 +27,10 @@ namespace QLNhaSach
             fBaoCao frm2 = new fBaoCao();
             frm2.ShowDialog();
         }
+
+        private void fThongKe_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

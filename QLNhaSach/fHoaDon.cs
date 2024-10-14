@@ -34,5 +34,10 @@ namespace QLNhaSach
             fThemSuaHD frm3 = new fThemSuaHD();
             frm3.ShowDialog();
         }
+
+        private void fHoaDon_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

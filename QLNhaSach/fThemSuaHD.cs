@@ -48,5 +48,10 @@ namespace QLNhaSach
                 e.Handled = true;
             }
         }
+
+        private void fThemSuaHD_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

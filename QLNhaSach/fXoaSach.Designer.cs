@@ -92,7 +92,7 @@
             this.btnThoat.UseVisualStyleBackColor = true;
             this.btnThoat.Click += new System.EventHandler(this.btnThoat_Click);
             // 
-            // Form3
+            // fXoaSach
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -100,8 +100,9 @@
             this.Controls.Add(this.btnThoat);
             this.Controls.Add(this.btnXoaSach);
             this.Controls.Add(this.dataGridView1);
-            this.Name = "Form3";
+            this.Name = "fXoaSach";
             this.Text = "XoaSach";
+            this.Load += new System.EventHandler(this.fXoaSach_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
 

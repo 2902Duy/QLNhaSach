@@ -16,5 +16,10 @@ namespace QLNhaSach
         {
             InitializeComponent();
         }
+
+        private void fChiTietHD_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

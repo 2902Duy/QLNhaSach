@@ -16,5 +16,10 @@ namespace QLNhaSach
         {
             InitializeComponent();
         }
+
+        private void fKho_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

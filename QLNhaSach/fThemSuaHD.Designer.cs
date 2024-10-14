@@ -113,6 +113,7 @@
             this.Controls.Add(this.label5);
             this.Name = "fThemSuaHD";
             this.Text = "THÔNG TIN THAY ĐỔI";
+            this.Load += new System.EventHandler(this.fThemSuaHD_Load);
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

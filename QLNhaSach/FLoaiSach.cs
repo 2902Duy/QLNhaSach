@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace QLNhaSach
 {
-    public partial class FLoaiSach : Form
+    public partial class fLoaiSach : Form
     {
-        public FLoaiSach()
+        public fLoaiSach()
         {
             InitializeComponent();
         }
@@ -30,8 +30,8 @@ namespace QLNhaSach
 
 
             // Liên kết DataTable với DataGridView
-            dataGridView1.DataSource = table;
-            dataGridView1.ColumnHeadersVisible = false;
+            dgvLoaiS.DataSource = table;
+            dgvLoaiS.ColumnHeadersVisible = false;
         }
     }
 }

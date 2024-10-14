@@ -31,8 +31,8 @@ namespace QLNhaSach
 
 
             // Liên kết DataTable với DataGridView
-            dataGridView1.DataSource = table;
-            dataGridView1.ColumnHeadersVisible = false;
+            dgvNXB.DataSource = table;
+            dgvNXB.ColumnHeadersVisible = false;
         }
     }
     }

@@ -21,5 +21,9 @@ namespace QLNhaSach
         {
             Close();
         }
+
+        private void fBaoCao_Load(object sender, EventArgs e)
+        {
+        }
     }
 }

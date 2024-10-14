@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace BookStore
+namespace QLNhaSach
 {
     public partial class fTaiKhoan : Form
     {
@@ -28,6 +28,16 @@ namespace BookStore
             {
                 txtMatKhau.UseSystemPasswordChar = true;
             }
+        }
+
+        private void fTaiKhoan_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblTaiKhoanThemXoaSua_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

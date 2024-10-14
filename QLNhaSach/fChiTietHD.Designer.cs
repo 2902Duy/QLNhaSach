@@ -28,20 +28,20 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.dgvChiTHD = new System.Windows.Forms.DataGridView();
             this.label1 = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvChiTHD)).BeginInit();
             this.SuspendLayout();
             // 
-            // dataGridView1
+            // dgvChiTHD
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(-1, 40);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowHeadersWidth = 49;
-            this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(804, 299);
-            this.dataGridView1.TabIndex = 1;
+            this.dgvChiTHD.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvChiTHD.Location = new System.Drawing.Point(-1, 40);
+            this.dgvChiTHD.Name = "dgvChiTHD";
+            this.dgvChiTHD.RowHeadersWidth = 49;
+            this.dgvChiTHD.RowTemplate.Height = 24;
+            this.dgvChiTHD.Size = new System.Drawing.Size(804, 299);
+            this.dgvChiTHD.TabIndex = 1;
             // 
             // label1
             // 
@@ -59,10 +59,11 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 337);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.dgvChiTHD);
             this.Name = "fChiTietHD";
-            this.Text = "fChiTietHD";
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            this.Text = "CHI TIẾT HÓA ĐƠN";
+            this.Load += new System.EventHandler(this.fChiTietHD_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.dgvChiTHD)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -70,7 +71,7 @@
 
         #endregion
 
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridView dgvChiTHD;
         private System.Windows.Forms.Label label1;
     }
 }

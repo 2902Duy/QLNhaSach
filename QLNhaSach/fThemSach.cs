@@ -70,5 +70,10 @@ namespace QLNhaSach
         {
 
         }
+
+        private void fThemSach_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

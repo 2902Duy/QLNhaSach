@@ -131,6 +131,7 @@
             this.Controls.Add(this.dtp1);
             this.Name = "fThongKe";
             this.Text = "THỐNG KÊ";
+            this.Load += new System.EventHandler(this.fThongKe_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

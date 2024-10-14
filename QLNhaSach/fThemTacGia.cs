@@ -59,5 +59,10 @@ namespace QLNhaSach
         {
             this.Close();
         }
+
+        private void fThemTacGia_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

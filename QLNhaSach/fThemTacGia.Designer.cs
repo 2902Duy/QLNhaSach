@@ -156,7 +156,7 @@
             this.chkQUEQUAN.AutoSize = true;
             this.chkQUEQUAN.Location = new System.Drawing.Point(554, 176);
             this.chkQUEQUAN.Name = "chkQUEQUAN";
-            this.chkQUEQUAN.Size = new System.Drawing.Size(75, 20);
+            this.chkQUEQUAN.Size = new System.Drawing.Size(72, 20);
             this.chkQUEQUAN.TabIndex = 12;
             this.chkQUEQUAN.Text = "Chưa rõ";
             this.chkQUEQUAN.UseVisualStyleBackColor = true;
@@ -166,7 +166,7 @@
             this.chkNGAYSINH.AutoSize = true;
             this.chkNGAYSINH.Location = new System.Drawing.Point(554, 240);
             this.chkNGAYSINH.Name = "chkNGAYSINH";
-            this.chkNGAYSINH.Size = new System.Drawing.Size(75, 20);
+            this.chkNGAYSINH.Size = new System.Drawing.Size(72, 20);
             this.chkNGAYSINH.TabIndex = 13;
             this.chkNGAYSINH.Text = "Chưa rõ";
             this.chkNGAYSINH.UseVisualStyleBackColor = true;
@@ -176,7 +176,7 @@
             this.chkNGAYMAT.AutoSize = true;
             this.chkNGAYMAT.Location = new System.Drawing.Point(554, 300);
             this.chkNGAYMAT.Name = "chkNGAYMAT";
-            this.chkNGAYMAT.Size = new System.Drawing.Size(75, 20);
+            this.chkNGAYMAT.Size = new System.Drawing.Size(72, 20);
             this.chkNGAYMAT.TabIndex = 14;
             this.chkNGAYMAT.Text = "Chưa rõ";
             this.chkNGAYMAT.UseVisualStyleBackColor = true;
@@ -185,7 +185,7 @@
             // 
             this.err.ContainerControl = this;
             // 
-            // Form4
+            // fThemTacGia
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -205,8 +205,9 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Name = "Form4";
+            this.Name = "fThemTacGia";
             this.Text = "ThemTacGia";
+            this.Load += new System.EventHandler(this.fThemTacGia_Load);
             ((System.ComponentModel.ISupportInitialize)(this.err)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

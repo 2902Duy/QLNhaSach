@@ -42,5 +42,10 @@ namespace QLNhaSach
         {
             this.Close();
         }
+
+        private void fXoaSach_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

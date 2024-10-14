@@ -31,10 +31,10 @@ namespace QLNhaSach
 
         private void txtTENSACH_TextChanged(object sender, EventArgs e)
         {
-            if (txtTENSACH.Text.Length < 3 || txtTENSACH.Text.Length > 100)
+            if (txtTenSach.Text.Length < 3 || txtTenSach.Text.Length > 100)
             {
 
-                err.SetError(txtTENSACH, "Tên sinh viên không hợp lệ, vui lòng nhập lại!");
+                err.SetError(txtTenSach, "Tên sinh viên không hợp lệ, vui lòng nhập lại!");
             }
             else
             {
@@ -62,6 +62,11 @@ namespace QLNhaSach
         {
             // Cập nhật Label để hiển thị giá trị hiện tại
            // label7.Text = $"Giá tiền: {numericUpDown1.Value:C}";
+        }
+
+        private void fSuaSach_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

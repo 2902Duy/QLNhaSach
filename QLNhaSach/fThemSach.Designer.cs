@@ -198,7 +198,7 @@
             // 
             this.err.ContainerControl = this;
             // 
-            // Form1
+            // fThemSach
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -220,8 +220,9 @@
             this.Controls.Add(this.domainUpDown1);
             this.Controls.Add(this.dtpNAMXUATBAN);
             this.Controls.Add(this.txtTENSACH);
-            this.Name = "Form1";
+            this.Name = "fThemSach";
             this.Text = "ThemSach";
+            this.Load += new System.EventHandler(this.fThemSach_Load);
             ((System.ComponentModel.ISupportInitialize)(this.err)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
