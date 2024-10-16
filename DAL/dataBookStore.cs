@@ -33,7 +33,8 @@ namespace DAL
 
             modelBuilder.Entity<CHITIETHOADON>()
                 .Property(e => e.THANHTIEN)
-                .HasPrecision(19, 4);
+                .IsRequired()
+                .HasColumnType("int");
 
             modelBuilder.Entity<HOADON>()
                 .Property(e => e.MAHOADON)

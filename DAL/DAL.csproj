@@ -54,6 +54,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CHITIETHOADON.cs" />
+    <Compile Include="CHITIETHOADONSACH.cs" />
+    <Compile Include="CHITIETKHO.CS" />
+    <Compile Include="CHITIETSACH.cs" />
     <Compile Include="dataBookStore.cs" />
     <Compile Include="HOADON.cs" />
     <Compile Include="KHOSACH.cs" />

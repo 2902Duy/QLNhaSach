@@ -109,6 +109,7 @@ C:\Users\ThinkPad\OneDrive\Desktop\program\QLNhaSach\QLNhaSach\bin\Debug\DAL.dll
 C:\Users\ThinkPad\OneDrive\Desktop\program\QLNhaSach\QLNhaSach\bin\Debug\EntityFramework.xml
 C:\Users\ThinkPad\OneDrive\Desktop\program\QLNhaSach\QLNhaSach\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\ThinkPad\OneDrive\Desktop\program\QLNhaSach\QLNhaSach\obj\Debug\QLNhaSach.csproj.Up2Date
+<<<<<<< HEAD
 D:\Tonghopphieu\QLNhaSach\QLNhaSach\bin\Debug\QLNhaSach.exe.config
 D:\Tonghopphieu\QLNhaSach\QLNhaSach\bin\Debug\QLNhaSach.exe
 D:\Tonghopphieu\QLNhaSach\QLNhaSach\bin\Debug\QLNhaSach.pdb
@@ -145,3 +146,8 @@ D:\Tonghopphieu\QLNhaSach\QLNhaSach\obj\Debug\QLNhaSach.csproj.CoreCompileInputs
 D:\Tonghopphieu\QLNhaSach\QLNhaSach\obj\Debug\QLNhaSach.csproj.Up2Date
 D:\Tonghopphieu\QLNhaSach\QLNhaSach\obj\Debug\QLNhaSach.exe
 D:\Tonghopphieu\QLNhaSach\QLNhaSach\obj\Debug\QLNhaSach.pdb
+=======
+C:\Users\ThinkPad\OneDrive\Desktop\QLNhaSach\QLNhaSach\obj\Debug\QLNhaSach.fDangNhap.resources
+C:\Users\ThinkPad\OneDrive\Desktop\QLNhaSach\QLNhaSach\obj\Debug\QLNhaSach.fTaiKhoan.resources
+C:\Users\ThinkPad\OneDrive\Desktop\QLNhaSach\QLNhaSach\obj\Debug\QLNhaSach.fTongHop.resources
+>>>>>>> 4f1a1a8f3e9103a726d55c8329bcf39027fb9e9a

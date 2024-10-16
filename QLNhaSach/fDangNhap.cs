@@ -30,16 +30,26 @@ namespace QLNhaSach
 
             try
             {
+                BUSTAIKHOAN dn = new BUSTAIKHOAN();
                 err.Clear();
                 if (string.IsNullOrEmpty(txtTaiKhoan.Text) || txtTaiKhoan.Text.Length < 3)
                 {
                     err.SetError(txtTaiKhoan, "Tên tài khoản không được bỏ trống và phải có ít nhất 3 kí tự");
                 }
-              
+
                 else
                 {
-                    fTongHop formView = new fTongHop();
-                    formView.Show();
+                    if (dn.kiemTraDangNhap(txtTaiKhoan.Text, txtMatKhau.Text))
+                    {
+                        fTongHop fTongHop = new fTongHop();
+                        this.Hide();
+                        fTongHop.Show();
+                    }
+                    else 
+                    {
+                        err.SetError(txtTaiKhoan, "Tên tài khoản hoặc mật khẩu sai");
+                    }
+
                 }
             }
             catch 

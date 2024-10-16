@@ -1,15 +1,3 @@
-C:\Users\ThinkPad\OneDrive\Desktop\QLNhaSach\DAL\bin\Debug\DAL.dll.config
-C:\Users\ThinkPad\OneDrive\Desktop\QLNhaSach\DAL\bin\Debug\DAL.dll
-C:\Users\ThinkPad\OneDrive\Desktop\QLNhaSach\DAL\bin\Debug\DAL.pdb
-C:\Users\ThinkPad\OneDrive\Desktop\QLNhaSach\DAL\bin\Debug\EntityFramework.dll
-C:\Users\ThinkPad\OneDrive\Desktop\QLNhaSach\DAL\bin\Debug\EntityFramework.SqlServer.dll
-C:\Users\ThinkPad\OneDrive\Desktop\QLNhaSach\DAL\bin\Debug\EntityFramework.xml
-C:\Users\ThinkPad\OneDrive\Desktop\QLNhaSach\DAL\bin\Debug\EntityFramework.SqlServer.xml
-C:\Users\ThinkPad\OneDrive\Desktop\QLNhaSach\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
-C:\Users\ThinkPad\OneDrive\Desktop\QLNhaSach\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
-C:\Users\ThinkPad\OneDrive\Desktop\QLNhaSach\DAL\obj\Debug\DAL.csproj.Up2Date
-C:\Users\ThinkPad\OneDrive\Desktop\QLNhaSach\DAL\obj\Debug\DAL.dll
-C:\Users\ThinkPad\OneDrive\Desktop\QLNhaSach\DAL\obj\Debug\DAL.pdb
 C:\Users\DELL\Downloads\QLNhaSach\DAL\bin\Debug\DAL.dll.config
 C:\Users\DELL\Downloads\QLNhaSach\DAL\bin\Debug\DAL.dll
 C:\Users\DELL\Downloads\QLNhaSach\DAL\bin\Debug\DAL.pdb
@@ -34,6 +22,7 @@ C:\Users\ThinkPad\OneDrive\Desktop\program\QLNhaSach\DAL\obj\Debug\DAL.csproj.Co
 C:\Users\ThinkPad\OneDrive\Desktop\program\QLNhaSach\DAL\obj\Debug\DAL.csproj.Up2Date
 C:\Users\ThinkPad\OneDrive\Desktop\program\QLNhaSach\DAL\obj\Debug\DAL.dll
 C:\Users\ThinkPad\OneDrive\Desktop\program\QLNhaSach\DAL\obj\Debug\DAL.pdb
+<<<<<<< HEAD
 D:\Tonghopphieu\QLNhaSach\DAL\bin\Debug\DAL.dll.config
 D:\Tonghopphieu\QLNhaSach\DAL\bin\Debug\DAL.dll
 D:\Tonghopphieu\QLNhaSach\DAL\bin\Debug\DAL.pdb
@@ -46,3 +35,17 @@ D:\Tonghopphieu\QLNhaSach\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
 D:\Tonghopphieu\QLNhaSach\DAL\obj\Debug\DAL.csproj.Up2Date
 D:\Tonghopphieu\QLNhaSach\DAL\obj\Debug\DAL.dll
 D:\Tonghopphieu\QLNhaSach\DAL\obj\Debug\DAL.pdb
+=======
+C:\Users\ThinkPad\OneDrive\Desktop\QLNhaSach\DAL\bin\Debug\DAL.dll.config
+C:\Users\ThinkPad\OneDrive\Desktop\QLNhaSach\DAL\bin\Debug\DAL.dll
+C:\Users\ThinkPad\OneDrive\Desktop\QLNhaSach\DAL\bin\Debug\DAL.pdb
+C:\Users\ThinkPad\OneDrive\Desktop\QLNhaSach\DAL\bin\Debug\EntityFramework.dll
+C:\Users\ThinkPad\OneDrive\Desktop\QLNhaSach\DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ThinkPad\OneDrive\Desktop\QLNhaSach\DAL\bin\Debug\EntityFramework.xml
+C:\Users\ThinkPad\OneDrive\Desktop\QLNhaSach\DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ThinkPad\OneDrive\Desktop\QLNhaSach\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+C:\Users\ThinkPad\OneDrive\Desktop\QLNhaSach\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\ThinkPad\OneDrive\Desktop\QLNhaSach\DAL\obj\Debug\DAL.csproj.Up2Date
+C:\Users\ThinkPad\OneDrive\Desktop\QLNhaSach\DAL\obj\Debug\DAL.dll
+C:\Users\ThinkPad\OneDrive\Desktop\QLNhaSach\DAL\obj\Debug\DAL.pdb
+>>>>>>> 4f1a1a8f3e9103a726d55c8329bcf39027fb9e9a
