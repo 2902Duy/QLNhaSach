@@ -48,9 +48,9 @@ namespace QLNhaSach
 
         private void txtTENSACH_TextChanged(object sender, EventArgs e)
         {
-            if (txtTENSACH.Text.Length < 2 || txtTENSACH.Text.Length > 100)
+            if (txtTenSach.Text.Length < 2 || txtTenSach.Text.Length > 100)
             {
-                err.SetError(txtTENSACH, "Tên sách không hợp lệ, vui lòng nhập lại!");
+                err.SetError(txtTenSach, "Tên sách không hợp lệ, vui lòng nhập lại!");
             }
             else
             {

@@ -42,7 +42,7 @@
             // 
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.01739F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.Location = new System.Drawing.Point(543, 391);
-            this.button2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button2.Margin = new System.Windows.Forms.Padding(4);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(100, 28);
             this.button2.TabIndex = 12;
@@ -53,7 +53,7 @@
             // 
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.01739F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.Location = new System.Drawing.Point(543, 446);
-            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button1.Margin = new System.Windows.Forms.Padding(4);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(100, 28);
             this.button1.TabIndex = 11;
@@ -63,7 +63,7 @@
             // txtXoaNXB
             // 
             this.txtXoaNXB.Location = new System.Drawing.Point(251, 450);
-            this.txtXoaNXB.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtXoaNXB.Margin = new System.Windows.Forms.Padding(4);
             this.txtXoaNXB.Name = "txtXoaNXB";
             this.txtXoaNXB.Size = new System.Drawing.Size(265, 22);
             this.txtXoaNXB.TabIndex = 10;
@@ -71,7 +71,7 @@
             // txtThemNXB
             // 
             this.txtThemNXB.Location = new System.Drawing.Point(251, 393);
-            this.txtThemNXB.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtThemNXB.Margin = new System.Windows.Forms.Padding(4);
             this.txtThemNXB.Name = "txtThemNXB";
             this.txtThemNXB.Size = new System.Drawing.Size(265, 22);
             this.txtThemNXB.TabIndex = 9;
@@ -80,7 +80,7 @@
             // 
             this.dgvNXB.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvNXB.Location = new System.Drawing.Point(16, 15);
-            this.dgvNXB.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dgvNXB.Margin = new System.Windows.Forms.Padding(4);
             this.dgvNXB.Name = "dgvNXB";
             this.dgvNXB.RowHeadersWidth = 49;
             this.dgvNXB.Size = new System.Drawing.Size(773, 345);
@@ -93,7 +93,7 @@
             this.label1.Location = new System.Drawing.Point(150, 395);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(91, 20);
+            this.label1.Size = new System.Drawing.Size(97, 20);
             this.label1.TabIndex = 13;
             this.label1.Text = "THÊM NXB";
             // 
@@ -104,7 +104,7 @@
             this.label2.Location = new System.Drawing.Point(150, 454);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(80, 20);
+            this.label2.Size = new System.Drawing.Size(84, 20);
             this.label2.TabIndex = 14;
             this.label2.Text = "XÓA NXB";
             // 
@@ -120,7 +120,7 @@
             this.Controls.Add(this.txtXoaNXB);
             this.Controls.Add(this.txtThemNXB);
             this.Controls.Add(this.dgvNXB);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "fNhaXuatBan";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);

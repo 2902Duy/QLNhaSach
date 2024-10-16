@@ -28,60 +28,68 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.dgvXoaTG = new System.Windows.Forms.DataGridView();
+            this.btnXoaTG = new System.Windows.Forms.Button();
+            this.btnThoat = new System.Windows.Forms.Button();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvXoaTG)).BeginInit();
             this.SuspendLayout();
             // 
-            // dataGridView1
+            // dgvXoaTG
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(2, 1);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(456, 307);
-            this.dataGridView1.TabIndex = 0;
-            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
+            this.dgvXoaTG.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvXoaTG.Location = new System.Drawing.Point(13, 13);
+            this.dgvXoaTG.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dgvXoaTG.Name = "dgvXoaTG";
+            this.dgvXoaTG.RowHeadersWidth = 51;
+            this.dgvXoaTG.Size = new System.Drawing.Size(671, 378);
+            this.dgvXoaTG.TabIndex = 0;
+            this.dgvXoaTG.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
-            // button1
+            // btnXoaTG
             // 
-            this.button1.Location = new System.Drawing.Point(2, 332);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 1;
-            this.button1.Text = "Xóa Tác Giả";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnXoaTG.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnXoaTG.Location = new System.Drawing.Point(13, 398);
+            this.btnXoaTG.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnXoaTG.Name = "btnXoaTG";
+            this.btnXoaTG.Size = new System.Drawing.Size(114, 41);
+            this.btnXoaTG.TabIndex = 1;
+            this.btnXoaTG.Text = "Xóa Tác Giả";
+            this.btnXoaTG.UseVisualStyleBackColor = true;
             // 
-            // button2
+            // btnThoat
             // 
-            this.button2.Location = new System.Drawing.Point(437, 332);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 2;
-            this.button2.Text = "Thoát";
-            this.button2.UseVisualStyleBackColor = true;
+            this.btnThoat.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnThoat.Location = new System.Drawing.Point(577, 399);
+            this.btnThoat.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnThoat.Name = "btnThoat";
+            this.btnThoat.Size = new System.Drawing.Size(107, 39);
+            this.btnThoat.TabIndex = 2;
+            this.btnThoat.Text = "Thoát";
+            this.btnThoat.UseVisualStyleBackColor = true;
+            this.btnThoat.Click += new System.EventHandler(this.button2_Click);
             // 
             // Fxoatacgia
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(758, 367);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.dataGridView1);
+            this.ClientSize = new System.Drawing.Size(713, 452);
+            this.Controls.Add(this.btnThoat);
+            this.Controls.Add(this.btnXoaTG);
+            this.Controls.Add(this.dgvXoaTG);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Fxoatacgia";
-            this.Text = " ";
+            this.Text = " XÓA TÁC GIẢ";
             this.Load += new System.EventHandler(this.Fxoatacgia_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvXoaTG)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.DataGridView dgvXoaTG;
+        private System.Windows.Forms.Button btnXoaTG;
+        private System.Windows.Forms.Button btnThoat;
     }
 }
 

@@ -21,5 +21,17 @@ namespace QLNhaSach
         {
 
         }
+
+        private void btnXoa_Click(object sender, EventArgs e)
+        {
+            fXoaSach fXoaSach = new fXoaSach();
+            fXoaSach.Show();
+        }
+
+        private void btnThem_Click(object sender, EventArgs e)
+        {
+            fThemSach fThemSach = new fThemSach();
+            fThemSach.Show();
+        }
     }
 }

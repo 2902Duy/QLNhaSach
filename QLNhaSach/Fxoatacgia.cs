@@ -32,7 +32,7 @@ namespace QLNhaSach
 
 
             // Liên kết DataTable với DataGridView
-            dataGridView1.DataSource = table;
+            dgvXoaTG.DataSource = table;
         }
 
         private void Fxoatacgia_Load(object sender, EventArgs e)
@@ -50,7 +50,12 @@ namespace QLNhaSach
 
 
             // Liên kết DataTable với DataGridView
-            dataGridView1.DataSource = table;
+            dgvXoaTG.DataSource = table;
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

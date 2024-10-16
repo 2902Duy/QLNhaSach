@@ -50,7 +50,7 @@
             // dgvKho
             // 
             this.dgvKho.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvKho.Location = new System.Drawing.Point(22, 22);
+            this.dgvKho.Location = new System.Drawing.Point(34, 12);
             this.dgvKho.Name = "dgvKho";
             this.dgvKho.RowHeadersWidth = 49;
             this.dgvKho.RowTemplate.Height = 24;
@@ -76,6 +76,7 @@
             this.btnXoa.TabIndex = 18;
             this.btnXoa.Text = "XÓA SÁCH";
             this.btnXoa.UseVisualStyleBackColor = true;
+            this.btnXoa.Click += new System.EventHandler(this.btnXoa_Click);
             // 
             // lblTen
             // 
@@ -83,7 +84,7 @@
             this.lblTen.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.01739F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTen.Location = new System.Drawing.Point(19, 323);
             this.lblTen.Name = "lblTen";
-            this.lblTen.Size = new System.Drawing.Size(93, 20);
+            this.lblTen.Size = new System.Drawing.Size(99, 20);
             this.lblTen.TabIndex = 19;
             this.lblTen.Text = "TÊN SÁCH:";
             // 
@@ -101,7 +102,7 @@
             this.lblSL.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.01739F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblSL.Location = new System.Drawing.Point(18, 357);
             this.lblSL.Name = "lblSL";
-            this.lblSL.Size = new System.Drawing.Size(97, 20);
+            this.lblSL.Size = new System.Drawing.Size(103, 20);
             this.lblSL.TabIndex = 21;
             this.lblSL.Text = "SỐ LƯỢNG:";
             // 
@@ -126,16 +127,16 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Rockwell", 16.27826F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.InfoText;
-            this.label1.Location = new System.Drawing.Point(17, 432);
+            this.label1.Location = new System.Drawing.Point(17, 407);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(176, 32);
+            this.label1.Size = new System.Drawing.Size(188, 33);
             this.label1.TabIndex = 24;
             this.label1.Text = "CHỌN SÁCH";
             // 
             // dgvChonS
             // 
             this.dgvChonS.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvChonS.Location = new System.Drawing.Point(22, 473);
+            this.dgvChonS.Location = new System.Drawing.Point(22, 452);
             this.dgvChonS.Name = "dgvChonS";
             this.dgvChonS.RowHeadersWidth = 49;
             this.dgvChonS.RowTemplate.Height = 24;
@@ -146,9 +147,9 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.01739F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(19, 740);
+            this.label2.Location = new System.Drawing.Point(19, 713);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(93, 20);
+            this.label2.Size = new System.Drawing.Size(99, 20);
             this.label2.TabIndex = 26;
             this.label2.Text = "TÊN SÁCH:";
             // 
@@ -158,14 +159,14 @@
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.01739F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(19, 773);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(97, 20);
+            this.label3.Size = new System.Drawing.Size(103, 20);
             this.label3.TabIndex = 27;
             this.label3.Text = "SỐ LƯỢNG:";
             // 
             // comboBox1
             // 
             this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(118, 736);
+            this.comboBox1.Location = new System.Drawing.Point(124, 713);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(121, 24);
             this.comboBox1.TabIndex = 28;
@@ -185,6 +186,7 @@
             this.btnThem.TabIndex = 30;
             this.btnThem.Text = "THÊM";
             this.btnThem.UseVisualStyleBackColor = true;
+            this.btnThem.Click += new System.EventHandler(this.btnThem_Click);
             // 
             // fKho
             // 

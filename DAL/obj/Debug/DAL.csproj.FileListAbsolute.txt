@@ -34,3 +34,15 @@ C:\Users\ThinkPad\OneDrive\Desktop\program\QLNhaSach\DAL\obj\Debug\DAL.csproj.Co
 C:\Users\ThinkPad\OneDrive\Desktop\program\QLNhaSach\DAL\obj\Debug\DAL.csproj.Up2Date
 C:\Users\ThinkPad\OneDrive\Desktop\program\QLNhaSach\DAL\obj\Debug\DAL.dll
 C:\Users\ThinkPad\OneDrive\Desktop\program\QLNhaSach\DAL\obj\Debug\DAL.pdb
+D:\Tonghopphieu\QLNhaSach\DAL\bin\Debug\DAL.dll.config
+D:\Tonghopphieu\QLNhaSach\DAL\bin\Debug\DAL.dll
+D:\Tonghopphieu\QLNhaSach\DAL\bin\Debug\DAL.pdb
+D:\Tonghopphieu\QLNhaSach\DAL\bin\Debug\EntityFramework.dll
+D:\Tonghopphieu\QLNhaSach\DAL\bin\Debug\EntityFramework.SqlServer.dll
+D:\Tonghopphieu\QLNhaSach\DAL\bin\Debug\EntityFramework.xml
+D:\Tonghopphieu\QLNhaSach\DAL\bin\Debug\EntityFramework.SqlServer.xml
+D:\Tonghopphieu\QLNhaSach\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+D:\Tonghopphieu\QLNhaSach\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+D:\Tonghopphieu\QLNhaSach\DAL\obj\Debug\DAL.csproj.Up2Date
+D:\Tonghopphieu\QLNhaSach\DAL\obj\Debug\DAL.dll
+D:\Tonghopphieu\QLNhaSach\DAL\obj\Debug\DAL.pdb

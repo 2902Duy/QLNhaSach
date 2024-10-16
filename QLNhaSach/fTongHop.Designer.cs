@@ -61,7 +61,7 @@
             this.tsbKhoHang});
             this.tlsMenu.Location = new System.Drawing.Point(0, 0);
             this.tlsMenu.Name = "tlsMenu";
-            this.tlsMenu.Size = new System.Drawing.Size(953, 26);
+            this.tlsMenu.Size = new System.Drawing.Size(953, 31);
             this.tlsMenu.TabIndex = 0;
             this.tlsMenu.Text = "Menu";
             // 
@@ -74,21 +74,22 @@
             this.tssTaiKhoan.Image = ((System.Drawing.Image)(resources.GetObject("tssTaiKhoan.Image")));
             this.tssTaiKhoan.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.tssTaiKhoan.Name = "tssTaiKhoan";
-            this.tssTaiKhoan.Size = new System.Drawing.Size(37, 23);
+            this.tssTaiKhoan.Size = new System.Drawing.Size(38, 28);
             this.tssTaiKhoan.Text = "Tài Khoản";
             // 
             // tmiTaiKhoan
             // 
             this.tmiTaiKhoan.Name = "tmiTaiKhoan";
-            this.tmiTaiKhoan.Size = new System.Drawing.Size(159, 26);
+            this.tmiTaiKhoan.Size = new System.Drawing.Size(160, 26);
             this.tmiTaiKhoan.Text = "Tài khoản";
             this.tmiTaiKhoan.Click += new System.EventHandler(this.tmiTaiKhoan_Click);
             // 
             // tmiDangXuat
             // 
             this.tmiDangXuat.Name = "tmiDangXuat";
-            this.tmiDangXuat.Size = new System.Drawing.Size(159, 26);
+            this.tmiDangXuat.Size = new System.Drawing.Size(160, 26);
             this.tmiDangXuat.Text = "Đăng xuất";
+            this.tmiDangXuat.Click += new System.EventHandler(this.tmiDangXuat_Click_1);
             // 
             // tssSach
             // 
@@ -101,32 +102,34 @@
             this.tssSach.Image = ((System.Drawing.Image)(resources.GetObject("tssSach.Image")));
             this.tssSach.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.tssSach.Name = "tssSach";
-            this.tssSach.Size = new System.Drawing.Size(37, 23);
-            this.tssSach.Text = "L";
+            this.tssSach.Size = new System.Drawing.Size(38, 28);
+            this.tssSach.Text = "Thông tin Sách";
             // 
             // tmiSach
             // 
             this.tmiSach.Name = "tmiSach";
-            this.tmiSach.Size = new System.Drawing.Size(179, 26);
+            this.tmiSach.Size = new System.Drawing.Size(224, 26);
             this.tmiSach.Text = "Sách";
             // 
             // tmiLoaiSach
             // 
             this.tmiLoaiSach.Name = "tmiLoaiSach";
-            this.tmiLoaiSach.Size = new System.Drawing.Size(179, 26);
+            this.tmiLoaiSach.Size = new System.Drawing.Size(224, 26);
             this.tmiLoaiSach.Text = "Loại sách";
+            this.tmiLoaiSach.Click += new System.EventHandler(this.tmiLoaiSach_Click_1);
             // 
             // tmiTacGia
             // 
             this.tmiTacGia.Name = "tmiTacGia";
-            this.tmiTacGia.Size = new System.Drawing.Size(179, 26);
+            this.tmiTacGia.Size = new System.Drawing.Size(224, 26);
             this.tmiTacGia.Text = "Tác giả";
             // 
             // tmiNhaXuatBan
             // 
             this.tmiNhaXuatBan.Name = "tmiNhaXuatBan";
-            this.tmiNhaXuatBan.Size = new System.Drawing.Size(179, 26);
+            this.tmiNhaXuatBan.Size = new System.Drawing.Size(224, 26);
             this.tmiNhaXuatBan.Text = "Nhà xuất bản";
+            this.tmiNhaXuatBan.Click += new System.EventHandler(this.tmiNhaXuatBan_Click);
             // 
             // tssHoaDon
             // 
@@ -137,20 +140,22 @@
             this.tssHoaDon.Image = ((System.Drawing.Image)(resources.GetObject("tssHoaDon.Image")));
             this.tssHoaDon.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.tssHoaDon.Name = "tssHoaDon";
-            this.tssHoaDon.Size = new System.Drawing.Size(37, 23);
-            this.tssHoaDon.Text = "toolStripSplitButton3";
+            this.tssHoaDon.Size = new System.Drawing.Size(38, 28);
+            this.tssHoaDon.Text = "Chi tiết hóa đơn";
             // 
             // tmiHoaDon
             // 
             this.tmiHoaDon.Name = "tmiHoaDon";
-            this.tmiHoaDon.Size = new System.Drawing.Size(152, 26);
+            this.tmiHoaDon.Size = new System.Drawing.Size(224, 26);
             this.tmiHoaDon.Text = "Hóa đơn";
+            this.tmiHoaDon.Click += new System.EventHandler(this.tmiHoaDon_Click_1);
             // 
             // tmiThongKe
             // 
             this.tmiThongKe.Name = "tmiThongKe";
-            this.tmiThongKe.Size = new System.Drawing.Size(152, 26);
+            this.tmiThongKe.Size = new System.Drawing.Size(224, 26);
             this.tmiThongKe.Text = "Thống kê";
+            this.tmiThongKe.Click += new System.EventHandler(this.tmiThongKe_Click);
             // 
             // tsbKhoHang
             // 
@@ -158,14 +163,15 @@
             this.tsbKhoHang.Image = ((System.Drawing.Image)(resources.GetObject("tsbKhoHang.Image")));
             this.tsbKhoHang.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.tsbKhoHang.Name = "tsbKhoHang";
-            this.tsbKhoHang.Size = new System.Drawing.Size(28, 23);
+            this.tsbKhoHang.Size = new System.Drawing.Size(29, 28);
             this.tsbKhoHang.Text = "Kho hàng";
+            this.tsbKhoHang.Click += new System.EventHandler(this.tsbKhoHang_Click_1);
             // 
             // dgvSach
             // 
             this.dgvSach.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvSach.Location = new System.Drawing.Point(33, 66);
-            this.dgvSach.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dgvSach.Margin = new System.Windows.Forms.Padding(4);
             this.dgvSach.Name = "dgvSach";
             this.dgvSach.RowHeadersWidth = 49;
             this.dgvSach.Size = new System.Drawing.Size(884, 347);
@@ -189,7 +195,7 @@
             this.lblDoanhThu.Location = new System.Drawing.Point(29, 441);
             this.lblDoanhThu.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblDoanhThu.Name = "lblDoanhThu";
-            this.lblDoanhThu.Size = new System.Drawing.Size(130, 20);
+            this.lblDoanhThu.Size = new System.Drawing.Size(139, 20);
             this.lblDoanhThu.TabIndex = 3;
             this.lblDoanhThu.Text = "DOANH THU: 00";
             // 
@@ -200,7 +206,7 @@
             this.lblSoKhachHang.Location = new System.Drawing.Point(29, 475);
             this.lblSoKhachHang.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblSoKhachHang.Name = "lblSoKhachHang";
-            this.lblSoKhachHang.Size = new System.Drawing.Size(160, 20);
+            this.lblSoKhachHang.Size = new System.Drawing.Size(171, 20);
             this.lblSoKhachHang.TabIndex = 4;
             this.lblSoKhachHang.Text = "SỐ KHÁCH HÀNG: 0";
             // 
@@ -211,7 +217,7 @@
             this.lblNgayThang.Location = new System.Drawing.Point(825, 502);
             this.lblNgayThang.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblNgayThang.Name = "lblNgayThang";
-            this.lblNgayThang.Size = new System.Drawing.Size(91, 20);
+            this.lblNgayThang.Size = new System.Drawing.Size(99, 20);
             this.lblNgayThang.TabIndex = 5;
             this.lblNgayThang.Text = "dd-mm-yyyy";
             // 
@@ -226,9 +232,9 @@
             this.Controls.Add(this.lblTaiKhoan);
             this.Controls.Add(this.dgvSach);
             this.Controls.Add(this.tlsMenu);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "fTongHop";
-            this.Text = "fView";
+            this.Text = "VIEW";
             this.Load += new System.EventHandler(this.fTongHop_Load);
             this.tlsMenu.ResumeLayout(false);
             this.tlsMenu.PerformLayout();

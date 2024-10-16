@@ -29,5 +29,42 @@ namespace QLNhaSach
         {
 
         }
+        private void tmiDangXuat_Click_1(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+      
+        private void tmiThongKe_Click(object sender, EventArgs e)
+        {
+            fThongKe fThongKe = new fThongKe(); 
+            fThongKe.Show();
+        }
+
+        private void tmiHoaDon_Click_1(object sender, EventArgs e)
+        {
+            fHoaDon fHoaDon = new fHoaDon();
+            fHoaDon.Show();
+        }
+
+        private void tsbKhoHang_Click_1(object sender, EventArgs e)
+        {
+            fKho fKho = new fKho();
+            fKho.Show();
+        }
+
+        private void tmiLoaiSach_Click_1(object sender, EventArgs e)
+        {
+            fLoaiSach fLoaiSach = new fLoaiSach();
+            fLoaiSach.Show();
+        }
+
+        private void tmiNhaXuatBan_Click(object sender, EventArgs e)
+        {
+            fNhaXuatBan fNhaXuatBan = new fNhaXuatBan();
+            fNhaXuatBan.Show();
+        }
+
+       
     }
 }
