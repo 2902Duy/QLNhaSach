@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DAL;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -36,6 +37,38 @@ namespace QLNhaSach
         }
 
         private void fHoaDon_Load(object sender, EventArgs e)
+        {
+            using (var db = new dataBookStore())
+            {
+                var HOADON = from hd in db.HOADONs 
+                          select new
+                          {
+                              hd.MAHOADON,
+                              hd.KHACHHANG,
+                              hd.NGAYLAP,
+                              hd.TONGTIEN
+                          };
+
+                dgvHoaDon.DataSource = HOADON.ToList();
+
+                var SACH = from s in db.SACHes
+                          select new
+                          {
+                              s.MASACH,
+                              s.TENSACH,
+                              s.TENNHAXUATBAN,
+                              s.TENTHELOAI,
+                              s.GIANHAP,
+                              s.GIABAN,
+                              s.NAMXUATBAN
+                          };
+                dgvChonS.DataSource = SACH.ToList();
+            }
+          
+        
+        }
+
+        private void dgvChonS_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
 
         }

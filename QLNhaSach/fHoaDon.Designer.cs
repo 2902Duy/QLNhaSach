@@ -51,7 +51,7 @@
             this.label10.Font = new System.Drawing.Font("Rockwell", 16.27826F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.Location = new System.Drawing.Point(318, 9);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(145, 32);
+            this.label10.Size = new System.Drawing.Size(153, 33);
             this.label10.TabIndex = 23;
             this.label10.Text = "HÓA ĐƠN";
             // 
@@ -111,7 +111,7 @@
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.01739F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(40, 658);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(89, 20);
+            this.label1.Size = new System.Drawing.Size(94, 20);
             this.label1.TabIndex = 36;
             this.label1.Text = "TÊN SÁCH";
             // 
@@ -124,6 +124,7 @@
             this.dgvChonS.RowTemplate.Height = 24;
             this.dgvChonS.Size = new System.Drawing.Size(733, 179);
             this.dgvChonS.TabIndex = 35;
+            this.dgvChonS.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvChonS_CellContentClick);
             // 
             // btnHT
             // 
@@ -150,7 +151,7 @@
             this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.01739F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.Location = new System.Drawing.Point(361, 658);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(93, 20);
+            this.label9.Size = new System.Drawing.Size(98, 20);
             this.label9.TabIndex = 32;
             this.label9.Text = "SỐ LƯỢNG";
             // 
@@ -167,7 +168,7 @@
             this.label8.Font = new System.Drawing.Font("Rockwell", 16.27826F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.Location = new System.Drawing.Point(318, 420);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(176, 32);
+            this.label8.Size = new System.Drawing.Size(188, 33);
             this.label8.TabIndex = 30;
             this.label8.Text = "CHỌN SÁCH";
             // 

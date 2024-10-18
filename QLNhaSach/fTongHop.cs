@@ -70,6 +70,9 @@ namespace QLNhaSach
             fNhaXuatBan.Show();
         }
 
-       
+        private void dgvSach_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }
