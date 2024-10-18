@@ -1,4 +1,6 @@
-﻿using System;
+﻿using BUS;
+using DAL;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -36,6 +38,18 @@ namespace QLNhaSach
         }
 
         private void fHoaDon_Load(object sender, EventArgs e)
+        {
+         
+
+
+        }
+
+        private void dgvChonS_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void dgvHoaDon_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
 
         }

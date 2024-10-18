@@ -9,7 +9,7 @@ namespace DAL
     public class CHITIETKHO
     {
         public KHOSACH KHOSACH { get; set; }
-        public CHITIETSACH CHITIETSACH { get; set; }
-        public HOADON HOADON { get; set; }
+        public SACH SACH { get; set; }
+        
     }
 }

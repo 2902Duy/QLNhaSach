@@ -1,6 +1,7 @@
 ﻿using DAL;
 using System;
 using System.Collections.Generic;
+using System.Data.Common;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -24,6 +25,16 @@ namespace BUS
                     return true;
             }
             return false;
+        }
+        public void themTaiKhoan(string username, string password) 
+        {
+            TAIKHOAN tk = new TAIKHOAN 
+            {
+                USERNAME = username,
+                PASSWORD = password 
+            };
+            db.TAIKHOANs.Add(tk);
+            db.SaveChanges();
         }
     }
 }

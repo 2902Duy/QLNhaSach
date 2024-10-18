@@ -49,12 +49,33 @@ namespace QLNhaSach
 
         public void databinding()
         {
-            txtTaiKhoan.DataBindings.Add(new Binding("Text", binding, "USERNAME"));
-            txtMatKhau.DataBindings.Add(new Binding("Text", binding, "PASSWORD"));
+            txtTaiKhoan.DataBindings.Add(new Binding("Text", binding, "USERNAME",true));
+            txtMatKhau.DataBindings.Add(new Binding("Text", binding, "PASSWORD",true));
         }
 
         private void lblTaiKhoanThemXoaSua_Click(object sender, EventArgs e)
         {
+
+        }
+
+        private void btnThem_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                DialogResult result = MessageBox.Show("Bạn có muốn thêm tài khoản", "Thông báo", MessageBoxButtons.YesNo);
+                if (result == DialogResult.Yes)
+                {
+
+                    string username = txtTaiKhoan.Text;
+                    string password = txtTaiKhoan.Text.Trim();
+                    bustk.themTaiKhoan(txtTaiKhoan.Text, password);
+                    binding.ResetBindings(false);
+                }
+            }
+            catch(Exception ex) 
+            {
+                MessageBox.Show(ex.Message);
+            }
 
         }
     }

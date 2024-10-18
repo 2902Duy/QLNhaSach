@@ -41,7 +41,7 @@ namespace QLNhaSach
                 {
                     if (dn.kiemTraDangNhap(txtTaiKhoan.Text, txtMatKhau.Text))
                     {
-                        fTongHop fTongHop = new fTongHop();
+                        fTongHop fTongHop = new fTongHop(txtTaiKhoan.Text);
                         this.Hide();
                         fTongHop.Show();
                     }

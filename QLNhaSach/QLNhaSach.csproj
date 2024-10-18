@@ -110,12 +110,6 @@
     <Compile Include="fTaiKhoan.Designer.cs">
       <DependentUpon>fTaiKhoan.cs</DependentUpon>
     </Compile>
-    <Compile Include="fThemSach.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="fThemSach.Designer.cs">
-      <DependentUpon>fThemSach.cs</DependentUpon>
-    </Compile>
     <Compile Include="fThemSuaHD.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -139,18 +133,6 @@
     </Compile>
     <Compile Include="fTongHop.Designer.cs">
       <DependentUpon>fTongHop.cs</DependentUpon>
-    </Compile>
-    <Compile Include="fXoaSach.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="fXoaSach.Designer.cs">
-      <DependentUpon>fXoaSach.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Fxoatacgia.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Fxoatacgia.Designer.cs">
-      <DependentUpon>Fxoatacgia.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -181,9 +163,6 @@
     <EmbeddedResource Include="fTaiKhoan.resx">
       <DependentUpon>fTaiKhoan.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="fThemSach.resx">
-      <DependentUpon>fThemSach.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="fThemSuaHD.resx">
       <DependentUpon>fThemSuaHD.cs</DependentUpon>
     </EmbeddedResource>
@@ -195,12 +174,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="fTongHop.resx">
       <DependentUpon>fTongHop.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="fXoaSach.resx">
-      <DependentUpon>fXoaSach.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Fxoatacgia.resx">
-      <DependentUpon>Fxoatacgia.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
