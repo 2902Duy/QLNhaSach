@@ -30,8 +30,6 @@ namespace QLNhaSach
 
         private void btnThem_Click(object sender, EventArgs e)
         {
-            fThemSach fThemSach = new fThemSach();
-            fThemSach.Show();
         }
     }
 }

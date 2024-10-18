@@ -1,4 +1,5 @@
-﻿using DAL;
+﻿using BUS;
+using DAL;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -14,25 +15,50 @@ namespace QLNhaSach
 {
     public partial class fTongHop : Form
     {
-        public fTongHop()
+        BindingSource BindingSource= new BindingSource();
+        string _username;
+        string _admin = "hutech@123";
+        public fTongHop(string username)
         {
             InitializeComponent();
+            lblTaiKhoan.Text = "TÀI KHOẢN: "+username;
+            _username = username;
             lblNgayThang.Text = DateTime.Now.ToString("dd-MM-yyyy");
         }
 
         private void tmiTaiKhoan_Click(object sender, EventArgs e)
         {
-           
-            fTaiKhoan TaiKhoan = new fTaiKhoan();
-            TaiKhoan.Show();
+            if (_username == _admin) 
+            {
+                fTaiKhoan TaiKhoan = new fTaiKhoan();
+                TaiKhoan.Show();
+            }
+            else
+            {
+                MessageBox.Show("Thông báo", "Bạn không có quyền truy cập chức năng này");
+            }
+            
         }
 
         private void fTongHop_Load(object sender, EventArgs e)
         {
-            dataBookStore db = new dataBookStore();
-            var sql = from hd in db.CHITIETHOADONs
-                      select hd;
-            dgvSach.DataSource = sql.ToList();
+            BUSSACH bussach = new BUSSACH();
+            var sql = bussach.DSSACH();
+            var dss = from sach in sql
+                      select new {
+                      sach.SACH.IDMASACH,
+                      sach.SACH.TENSACH,
+                      sach.TACGIA.TENTACGIA,
+                      sach.SACH.GIANHAP,
+                      sach.SACH.GIABAN,
+                      sach.SACH.NHAXUATBAN.TENNHAXUATBAN,
+                      sach.SACH.NAMXUATBAN,
+                      
+                      };
+
+            BindingSource.DataSource = dss.ToList();
+            dgvSach.DataSource = BindingSource;
+
         }
         private void tmiDangXuat_Click_1(object sender, EventArgs e)
         {
@@ -71,6 +97,10 @@ namespace QLNhaSach
         }
 
         private void dgvSach_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+        private void tlsMenu_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
         {
 
         }

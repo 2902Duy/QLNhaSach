@@ -1,4 +1,5 @@
-﻿using System;
+﻿using BUS;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -66,7 +67,20 @@ namespace QLNhaSach
 
         private void fSuaSach_Load(object sender, EventArgs e)
         {
+            BUSSACH bussach = new BUSSACH();
 
+            var dss = bussach.DSSACH();
+
+            var sachData = from sach in dss
+                           select new
+                           {
+                               sach.SACH.TENSACH,
+                               sach.TACGIA.TENTACGIA,
+                               sach.NHAXUATBAN.TENNHAXUATBAN,
+                               sach.SACH.GIANHAP  
+                           };
+
+            dgvSuaS.DataSource = sachData.ToList();
         }
     }
 }

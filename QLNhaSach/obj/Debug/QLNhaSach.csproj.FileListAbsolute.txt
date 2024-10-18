@@ -93,7 +93,6 @@ C:\Users\DAT\dat\QLNhaSach\QLNhaSach\obj\Debug\QLNhaSach.fLoaiSach.resources
 C:\Users\DAT\dat\QLNhaSach\QLNhaSach\obj\Debug\QLNhaSach.fNhaXuatBan.resources
 C:\Users\DAT\dat\QLNhaSach\QLNhaSach\obj\Debug\QLNhaSach.fSuaSach.resources
 C:\Users\DAT\dat\QLNhaSach\QLNhaSach\obj\Debug\QLNhaSach.fTaiKhoan.resources
-C:\Users\DAT\dat\QLNhaSach\QLNhaSach\obj\Debug\QLNhaSach.fThemSach.resources
 C:\Users\DAT\dat\QLNhaSach\QLNhaSach\obj\Debug\QLNhaSach.fThemSuaHD.resources
 C:\Users\DAT\dat\QLNhaSach\QLNhaSach\obj\Debug\QLNhaSach.fThemTacGia.resources
 C:\Users\DAT\dat\QLNhaSach\QLNhaSach\obj\Debug\QLNhaSach.fThongKe.resources
