@@ -52,16 +52,16 @@ values (N'Truyện Kiều',N'Truyện thơ nôm',1814,'TG02',65000,89000,N'NXB t
 	   (N'Khóc giữa Sài Gòn',N'Tiểu thuyết',2014,N'TG012',77000,98000,N'NXB phụ nữ'),
 	   (N'Lưng chừng co đơn',N'Văn xuôi',2015,N'TG012',55000,65000,N'NXB phụ nữ'),
 	   (N'Dế mèn phiêu lưu ký',N'Văn học',1941,N'TG018',45000,56000,N'NXB kim đồng'),
-	   (N'Tắt đèn',N'Tiểu thuyết',1939,N'TG028',67000,89000,N'NXB mai linh'),
+	   (N'Tắt đèn',N'Tiểu thuyết',1939,N'TG020',67000,89000,N'NXB mai linh'),
 	   (N'Đắc nhân tâm',N'Tâm lý',1936,N'TG014',89000,126000,N'NXB trẻ'),
 	   (N'Thép đã tôi thế đấy',N'Truyện ngắn',1930,N'TG016',100000,168000,N'NXB văn học');
 	   
 	   INSERT INTO HOADON (KHACHHANG, NGAYLAP, TONGTIEN) VALUES 
-		(N'Nguyễn Văn An', '2023-10-01', 200000),
-		(N'Trần Thị Bình', '2024-08-02', 150000),
-		(N'Nguyễn Văn Cương', '2024-10-09', 300000),
-		(N'Phạm Văn Dũng', '2022-10-04', 250000),
-		(N'Lê Thị Em', '2023-10-05', 400000);
+		(N'Nguyễn Văn An', '2023-10-01', 274000),
+		(N'Trần Thị Bình', '2024-08-02', 146000),
+		(N'Nguyễn Văn Cương', '2024-10-09', 294000),
+		(N'Phạm Văn Dũng', '2022-10-04', 290000),
+		(N'Lê Thị Em', '2023-10-05', 252000);
 
 	   INSERT INTO CHITIETHOADON (MAHOADON, MASACH, GIABAN, SOLUONG, THANHTIEN) VALUES 
 		('HD001', 'SS1010', 89000, 2, 178000),  
@@ -95,3 +95,4 @@ values (N'Truyện Kiều',N'Truyện thơ nôm',1814,'TG02',65000,89000,N'NXB t
 
 
 		
+

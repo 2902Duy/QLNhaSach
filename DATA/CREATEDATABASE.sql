@@ -67,7 +67,8 @@ go
 Create table [TAIKHOAN]
 (
 	[USERNAME] varchar(30) NOT NULL,
-	[PASSWORD] varchar(100) NULL
+	[PASSWORD] varchar(100) NULL,
+	Primary Key ([USERNAME])
 ) 
 go
 
@@ -100,6 +101,7 @@ Create table [CHITIETHOADON]
 Primary Key ([MAHOADON],[MASACH])
 ) 
 go
+
 
 
 Alter table [KHOSACH] add  foreign key([MASACH]) references [SACH] ([MASACH])  on update no action on delete no action 
