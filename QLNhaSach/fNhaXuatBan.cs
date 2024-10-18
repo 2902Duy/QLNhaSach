@@ -7,32 +7,28 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
+using BUS;
 namespace QLNhaSach
 {
     public partial class fNhaXuatBan : Form
     {
+        BUSNXB busnxb = new BUSNXB();
+        BindingSource binding = new BindingSource();
         public fNhaXuatBan()
         {
             InitializeComponent();
         }
 
-        private void Form1_Load(object sender, EventArgs e)
+        
+
+        private void fNhaXuatBan_Load(object sender, EventArgs e)
         {
-            DataTable table = new DataTable();
-            table.Columns.Add("MATG", typeof(string));
-
-            table.Rows.Add("DANH SÁCH CÁC NHÀ XUẤT BẢN HIỆN CÓ");
-
-            table.Rows.Add("NXB KIM DONG");
-
-            table.Rows.Add("NXB TUOI TRE");
-            table.Rows.Add("NXB GIAO DUC");
-
-
-            // Liên kết DataTable với DataGridView
-            dgvNXB.DataSource = table;
-            dgvNXB.ColumnHeadersVisible = false;
+            var sql = busnxb.DSNHAXUATBAN();
+            var dsnxb = from nxb in sql
+                        select new { nxb.TENNHAXUATBAN };
+            binding.DataSource = dsnxb.ToList();
+            dgvNXB.DataSource = binding;
+            txtThemNXB.DataBindings.Add(new Binding("Text",binding,"TENNHAXUATBAN",true,DataSourceUpdateMode.Never));
         }
     }
     }

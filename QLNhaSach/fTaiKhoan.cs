@@ -49,8 +49,8 @@ namespace QLNhaSach
 
         public void databinding()
         {
-            txtTaiKhoan.DataBindings.Add(new Binding("Text", binding, "USERNAME",true));
-            txtMatKhau.DataBindings.Add(new Binding("Text", binding, "PASSWORD",true));
+            txtTaiKhoan.DataBindings.Add(new Binding("Text", binding, "USERNAME",true,DataSourceUpdateMode.Never));
+            txtMatKhau.DataBindings.Add(new Binding("Text", binding, "PASSWORD",true,DataSourceUpdateMode.Never));
         }
 
         private void lblTaiKhoanThemXoaSua_Click(object sender, EventArgs e)
@@ -68,7 +68,8 @@ namespace QLNhaSach
 
                     string username = txtTaiKhoan.Text;
                     string password = txtTaiKhoan.Text.Trim();
-                    bustk.themTaiKhoan(txtTaiKhoan.Text, password);
+                    bustk.themTaiKhoan(username, password);
+                    loaddata();
                     binding.ResetBindings(false);
                 }
             }
@@ -76,6 +77,47 @@ namespace QLNhaSach
             {
                 MessageBox.Show(ex.Message);
             }
+
+        }
+
+        private void btnXoa_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                string username = txtTaiKhoan.Text;
+                bustk.xoaTaiKhoan(username);
+                loaddata();
+                binding.ResetBindings(false);
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+        }
+
+        private void btnCapNhap_Click(object sender, EventArgs e)
+        {
+            try 
+            {
+                string username = txtTaiKhoan.Text;
+                string password = txtTaiKhoan.Text.Trim();
+                if (bustk.kiemTraTaiKhoan(username))
+                {
+                    bustk.doiMatKhau(username, password);
+                    MessageBox.Show("Đổi mật khẩu thành công!", "Thông báo");
+                }
+                else
+                {
+                    MessageBox.Show("Tai khoản không tồn tại!", "Thông báo");
+                }
+                loaddata(); binding.ResetBindings(false);
+            }
+            catch(Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+
 
         }
     }

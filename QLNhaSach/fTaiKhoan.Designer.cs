@@ -115,6 +115,7 @@
             this.btnXoa.TabIndex = 7;
             this.btnXoa.Text = "XÓA";
             this.btnXoa.UseVisualStyleBackColor = true;
+            this.btnXoa.Click += new System.EventHandler(this.btnXoa_Click);
             // 
             // btnCapNhap
             // 
@@ -123,8 +124,9 @@
             this.btnCapNhap.Name = "btnCapNhap";
             this.btnCapNhap.Size = new System.Drawing.Size(75, 23);
             this.btnCapNhap.TabIndex = 8;
-            this.btnCapNhap.Text = "SỬA";
+            this.btnCapNhap.Text = "ĐỔi MK";
             this.btnCapNhap.UseVisualStyleBackColor = true;
+            this.btnCapNhap.Click += new System.EventHandler(this.btnCapNhap_Click);
             // 
             // chkHienMatKhau
             // 
