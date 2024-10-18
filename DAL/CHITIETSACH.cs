@@ -12,5 +12,7 @@ namespace DAL
         public TACGIA TACGIA { get; set; }
         public NHAXUATBAN NHAXUATBAN { get; set; }
         public THELOAI THELOAI { get; set; }
+
+        public KHOSACH KHOSACH { get; set; }
     }
 }
