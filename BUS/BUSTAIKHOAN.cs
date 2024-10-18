@@ -26,6 +26,15 @@ namespace BUS
             }
             return false;
         }
+        public bool kiemTraTaiKhoan(string username)
+        {
+           foreach(var tk in db.TAIKHOANs)
+            {
+                if(tk.USERNAME==username)
+                    return true;
+            }
+           return false;
+        }
         public void themTaiKhoan(string username, string password) 
         {
             TAIKHOAN tk = new TAIKHOAN 
@@ -34,6 +43,20 @@ namespace BUS
                 PASSWORD = password 
             };
             db.TAIKHOANs.Add(tk);
+            db.SaveChanges();
+        }
+        public void xoaTaiKhoan(string username)
+        {
+            TAIKHOAN tk=db.TAIKHOANs.Find(username);
+            db.TAIKHOANs.Remove(tk);
+            db.SaveChanges();
+
+        }
+
+        public void doiMatKhau(string username, string password)
+        {
+            TAIKHOAN tk = db.TAIKHOANs.Find(username);
+            tk.PASSWORD = password;
             db.SaveChanges();
         }
     }
