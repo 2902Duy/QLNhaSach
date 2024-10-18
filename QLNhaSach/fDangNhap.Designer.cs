@@ -42,33 +42,21 @@
             // 
             // txtTaiKhoan
             // 
-<<<<<<< HEAD
             this.txtTaiKhoan.Location = new System.Drawing.Point(179, 144);
             this.txtTaiKhoan.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtTaiKhoan.Multiline = true;
             this.txtTaiKhoan.Name = "txtTaiKhoan";
             this.txtTaiKhoan.Size = new System.Drawing.Size(322, 34);
-=======
-            this.txtTaiKhoan.Location = new System.Drawing.Point(144, 95);
-            this.txtTaiKhoan.Name = "txtTaiKhoan";
-            this.txtTaiKhoan.Size = new System.Drawing.Size(202, 20);
->>>>>>> 4f1a1a8f3e9103a726d55c8329bcf39027fb9e9a
             this.txtTaiKhoan.TabIndex = 0;
             this.txtTaiKhoan.TextChanged += new System.EventHandler(this.txtTaiKhoan_TextChanged);
             // 
             // txtMatKhau
             // 
-<<<<<<< HEAD
             this.txtMatKhau.Location = new System.Drawing.Point(179, 201);
             this.txtMatKhau.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtMatKhau.Multiline = true;
             this.txtMatKhau.Name = "txtMatKhau";
             this.txtMatKhau.Size = new System.Drawing.Size(322, 34);
-=======
-            this.txtMatKhau.Location = new System.Drawing.Point(144, 155);
-            this.txtMatKhau.Name = "txtMatKhau";
-            this.txtMatKhau.Size = new System.Drawing.Size(202, 20);
->>>>>>> 4f1a1a8f3e9103a726d55c8329bcf39027fb9e9a
             this.txtMatKhau.TabIndex = 1;
             this.txtMatKhau.TextChanged += new System.EventHandler(this.txtMatKhau_TextChanged);
             // 
@@ -110,12 +98,8 @@
             // chkHienMatKhau
             // 
             this.chkHienMatKhau.AutoSize = true;
-<<<<<<< HEAD
             this.chkHienMatKhau.Location = new System.Drawing.Point(530, 216);
             this.chkHienMatKhau.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-=======
-            this.chkHienMatKhau.Location = new System.Drawing.Point(364, 158);
->>>>>>> 4f1a1a8f3e9103a726d55c8329bcf39027fb9e9a
             this.chkHienMatKhau.Name = "chkHienMatKhau";
             this.chkHienMatKhau.Size = new System.Drawing.Size(114, 20);
             this.chkHienMatKhau.TabIndex = 5;
@@ -137,7 +121,6 @@
             // 
             this.err.ContainerControl = this;
             // 
-<<<<<<< HEAD
             // lblThongBao
             // 
             this.lblThongBao.AutoSize = true;
@@ -149,18 +132,12 @@
             this.lblThongBao.Size = new System.Drawing.Size(0, 20);
             this.lblThongBao.TabIndex = 7;
             // 
-=======
->>>>>>> 4f1a1a8f3e9103a726d55c8329bcf39027fb9e9a
             // fDangNhap
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-<<<<<<< HEAD
             this.ClientSize = new System.Drawing.Size(707, 389);
             this.Controls.Add(this.lblThongBao);
-=======
-            this.ClientSize = new System.Drawing.Size(590, 316);
->>>>>>> 4f1a1a8f3e9103a726d55c8329bcf39027fb9e9a
             this.Controls.Add(this.label1);
             this.Controls.Add(this.chkHienMatKhau);
             this.Controls.Add(this.btnDangNhap);
@@ -188,7 +165,7 @@
         private System.Windows.Forms.CheckBox chkHienMatKhau;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.ErrorProvider err;
-
+        private object lblThongBao;
     }
 }
 
