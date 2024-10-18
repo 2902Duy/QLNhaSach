@@ -43,3 +43,18 @@ D:\Tonghopphieu\QLNhaSach\BUS\obj\Debug\BUS.csproj.CoreCompileInputs.cache
 D:\Tonghopphieu\QLNhaSach\BUS\obj\Debug\BUS.csproj.Up2Date
 D:\Tonghopphieu\QLNhaSach\BUS\obj\Debug\BUS.dll
 D:\Tonghopphieu\QLNhaSach\BUS\obj\Debug\BUS.pdb
+D:\Tổng hợp phiếu Trịnh Kiển Đạt\QLNhaSach\BUS\bin\Debug\BUS.dll.config
+D:\Tổng hợp phiếu Trịnh Kiển Đạt\QLNhaSach\BUS\bin\Debug\BUS.dll
+D:\Tổng hợp phiếu Trịnh Kiển Đạt\QLNhaSach\BUS\bin\Debug\BUS.pdb
+D:\Tổng hợp phiếu Trịnh Kiển Đạt\QLNhaSach\BUS\bin\Debug\DAL.dll
+D:\Tổng hợp phiếu Trịnh Kiển Đạt\QLNhaSach\BUS\bin\Debug\EntityFramework.dll
+D:\Tổng hợp phiếu Trịnh Kiển Đạt\QLNhaSach\BUS\bin\Debug\EntityFramework.SqlServer.dll
+D:\Tổng hợp phiếu Trịnh Kiển Đạt\QLNhaSach\BUS\bin\Debug\DAL.pdb
+D:\Tổng hợp phiếu Trịnh Kiển Đạt\QLNhaSach\BUS\bin\Debug\DAL.dll.config
+D:\Tổng hợp phiếu Trịnh Kiển Đạt\QLNhaSach\BUS\bin\Debug\EntityFramework.xml
+D:\Tổng hợp phiếu Trịnh Kiển Đạt\QLNhaSach\BUS\bin\Debug\EntityFramework.SqlServer.xml
+D:\Tổng hợp phiếu Trịnh Kiển Đạt\QLNhaSach\BUS\obj\Debug\BUS.csproj.AssemblyReference.cache
+D:\Tổng hợp phiếu Trịnh Kiển Đạt\QLNhaSach\BUS\obj\Debug\BUS.csproj.CoreCompileInputs.cache
+D:\Tổng hợp phiếu Trịnh Kiển Đạt\QLNhaSach\BUS\obj\Debug\BUS.csproj.Up2Date
+D:\Tổng hợp phiếu Trịnh Kiển Đạt\QLNhaSach\BUS\obj\Debug\BUS.dll
+D:\Tổng hợp phiếu Trịnh Kiển Đạt\QLNhaSach\BUS\obj\Debug\BUS.pdb

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using BUS;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -12,6 +13,9 @@ namespace QLNhaSach
 {
     public partial class fThemTacGia : Form
     {
+       
+        BindingSource binding = new BindingSource();
+        BUSSACH busstacgia = new BUSSACH();
         public fThemTacGia()
         {
             InitializeComponent();
@@ -62,7 +66,26 @@ namespace QLNhaSach
 
         private void fThemTacGia_Load(object sender, EventArgs e)
         {
+            BUSSACH busstacgia = new BUSSACH();
 
+            var dstg = busstacgia.DSSACH();
+
+            var TacgiaData = from TacGia in dstg
+                           select new
+                           {
+                               TacGia.TACGIA.MATACGIA,
+                               TacGia.TACGIA.TENTACGIA,
+                               TacGia.TACGIA.QUEQUAN
+                           };
+            dgvTacGia.DataSource = TacgiaData.ToList();
+       
+        }
+        public void databinding()
+        {
+           // txtMATG.DataBindings.Add(new Binding("Text", binding, "MATACGIA", true, DataSourceUpdateMode.Never));
+          //  txtTENTACGIA.DataBindings.Add(new Binding("Text", binding, "TENTACGIA", true, DataSourceUpdateMode.Never));
+           // txtQUEQUAN.DataBindings.Add(new Binding("Text", binding, "QUEQUAN", true, DataSourceUpdateMode.Never));
+            
         }
     }
 }
