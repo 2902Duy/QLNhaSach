@@ -17,7 +17,7 @@ namespace QLNhaSach
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new fTaiKhoan());
+            Application.Run(new fNhaXuatBan());
         }
     }
 }

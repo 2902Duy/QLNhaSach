@@ -52,6 +52,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BUSKHO.cs" />
+    <Compile Include="BUSNXB.cs" />
     <Compile Include="BUSSACH.cs" />
     <Compile Include="BUSTAIKHOAN.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
