@@ -58,7 +58,6 @@ C:\Users\ThinkPad\OneDrive\Desktop\QLNhaSach\QLNhaSach\obj\Debug\QLNhaSach.fKho.
 C:\Users\ThinkPad\OneDrive\Desktop\QLNhaSach\QLNhaSach\obj\Debug\QLNhaSach.fLoaiSach.resources
 C:\Users\ThinkPad\OneDrive\Desktop\QLNhaSach\QLNhaSach\obj\Debug\QLNhaSach.fNhaXuatBan.resources
 C:\Users\ThinkPad\OneDrive\Desktop\QLNhaSach\QLNhaSach\obj\Debug\QLNhaSach.fSuaSach.resources
-C:\Users\ThinkPad\OneDrive\Desktop\QLNhaSach\QLNhaSach\obj\Debug\QLNhaSach.fThemSach.resources
 C:\Users\ThinkPad\OneDrive\Desktop\QLNhaSach\QLNhaSach\obj\Debug\QLNhaSach.fThemSuaHD.resources
 C:\Users\ThinkPad\OneDrive\Desktop\QLNhaSach\QLNhaSach\obj\Debug\QLNhaSach.fThemTacGia.resources
 C:\Users\ThinkPad\OneDrive\Desktop\QLNhaSach\QLNhaSach\obj\Debug\QLNhaSach.fThongKe.resources
