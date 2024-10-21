@@ -3,20 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\ThinkPad\\OneDrive\\Desktop\\QLNhaSach\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{CEE0838A-89BA-434F-AB12-9D065C8B543E}|QLNhaSach\\QLNhaSach.csproj|c:\\users\\thinkpad\\onedrive\\desktop\\qlnhasach\\qlnhasach\\toexcel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEE0838A-89BA-434F-AB12-9D065C8B543E}|QLNhaSach\\QLNhaSach.csproj|solutionrelative:qlnhasach\\toexcel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{CEE0838A-89BA-434F-AB12-9D065C8B543E}|QLNhaSach\\QLNhaSach.csproj|c:\\users\\thinkpad\\onedrive\\desktop\\qlnhasach\\qlnhasach\\fthongke.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CEE0838A-89BA-434F-AB12-9D065C8B543E}|QLNhaSach\\QLNhaSach.csproj|solutionrelative:qlnhasach\\fthongke.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEE0838A-89BA-434F-AB12-9D065C8B543E}|QLNhaSach\\QLNhaSach.csproj|C:\\Users\\ThinkPad\\OneDrive\\Desktop\\QLNhaSach\\qlnhasach\\fbaocao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CEE0838A-89BA-434F-AB12-9D065C8B543E}|QLNhaSach\\QLNhaSach.csproj|solutionrelative:qlnhasach\\fbaocao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CEE0838A-89BA-434F-AB12-9D065C8B543E}|QLNhaSach\\QLNhaSach.csproj|C:\\Users\\ThinkPad\\OneDrive\\Desktop\\QLNhaSach\\qlnhasach\\fthongke.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{CEE0838A-89BA-434F-AB12-9D065C8B543E}|QLNhaSach\\QLNhaSach.csproj|solutionrelative:qlnhasach\\fthongke.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CEE0838A-89BA-434F-AB12-9D065C8B543E}|QLNhaSach\\QLNhaSach.csproj|c:\\users\\thinkpad\\onedrive\\desktop\\qlnhasach\\qlnhasach\\fhoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{CEE0838A-89BA-434F-AB12-9D065C8B543E}|QLNhaSach\\QLNhaSach.csproj|solutionrelative:qlnhasach\\fhoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{5563A55F-B4EB-4F43-A3E0-BBA5A7E862A8}|BUS\\BUS.csproj|C:\\Users\\ThinkPad\\OneDrive\\Desktop\\QLNhaSach\\bus\\bushoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5563A55F-B4EB-4F43-A3E0-BBA5A7E862A8}|BUS\\BUS.csproj|solutionrelative:bus\\bushoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CEE0838A-89BA-434F-AB12-9D065C8B543E}|QLNhaSach\\QLNhaSach.csproj|c:\\users\\thinkpad\\onedrive\\desktop\\qlnhasach\\qlnhasach\\fbaocao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{CEE0838A-89BA-434F-AB12-9D065C8B543E}|QLNhaSach\\QLNhaSach.csproj|solutionrelative:qlnhasach\\fbaocao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{CEE0838A-89BA-434F-AB12-9D065C8B543E}|QLNhaSach\\QLNhaSach.csproj|C:\\Users\\ThinkPad\\OneDrive\\Desktop\\QLNhaSach\\qlnhasach\\fhoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CEE0838A-89BA-434F-AB12-9D065C8B543E}|QLNhaSach\\QLNhaSach.csproj|solutionrelative:qlnhasach\\fhoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CEE0838A-89BA-434F-AB12-9D065C8B543E}|QLNhaSach\\QLNhaSach.csproj|C:\\Users\\ThinkPad\\OneDrive\\Desktop\\QLNhaSach\\qlnhasach\\fnhaxuatban.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -25,10 +33,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{CEE0838A-89BA-434F-AB12-9D065C8B543E}|QLNhaSach\\QLNhaSach.csproj|C:\\Users\\ThinkPad\\OneDrive\\Desktop\\QLNhaSach\\qlnhasach\\ftonghop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{CEE0838A-89BA-434F-AB12-9D065C8B543E}|QLNhaSach\\QLNhaSach.csproj|solutionrelative:qlnhasach\\ftonghop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5563A55F-B4EB-4F43-A3E0-BBA5A7E862A8}|BUS\\BUS.csproj|c:\\users\\thinkpad\\onedrive\\desktop\\qlnhasach\\bus\\bushoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5563A55F-B4EB-4F43-A3E0-BBA5A7E862A8}|BUS\\BUS.csproj|solutionrelative:bus\\bushoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CEE0838A-89BA-434F-AB12-9D065C8B543E}|QLNhaSach\\QLNhaSach.csproj|C:\\Users\\ThinkPad\\OneDrive\\Desktop\\QLNhaSach\\qlnhasach\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -47,15 +51,15 @@
       "RelativeMoniker": "D:0:0:{7C22474B-C9E6-446B-BE1D-35C8EC918896}|DAL\\DAL.csproj|solutionrelative:dal\\chitiethoadonsach.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CEE0838A-89BA-434F-AB12-9D065C8B543E}|QLNhaSach\\QLNhaSach.csproj|c:\\users\\thinkpad\\onedrive\\desktop\\qlnhasach\\qlnhasach\\fthemtacgia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CEE0838A-89BA-434F-AB12-9D065C8B543E}|QLNhaSach\\QLNhaSach.csproj|C:\\Users\\ThinkPad\\OneDrive\\Desktop\\QLNhaSach\\qlnhasach\\fthemtacgia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CEE0838A-89BA-434F-AB12-9D065C8B543E}|QLNhaSach\\QLNhaSach.csproj|solutionrelative:qlnhasach\\fthemtacgia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CEE0838A-89BA-434F-AB12-9D065C8B543E}|QLNhaSach\\QLNhaSach.csproj|c:\\users\\thinkpad\\onedrive\\desktop\\qlnhasach\\qlnhasach\\fthemtacgia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{CEE0838A-89BA-434F-AB12-9D065C8B543E}|QLNhaSach\\QLNhaSach.csproj|C:\\Users\\ThinkPad\\OneDrive\\Desktop\\QLNhaSach\\qlnhasach\\fthemtacgia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{CEE0838A-89BA-434F-AB12-9D065C8B543E}|QLNhaSach\\QLNhaSach.csproj|solutionrelative:qlnhasach\\fthemtacgia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CEE0838A-89BA-434F-AB12-9D065C8B543E}|QLNhaSach\\QLNhaSach.csproj|c:\\users\\thinkpad\\onedrive\\desktop\\qlnhasach\\qlnhasach\\fthemsuahd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{CEE0838A-89BA-434F-AB12-9D065C8B543E}|QLNhaSach\\QLNhaSach.csproj|C:\\Users\\ThinkPad\\OneDrive\\Desktop\\QLNhaSach\\qlnhasach\\fthemsuahd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{CEE0838A-89BA-434F-AB12-9D065C8B543E}|QLNhaSach\\QLNhaSach.csproj|solutionrelative:qlnhasach\\fthemsuahd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -63,15 +67,15 @@
       "RelativeMoniker": "D:0:0:{7C22474B-C9E6-446B-BE1D-35C8EC918896}|DAL\\DAL.csproj|solutionrelative:dal\\tacgia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5563A55F-B4EB-4F43-A3E0-BBA5A7E862A8}|BUS\\BUS.csproj|c:\\users\\thinkpad\\onedrive\\desktop\\qlnhasach\\bus\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "AbsoluteMoniker": "D:0:0:{5563A55F-B4EB-4F43-A3E0-BBA5A7E862A8}|BUS\\BUS.csproj|C:\\Users\\ThinkPad\\OneDrive\\Desktop\\QLNhaSach\\bus\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{5563A55F-B4EB-4F43-A3E0-BBA5A7E862A8}|BUS\\BUS.csproj|solutionrelative:bus\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7C22474B-C9E6-446B-BE1D-35C8EC918896}|DAL\\DAL.csproj|c:\\users\\thinkpad\\onedrive\\desktop\\qlnhasach\\dal\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "AbsoluteMoniker": "D:0:0:{7C22474B-C9E6-446B-BE1D-35C8EC918896}|DAL\\DAL.csproj|C:\\Users\\ThinkPad\\OneDrive\\Desktop\\QLNhaSach\\dal\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{7C22474B-C9E6-446B-BE1D-35C8EC918896}|DAL\\DAL.csproj|solutionrelative:dal\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CEE0838A-89BA-434F-AB12-9D065C8B543E}|QLNhaSach\\QLNhaSach.csproj|c:\\users\\thinkpad\\onedrive\\desktop\\qlnhasach\\qlnhasach\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "AbsoluteMoniker": "D:0:0:{CEE0838A-89BA-434F-AB12-9D065C8B543E}|QLNhaSach\\QLNhaSach.csproj|C:\\Users\\ThinkPad\\OneDrive\\Desktop\\QLNhaSach\\qlnhasach\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{CEE0838A-89BA-434F-AB12-9D065C8B543E}|QLNhaSach\\QLNhaSach.csproj|solutionrelative:qlnhasach\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
@@ -158,11 +162,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "fTongHop.cs",
               "DocumentMoniker": "C:\\Users\\ThinkPad\\OneDrive\\Desktop\\QLNhaSach\\QLNhaSach\\fTongHop.cs",
               "RelativeDocumentMoniker": "QLNhaSach\\fTongHop.cs",
@@ -176,7 +180,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\ThinkPad\\OneDrive\\Desktop\\QLNhaSach\\QLNhaSach\\Program.cs",
               "RelativeDocumentMoniker": "QLNhaSach\\Program.cs",
@@ -198,7 +202,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
+              "Title": "toExcel.cs",
+              "DocumentMoniker": "C:\\Users\\ThinkPad\\OneDrive\\Desktop\\QLNhaSach\\QLNhaSach\\toExcel.cs",
+              "RelativeDocumentMoniker": "QLNhaSach\\toExcel.cs",
+              "ToolTip": "C:\\Users\\ThinkPad\\OneDrive\\Desktop\\QLNhaSach\\QLNhaSach\\toExcel.cs*",
+              "RelativeToolTip": "QLNhaSach\\toExcel.cs*",
+              "ViewState": "AgIAACAAAAAAAAAAAAAcwA4AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T03:26:19.021Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "fBaoCao.cs [Design]",
               "DocumentMoniker": "C:\\Users\\ThinkPad\\OneDrive\\Desktop\\QLNhaSach\\QLNhaSach\\fBaoCao.cs",
               "RelativeDocumentMoniker": "QLNhaSach\\fBaoCao.cs",
@@ -210,33 +227,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 4,
               "Title": "BUSHOADON.cs",
               "DocumentMoniker": "C:\\Users\\ThinkPad\\OneDrive\\Desktop\\QLNhaSach\\BUS\\BUSHOADON.cs",
               "RelativeDocumentMoniker": "BUS\\BUSHOADON.cs",
               "ToolTip": "C:\\Users\\ThinkPad\\OneDrive\\Desktop\\QLNhaSach\\BUS\\BUSHOADON.cs",
               "RelativeToolTip": "BUS\\BUSHOADON.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-21T01:23:52.775Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "fThongKe.cs",
               "DocumentMoniker": "C:\\Users\\ThinkPad\\OneDrive\\Desktop\\QLNhaSach\\QLNhaSach\\fThongKe.cs",
               "RelativeDocumentMoniker": "QLNhaSach\\fThongKe.cs",
               "ToolTip": "C:\\Users\\ThinkPad\\OneDrive\\Desktop\\QLNhaSach\\QLNhaSach\\fThongKe.cs*",
               "RelativeToolTip": "QLNhaSach\\fThongKe.cs*",
-              "ViewState": "AgIAAD8AAAAAAAAAAAAgwEwAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAABMAAAAAAAAAAAAtwB8AAABRAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-21T01:21:42.038Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "fHoaDon.cs [Design]",
               "DocumentMoniker": "C:\\Users\\ThinkPad\\OneDrive\\Desktop\\QLNhaSach\\QLNhaSach\\fHoaDon.cs",
               "RelativeDocumentMoniker": "QLNhaSach\\fHoaDon.cs",
@@ -248,7 +265,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "fThemSuaHD.cs [Design]",
               "DocumentMoniker": "C:\\Users\\ThinkPad\\OneDrive\\Desktop\\QLNhaSach\\QLNhaSach\\fThemSuaHD.cs",
               "RelativeDocumentMoniker": "QLNhaSach\\fThemSuaHD.cs",
@@ -260,7 +277,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "fThemTacGia.cs",
               "DocumentMoniker": "C:\\Users\\ThinkPad\\OneDrive\\Desktop\\QLNhaSach\\QLNhaSach\\fThemTacGia.cs",
               "RelativeDocumentMoniker": "QLNhaSach\\fThemTacGia.cs",
@@ -273,7 +290,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "App.config",
               "DocumentMoniker": "C:\\Users\\ThinkPad\\OneDrive\\Desktop\\QLNhaSach\\BUS\\App.config",
               "RelativeDocumentMoniker": "BUS\\App.config",
@@ -286,7 +303,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "App.config",
               "DocumentMoniker": "C:\\Users\\ThinkPad\\OneDrive\\Desktop\\QLNhaSach\\DAL\\App.config",
               "RelativeDocumentMoniker": "DAL\\App.config",
@@ -299,7 +316,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "App.config",
               "DocumentMoniker": "C:\\Users\\ThinkPad\\OneDrive\\Desktop\\QLNhaSach\\QLNhaSach\\App.config",
               "RelativeDocumentMoniker": "QLNhaSach\\App.config",
@@ -312,7 +329,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "fTongHop.Designer.cs",
               "DocumentMoniker": "C:\\Users\\ThinkPad\\OneDrive\\Desktop\\QLNhaSach\\QLNhaSach\\fTongHop.Designer.cs",
               "RelativeDocumentMoniker": "QLNhaSach\\fTongHop.Designer.cs",
@@ -325,7 +342,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "fTongHop.cs [Design]",
               "DocumentMoniker": "C:\\Users\\ThinkPad\\OneDrive\\Desktop\\QLNhaSach\\QLNhaSach\\fTongHop.cs",
               "RelativeDocumentMoniker": "QLNhaSach\\fTongHop.cs",
@@ -337,7 +354,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "fThemTacGia.cs [Design]",
               "DocumentMoniker": "C:\\Users\\ThinkPad\\OneDrive\\Desktop\\QLNhaSach\\QLNhaSach\\fThemTacGia.cs",
               "RelativeDocumentMoniker": "QLNhaSach\\fThemTacGia.cs",
@@ -349,7 +366,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "BUSNXB.cs",
               "DocumentMoniker": "C:\\Users\\ThinkPad\\OneDrive\\Desktop\\QLNhaSach\\BUS\\BUSNXB.cs",
               "RelativeDocumentMoniker": "BUS\\BUSNXB.cs",
@@ -357,11 +374,12 @@
               "RelativeToolTip": "BUS\\BUSNXB.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T08:52:56.223Z"
+              "WhenOpened": "2024-10-18T08:52:56.223Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "fNhaXuatBan.cs",
               "DocumentMoniker": "C:\\Users\\ThinkPad\\OneDrive\\Desktop\\QLNhaSach\\QLNhaSach\\fNhaXuatBan.cs",
               "RelativeDocumentMoniker": "QLNhaSach\\fNhaXuatBan.cs",
@@ -374,7 +392,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "fNhaXuatBan.cs [Design]",
               "DocumentMoniker": "C:\\Users\\ThinkPad\\OneDrive\\Desktop\\QLNhaSach\\QLNhaSach\\fNhaXuatBan.cs",
               "RelativeDocumentMoniker": "QLNhaSach\\fNhaXuatBan.cs",
@@ -386,7 +404,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "fThongKe.cs [Design]",
               "DocumentMoniker": "C:\\Users\\ThinkPad\\OneDrive\\Desktop\\QLNhaSach\\QLNhaSach\\fThongKe.cs",
               "RelativeDocumentMoniker": "QLNhaSach\\fThongKe.cs",
@@ -398,7 +416,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 32,
               "Title": "HOADON.cs",
               "DocumentMoniker": "C:\\Users\\ThinkPad\\OneDrive\\Desktop\\QLNhaSach\\DAL\\HOADON.cs",
               "RelativeDocumentMoniker": "DAL\\HOADON.cs",
@@ -406,11 +424,12 @@
               "RelativeToolTip": "DAL\\HOADON.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T06:40:48.697Z"
+              "WhenOpened": "2024-10-18T06:40:48.697Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "TACGIA.cs",
               "DocumentMoniker": "C:\\Users\\ThinkPad\\OneDrive\\Desktop\\QLNhaSach\\DAL\\TACGIA.cs",
               "RelativeDocumentMoniker": "DAL\\TACGIA.cs",
@@ -423,7 +442,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 31,
               "Title": "THELOAI.cs",
               "DocumentMoniker": "C:\\Users\\ThinkPad\\OneDrive\\Desktop\\QLNhaSach\\DAL\\THELOAI.cs",
               "RelativeDocumentMoniker": "DAL\\THELOAI.cs",
@@ -431,11 +450,12 @@
               "RelativeToolTip": "DAL\\THELOAI.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T06:40:41.886Z"
+              "WhenOpened": "2024-10-18T06:40:41.886Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 30,
               "Title": "TAIKHOAN.cs",
               "DocumentMoniker": "C:\\Users\\ThinkPad\\OneDrive\\Desktop\\QLNhaSach\\DAL\\TAIKHOAN.cs",
               "RelativeDocumentMoniker": "DAL\\TAIKHOAN.cs",
@@ -443,11 +463,12 @@
               "RelativeToolTip": "DAL\\TAIKHOAN.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T06:40:39.446Z"
+              "WhenOpened": "2024-10-18T06:40:39.446Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "fTaiKhoan.cs",
               "DocumentMoniker": "C:\\Users\\ThinkPad\\OneDrive\\Desktop\\QLNhaSach\\QLNhaSach\\fTaiKhoan.cs",
               "RelativeDocumentMoniker": "QLNhaSach\\fTaiKhoan.cs",
@@ -460,7 +481,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "fTaiKhoan.cs [Design]",
               "DocumentMoniker": "C:\\Users\\ThinkPad\\OneDrive\\Desktop\\QLNhaSach\\QLNhaSach\\fTaiKhoan.cs",
               "RelativeDocumentMoniker": "QLNhaSach\\fTaiKhoan.cs",
@@ -472,7 +493,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 27,
               "Title": "fDangNhap.cs",
               "DocumentMoniker": "C:\\Users\\ThinkPad\\OneDrive\\Desktop\\QLNhaSach\\QLNhaSach\\fDangNhap.cs",
               "RelativeDocumentMoniker": "QLNhaSach\\fDangNhap.cs",
@@ -480,11 +501,12 @@
               "RelativeToolTip": "QLNhaSach\\fDangNhap.cs",
               "ViewState": "AgIAAEEAAAAAAAAAAAAUwCsAAABJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T06:11:57.934Z"
+              "WhenOpened": "2024-10-18T06:11:57.934Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 33,
               "Title": "SACH.cs",
               "DocumentMoniker": "C:\\Users\\ThinkPad\\OneDrive\\Desktop\\QLNhaSach\\DAL\\SACH.cs",
               "RelativeDocumentMoniker": "DAL\\SACH.cs",
@@ -492,11 +514,12 @@
               "RelativeToolTip": "DAL\\SACH.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T05:55:11.341Z"
+              "WhenOpened": "2024-10-18T05:55:11.341Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "CHITIETHOADON.cs",
               "DocumentMoniker": "C:\\Users\\ThinkPad\\OneDrive\\Desktop\\QLNhaSach\\DAL\\CHITIETHOADON.cs",
               "RelativeDocumentMoniker": "DAL\\CHITIETHOADON.cs",
@@ -509,7 +532,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "CHITIETHOADONSACH.cs",
               "DocumentMoniker": "C:\\Users\\ThinkPad\\OneDrive\\Desktop\\QLNhaSach\\DAL\\CHITIETHOADONSACH.cs",
               "RelativeDocumentMoniker": "DAL\\CHITIETHOADONSACH.cs",
@@ -522,7 +545,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 37,
               "Title": "NHAXUATBAN.cs",
               "DocumentMoniker": "C:\\Users\\ThinkPad\\OneDrive\\Desktop\\QLNhaSach\\DAL\\NHAXUATBAN.cs",
               "RelativeDocumentMoniker": "DAL\\NHAXUATBAN.cs",
@@ -530,11 +553,12 @@
               "RelativeToolTip": "DAL\\NHAXUATBAN.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T05:23:17.894Z"
+              "WhenOpened": "2024-10-18T05:23:17.894Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 34,
               "Title": "CHITIETSACH.cs",
               "DocumentMoniker": "C:\\Users\\ThinkPad\\OneDrive\\Desktop\\QLNhaSach\\DAL\\CHITIETSACH.cs",
               "RelativeDocumentMoniker": "DAL\\CHITIETSACH.cs",
@@ -542,11 +566,12 @@
               "RelativeToolTip": "DAL\\CHITIETSACH.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T05:22:00.715Z"
+              "WhenOpened": "2024-10-18T05:22:00.715Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "KHOSACH.cs",
               "DocumentMoniker": "C:\\Users\\ThinkPad\\OneDrive\\Desktop\\QLNhaSach\\DAL\\KHOSACH.cs",
               "RelativeDocumentMoniker": "DAL\\KHOSACH.cs",
@@ -554,11 +579,12 @@
               "RelativeToolTip": "DAL\\KHOSACH.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T05:09:23.099Z"
+              "WhenOpened": "2024-10-18T05:09:23.099Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 36,
               "Title": "CHITIETKHO.CS",
               "DocumentMoniker": "C:\\Users\\ThinkPad\\OneDrive\\Desktop\\QLNhaSach\\DAL\\CHITIETKHO.CS",
               "RelativeDocumentMoniker": "DAL\\CHITIETKHO.CS",
@@ -566,11 +592,12 @@
               "RelativeToolTip": "DAL\\CHITIETKHO.CS",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T05:08:53.036Z"
+              "WhenOpened": "2024-10-18T05:08:53.036Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "BUSKHO.cs",
               "DocumentMoniker": "C:\\Users\\ThinkPad\\OneDrive\\Desktop\\QLNhaSach\\BUS\\BUSKHO.cs",
               "RelativeDocumentMoniker": "BUS\\BUSKHO.cs",
@@ -583,7 +610,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "BUSSACH.cs",
               "DocumentMoniker": "C:\\Users\\ThinkPad\\OneDrive\\Desktop\\QLNhaSach\\BUS\\BUSSACH.cs",
               "RelativeDocumentMoniker": "BUS\\BUSSACH.cs",
@@ -596,7 +623,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 29,
               "Title": "BUSTAIKHOAN.cs",
               "DocumentMoniker": "C:\\Users\\ThinkPad\\OneDrive\\Desktop\\QLNhaSach\\BUS\\BUSTAIKHOAN.cs",
               "RelativeDocumentMoniker": "BUS\\BUSTAIKHOAN.cs",
@@ -604,11 +631,12 @@
               "RelativeToolTip": "BUS\\BUSTAIKHOAN.cs",
               "ViewState": "AgIAABMAAAAAAAAAAAAgwCMAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T04:02:02.157Z"
+              "WhenOpened": "2024-10-17T04:02:02.157Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 28,
               "Title": "fDangNhap.Designer.cs",
               "DocumentMoniker": "C:\\Users\\ThinkPad\\OneDrive\\Desktop\\QLNhaSach\\QLNhaSach\\fDangNhap.Designer.cs",
               "RelativeDocumentMoniker": "QLNhaSach\\fDangNhap.Designer.cs",
@@ -616,18 +644,20 @@
               "RelativeToolTip": "QLNhaSach\\fDangNhap.Designer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T03:59:28.04Z"
+              "WhenOpened": "2024-10-17T03:59:28.04Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 35,
               "Title": "fDangNhap.cs [Design]",
               "DocumentMoniker": "C:\\Users\\ThinkPad\\OneDrive\\Desktop\\QLNhaSach\\QLNhaSach\\fDangNhap.cs",
               "RelativeDocumentMoniker": "QLNhaSach\\fDangNhap.cs",
               "ToolTip": "C:\\Users\\ThinkPad\\OneDrive\\Desktop\\QLNhaSach\\QLNhaSach\\fDangNhap.cs [Design]",
               "RelativeToolTip": "QLNhaSach\\fDangNhap.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-15T09:33:45.625Z"
+              "WhenOpened": "2024-10-15T09:33:45.625Z",
+              "EditorCaption": " [Design]"
             }
           ]
         },

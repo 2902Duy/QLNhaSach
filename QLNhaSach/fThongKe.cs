@@ -8,6 +8,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using BUS;
+using Excel = Microsoft.Office.Interop.Excel;
+using System.Runtime.InteropServices;
 namespace QLNhaSach
 {
     public partial class fThongKe : Form
@@ -26,8 +28,8 @@ namespace QLNhaSach
 
         private void btnXuat_Click(object sender, EventArgs e)
         {
-            fBaoCao frm2 = new fBaoCao();
-            frm2.ShowDialog();
+            toExcel toExcel = new toExcel();
+            toExcel.ExportToExcel(dgvThongKe, dtpTuNgay.Value, dtpDenNgay.Value);
         }
 
         private void fThongKe_Load(object sender, EventArgs e)
@@ -86,6 +88,11 @@ namespace QLNhaSach
         private void btn_Click(object sender, EventArgs e)
         {
             loaddata();
+            dtpDenNgay.Value = DateTime.Now;
+            
+            dtpTuNgay.Value = new DateTime(2020, 1, 1);
         }
+
+
     }
 }

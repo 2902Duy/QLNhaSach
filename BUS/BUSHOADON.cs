@@ -11,6 +11,7 @@ namespace BUS
     public class BUSHOADON
     {
         dataBookStore db= new dataBookStore();
+        
         public IEnumerable<CHITIETHOADON> dachSachHoaDon()
         {
             var dshd = from hd in db.CHITIETHOADONs
