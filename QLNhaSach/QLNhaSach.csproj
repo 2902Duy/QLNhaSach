@@ -134,18 +134,6 @@
     <Compile Include="fTongHop.Designer.cs">
       <DependentUpon>fTongHop.cs</DependentUpon>
     </Compile>
-    <Compile Include="fXoaSach.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="fXoaSach.Designer.cs">
-      <DependentUpon>fXoaSach.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Fxoatacgia.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Fxoatacgia.Designer.cs">
-      <DependentUpon>Fxoatacgia.cs</DependentUpon>
-    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="fBaoCao.resx">
@@ -186,12 +174,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="fTongHop.resx">
       <DependentUpon>fTongHop.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="fXoaSach.resx">
-      <DependentUpon>fXoaSach.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Fxoatacgia.resx">
-      <DependentUpon>Fxoatacgia.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

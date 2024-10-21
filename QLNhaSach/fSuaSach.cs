@@ -1,4 +1,5 @@
 ﻿using BUS;
+using DAL;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -14,6 +15,8 @@ namespace QLNhaSach
 {
     public partial class fSuaSach : Form
     {
+        BUSSACH busSach = new BUSSACH();
+        BindingSource binding = new BindingSource();
         public fSuaSach()
         {
             InitializeComponent();
@@ -67,20 +70,51 @@ namespace QLNhaSach
 
         private void fSuaSach_Load(object sender, EventArgs e)
         {
+            
             BUSSACH bussach = new BUSSACH();
-
             var dss = bussach.DSSACH();
-
             var sachData = from sach in dss
                            select new
                            {
+                               sach.SACH.IDMASACH,
                                sach.SACH.TENSACH,
                                sach.TACGIA.TENTACGIA,
                                sach.NHAXUATBAN.TENNHAXUATBAN,
-                               sach.SACH.GIANHAP  
+                               sach.SACH.GIANHAP,
+                               sach.SACH.GIABAN,
+                               sach.SACH.NAMXUATBAN,
+                               sach.SACH.THELOAI.TENTHELOAI
+                               
                            };
+            txtMaS.ReadOnly = true;
+            binding.DataSource = sachData.ToList();
+            databinding();
+            dgvSuaS.DataSource = binding;
+        }
 
-            dgvSuaS.DataSource = sachData.ToList();
+        public void databinding()
+        {
+            txtMaS.DataBindings.Add(new Binding("Text", binding, "IDMASACH", true, DataSourceUpdateMode.Never));
+            txtTenSach.DataBindings.Add(new Binding("Text", binding, "TENSACH", true, DataSourceUpdateMode.Never));
+            cmbTenTacGia.DataBindings.Add(new Binding("Text", binding, "TENTACGIA", true, DataSourceUpdateMode.Never));
+            cmbTenTheLoai.DataBindings.Add(new Binding("Text", binding, "TENTHELOAI", true, DataSourceUpdateMode.Never));
+            cmbTenNXB.DataBindings.Add(new Binding("Text", binding, "NAMXUATBAN", true, DataSourceUpdateMode.Never));
+            txtGiaBan.DataBindings.Add(new Binding("Text", binding, "GIABAN", true, DataSourceUpdateMode.Never));
+            txtGiaMua.DataBindings.Add(new Binding("Text", binding, "GIANHAP", true, DataSourceUpdateMode.Never));
+            txtNSX.DataBindings.Add(new Binding("Text", binding, "NAMXUATBAN", true, DataSourceUpdateMode.Never));
+
+
+
+        }
+
+        private void txtGiaMua_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtNSX_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

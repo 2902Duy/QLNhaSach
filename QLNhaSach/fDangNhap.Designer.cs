@@ -146,7 +146,7 @@
         private System.Windows.Forms.CheckBox chkHienMatKhau;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.ErrorProvider err;
-
+        private object lblThongBao;
     }
 }
 

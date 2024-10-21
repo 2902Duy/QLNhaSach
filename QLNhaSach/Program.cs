@@ -17,7 +17,11 @@ namespace QLNhaSach
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
+<<<<<<< HEAD
             Application.Run(new fTongHop("duy"));
+=======
+            Application.Run(new fThemTacGia());
+>>>>>>> 4aa431f84c8e1036c96ec094b78802764dae02ee
         }
     }
 }

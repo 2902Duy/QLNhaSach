@@ -34,6 +34,45 @@ C:\Users\ThinkPad\OneDrive\Desktop\program\QLNhaSach\QLNhaSach\bin\Debug\DAL.dll
 C:\Users\ThinkPad\OneDrive\Desktop\program\QLNhaSach\QLNhaSach\bin\Debug\EntityFramework.xml
 C:\Users\ThinkPad\OneDrive\Desktop\program\QLNhaSach\QLNhaSach\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\ThinkPad\OneDrive\Desktop\program\QLNhaSach\QLNhaSach\obj\Debug\QLNhaSach.csproj.Up2Date
+<<<<<<< HEAD
+D:\Tonghopphieu\QLNhaSach\QLNhaSach\bin\Debug\QLNhaSach.exe.config
+D:\Tonghopphieu\QLNhaSach\QLNhaSach\bin\Debug\QLNhaSach.exe
+D:\Tonghopphieu\QLNhaSach\QLNhaSach\bin\Debug\QLNhaSach.pdb
+D:\Tonghopphieu\QLNhaSach\QLNhaSach\bin\Debug\BUS.dll
+D:\Tonghopphieu\QLNhaSach\QLNhaSach\bin\Debug\DAL.dll
+D:\Tonghopphieu\QLNhaSach\QLNhaSach\bin\Debug\EntityFramework.dll
+D:\Tonghopphieu\QLNhaSach\QLNhaSach\bin\Debug\EntityFramework.SqlServer.dll
+D:\Tonghopphieu\QLNhaSach\QLNhaSach\bin\Debug\BUS.pdb
+D:\Tonghopphieu\QLNhaSach\QLNhaSach\bin\Debug\BUS.dll.config
+D:\Tonghopphieu\QLNhaSach\QLNhaSach\bin\Debug\DAL.pdb
+D:\Tonghopphieu\QLNhaSach\QLNhaSach\bin\Debug\DAL.dll.config
+D:\Tonghopphieu\QLNhaSach\QLNhaSach\bin\Debug\EntityFramework.xml
+D:\Tonghopphieu\QLNhaSach\QLNhaSach\bin\Debug\EntityFramework.SqlServer.xml
+D:\Tonghopphieu\QLNhaSach\QLNhaSach\obj\Debug\QLNhaSach.csproj.AssemblyReference.cache
+D:\Tonghopphieu\QLNhaSach\QLNhaSach\obj\Debug\QLNhaSach.fBaoCao.resources
+D:\Tonghopphieu\QLNhaSach\QLNhaSach\obj\Debug\QLNhaSach.fChiTietHD.resources
+D:\Tonghopphieu\QLNhaSach\QLNhaSach\obj\Debug\QLNhaSach.fDangNhap.resources
+D:\Tonghopphieu\QLNhaSach\QLNhaSach\obj\Debug\QLNhaSach.fHoaDon.resources
+D:\Tonghopphieu\QLNhaSach\QLNhaSach\obj\Debug\QLNhaSach.fKho.resources
+D:\Tonghopphieu\QLNhaSach\QLNhaSach\obj\Debug\QLNhaSach.fLoaiSach.resources
+D:\Tonghopphieu\QLNhaSach\QLNhaSach\obj\Debug\QLNhaSach.fNhaXuatBan.resources
+D:\Tonghopphieu\QLNhaSach\QLNhaSach\obj\Debug\QLNhaSach.fSuaSach.resources
+D:\Tonghopphieu\QLNhaSach\QLNhaSach\obj\Debug\QLNhaSach.fTaiKhoan.resources
+D:\Tonghopphieu\QLNhaSach\QLNhaSach\obj\Debug\QLNhaSach.fThemSach.resources
+D:\Tonghopphieu\QLNhaSach\QLNhaSach\obj\Debug\QLNhaSach.fThemSuaHD.resources
+D:\Tonghopphieu\QLNhaSach\QLNhaSach\obj\Debug\QLNhaSach.fThemTacGia.resources
+D:\Tonghopphieu\QLNhaSach\QLNhaSach\obj\Debug\QLNhaSach.fThongKe.resources
+D:\Tonghopphieu\QLNhaSach\QLNhaSach\obj\Debug\QLNhaSach.fTongHop.resources
+D:\Tonghopphieu\QLNhaSach\QLNhaSach\obj\Debug\QLNhaSach.fXoaSach.resources
+D:\Tonghopphieu\QLNhaSach\QLNhaSach\obj\Debug\QLNhaSach.Fxoatacgia.resources
+D:\Tonghopphieu\QLNhaSach\QLNhaSach\obj\Debug\QLNhaSach.Properties.Resources.resources
+D:\Tonghopphieu\QLNhaSach\QLNhaSach\obj\Debug\QLNhaSach.csproj.GenerateResource.cache
+D:\Tonghopphieu\QLNhaSach\QLNhaSach\obj\Debug\QLNhaSach.csproj.CoreCompileInputs.cache
+D:\Tonghopphieu\QLNhaSach\QLNhaSach\obj\Debug\QLNhaSach.csproj.Up2Date
+D:\Tonghopphieu\QLNhaSach\QLNhaSach\obj\Debug\QLNhaSach.exe
+D:\Tonghopphieu\QLNhaSach\QLNhaSach\obj\Debug\QLNhaSach.pdb
+=======
+>>>>>>> 09bf54e38c43d747b0fbe213a72302848ac3421e
 C:\Users\ThinkPad\OneDrive\Desktop\QLNhaSach\QLNhaSach\obj\Debug\QLNhaSach.fDangNhap.resources
 C:\Users\ThinkPad\OneDrive\Desktop\QLNhaSach\QLNhaSach\obj\Debug\QLNhaSach.fTaiKhoan.resources
 C:\Users\ThinkPad\OneDrive\Desktop\QLNhaSach\QLNhaSach\obj\Debug\QLNhaSach.fTongHop.resources
@@ -104,3 +143,36 @@ C:\Users\DAT\dat\QLNhaSach\QLNhaSach\obj\Debug\QLNhaSach.csproj.CoreCompileInput
 C:\Users\DAT\dat\QLNhaSach\QLNhaSach\obj\Debug\QLNhaSach.csproj.Up2Date
 C:\Users\DAT\dat\QLNhaSach\QLNhaSach\obj\Debug\QLNhaSach.exe
 C:\Users\DAT\dat\QLNhaSach\QLNhaSach\obj\Debug\QLNhaSach.pdb
+D:\Tổng hợp phiếu Trịnh Kiển Đạt\QLNhaSach\QLNhaSach\bin\Debug\QLNhaSach.exe.config
+D:\Tổng hợp phiếu Trịnh Kiển Đạt\QLNhaSach\QLNhaSach\bin\Debug\QLNhaSach.exe
+D:\Tổng hợp phiếu Trịnh Kiển Đạt\QLNhaSach\QLNhaSach\bin\Debug\QLNhaSach.pdb
+D:\Tổng hợp phiếu Trịnh Kiển Đạt\QLNhaSach\QLNhaSach\bin\Debug\BUS.dll
+D:\Tổng hợp phiếu Trịnh Kiển Đạt\QLNhaSach\QLNhaSach\bin\Debug\DAL.dll
+D:\Tổng hợp phiếu Trịnh Kiển Đạt\QLNhaSach\QLNhaSach\bin\Debug\EntityFramework.dll
+D:\Tổng hợp phiếu Trịnh Kiển Đạt\QLNhaSach\QLNhaSach\bin\Debug\EntityFramework.SqlServer.dll
+D:\Tổng hợp phiếu Trịnh Kiển Đạt\QLNhaSach\QLNhaSach\bin\Debug\BUS.pdb
+D:\Tổng hợp phiếu Trịnh Kiển Đạt\QLNhaSach\QLNhaSach\bin\Debug\BUS.dll.config
+D:\Tổng hợp phiếu Trịnh Kiển Đạt\QLNhaSach\QLNhaSach\bin\Debug\DAL.pdb
+D:\Tổng hợp phiếu Trịnh Kiển Đạt\QLNhaSach\QLNhaSach\bin\Debug\DAL.dll.config
+D:\Tổng hợp phiếu Trịnh Kiển Đạt\QLNhaSach\QLNhaSach\bin\Debug\EntityFramework.xml
+D:\Tổng hợp phiếu Trịnh Kiển Đạt\QLNhaSach\QLNhaSach\bin\Debug\EntityFramework.SqlServer.xml
+D:\Tổng hợp phiếu Trịnh Kiển Đạt\QLNhaSach\QLNhaSach\obj\Debug\QLNhaSach.csproj.AssemblyReference.cache
+D:\Tổng hợp phiếu Trịnh Kiển Đạt\QLNhaSach\QLNhaSach\obj\Debug\QLNhaSach.fBaoCao.resources
+D:\Tổng hợp phiếu Trịnh Kiển Đạt\QLNhaSach\QLNhaSach\obj\Debug\QLNhaSach.fChiTietHD.resources
+D:\Tổng hợp phiếu Trịnh Kiển Đạt\QLNhaSach\QLNhaSach\obj\Debug\QLNhaSach.fDangNhap.resources
+D:\Tổng hợp phiếu Trịnh Kiển Đạt\QLNhaSach\QLNhaSach\obj\Debug\QLNhaSach.fHoaDon.resources
+D:\Tổng hợp phiếu Trịnh Kiển Đạt\QLNhaSach\QLNhaSach\obj\Debug\QLNhaSach.fKho.resources
+D:\Tổng hợp phiếu Trịnh Kiển Đạt\QLNhaSach\QLNhaSach\obj\Debug\QLNhaSach.fLoaiSach.resources
+D:\Tổng hợp phiếu Trịnh Kiển Đạt\QLNhaSach\QLNhaSach\obj\Debug\QLNhaSach.fNhaXuatBan.resources
+D:\Tổng hợp phiếu Trịnh Kiển Đạt\QLNhaSach\QLNhaSach\obj\Debug\QLNhaSach.fSuaSach.resources
+D:\Tổng hợp phiếu Trịnh Kiển Đạt\QLNhaSach\QLNhaSach\obj\Debug\QLNhaSach.fTaiKhoan.resources
+D:\Tổng hợp phiếu Trịnh Kiển Đạt\QLNhaSach\QLNhaSach\obj\Debug\QLNhaSach.fThemSuaHD.resources
+D:\Tổng hợp phiếu Trịnh Kiển Đạt\QLNhaSach\QLNhaSach\obj\Debug\QLNhaSach.fThemTacGia.resources
+D:\Tổng hợp phiếu Trịnh Kiển Đạt\QLNhaSach\QLNhaSach\obj\Debug\QLNhaSach.fThongKe.resources
+D:\Tổng hợp phiếu Trịnh Kiển Đạt\QLNhaSach\QLNhaSach\obj\Debug\QLNhaSach.fTongHop.resources
+D:\Tổng hợp phiếu Trịnh Kiển Đạt\QLNhaSach\QLNhaSach\obj\Debug\QLNhaSach.Properties.Resources.resources
+D:\Tổng hợp phiếu Trịnh Kiển Đạt\QLNhaSach\QLNhaSach\obj\Debug\QLNhaSach.csproj.GenerateResource.cache
+D:\Tổng hợp phiếu Trịnh Kiển Đạt\QLNhaSach\QLNhaSach\obj\Debug\QLNhaSach.csproj.CoreCompileInputs.cache
+D:\Tổng hợp phiếu Trịnh Kiển Đạt\QLNhaSach\QLNhaSach\obj\Debug\QLNhaSach.csproj.Up2Date
+D:\Tổng hợp phiếu Trịnh Kiển Đạt\QLNhaSach\QLNhaSach\obj\Debug\QLNhaSach.exe
+D:\Tổng hợp phiếu Trịnh Kiển Đạt\QLNhaSach\QLNhaSach\obj\Debug\QLNhaSach.pdb

@@ -80,9 +80,9 @@
             // btnXoa
             // 
             this.btnXoa.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.01739F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnXoa.Location = new System.Drawing.Point(338, 331);
+            this.btnXoa.Location = new System.Drawing.Point(324, 331);
             this.btnXoa.Name = "btnXoa";
-            this.btnXoa.Size = new System.Drawing.Size(129, 40);
+            this.btnXoa.Size = new System.Drawing.Size(168, 40);
             this.btnXoa.TabIndex = 28;
             this.btnXoa.Text = "XÓA HÓA ĐƠN";
             this.btnXoa.UseVisualStyleBackColor = true;
