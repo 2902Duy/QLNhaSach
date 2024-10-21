@@ -51,6 +51,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BUSHOADON.cs" />
     <Compile Include="BUSKHO.cs" />
     <Compile Include="BUSNXB.cs" />
     <Compile Include="BUSSACH.cs" />

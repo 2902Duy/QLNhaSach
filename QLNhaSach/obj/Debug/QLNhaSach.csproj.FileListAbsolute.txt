@@ -34,7 +34,6 @@ C:\Users\ThinkPad\OneDrive\Desktop\program\QLNhaSach\QLNhaSach\bin\Debug\DAL.dll
 C:\Users\ThinkPad\OneDrive\Desktop\program\QLNhaSach\QLNhaSach\bin\Debug\EntityFramework.xml
 C:\Users\ThinkPad\OneDrive\Desktop\program\QLNhaSach\QLNhaSach\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\ThinkPad\OneDrive\Desktop\program\QLNhaSach\QLNhaSach\obj\Debug\QLNhaSach.csproj.Up2Date
-<<<<<<< HEAD
 D:\Tonghopphieu\QLNhaSach\QLNhaSach\bin\Debug\QLNhaSach.exe.config
 D:\Tonghopphieu\QLNhaSach\QLNhaSach\bin\Debug\QLNhaSach.exe
 D:\Tonghopphieu\QLNhaSach\QLNhaSach\bin\Debug\QLNhaSach.pdb
@@ -71,8 +70,6 @@ D:\Tonghopphieu\QLNhaSach\QLNhaSach\obj\Debug\QLNhaSach.csproj.CoreCompileInputs
 D:\Tonghopphieu\QLNhaSach\QLNhaSach\obj\Debug\QLNhaSach.csproj.Up2Date
 D:\Tonghopphieu\QLNhaSach\QLNhaSach\obj\Debug\QLNhaSach.exe
 D:\Tonghopphieu\QLNhaSach\QLNhaSach\obj\Debug\QLNhaSach.pdb
-=======
->>>>>>> 09bf54e38c43d747b0fbe213a72302848ac3421e
 C:\Users\ThinkPad\OneDrive\Desktop\QLNhaSach\QLNhaSach\obj\Debug\QLNhaSach.fDangNhap.resources
 C:\Users\ThinkPad\OneDrive\Desktop\QLNhaSach\QLNhaSach\obj\Debug\QLNhaSach.fTaiKhoan.resources
 C:\Users\ThinkPad\OneDrive\Desktop\QLNhaSach\QLNhaSach\obj\Debug\QLNhaSach.fTongHop.resources
@@ -100,8 +97,6 @@ C:\Users\ThinkPad\OneDrive\Desktop\QLNhaSach\QLNhaSach\obj\Debug\QLNhaSach.fSuaS
 C:\Users\ThinkPad\OneDrive\Desktop\QLNhaSach\QLNhaSach\obj\Debug\QLNhaSach.fThemSuaHD.resources
 C:\Users\ThinkPad\OneDrive\Desktop\QLNhaSach\QLNhaSach\obj\Debug\QLNhaSach.fThemTacGia.resources
 C:\Users\ThinkPad\OneDrive\Desktop\QLNhaSach\QLNhaSach\obj\Debug\QLNhaSach.fThongKe.resources
-C:\Users\ThinkPad\OneDrive\Desktop\QLNhaSach\QLNhaSach\obj\Debug\QLNhaSach.fXoaSach.resources
-C:\Users\ThinkPad\OneDrive\Desktop\QLNhaSach\QLNhaSach\obj\Debug\QLNhaSach.Fxoatacgia.resources
 C:\Users\ThinkPad\OneDrive\Desktop\QLNhaSach\QLNhaSach\obj\Debug\QLNhaSach.Properties.Resources.resources
 C:\Users\ThinkPad\OneDrive\Desktop\QLNhaSach\QLNhaSach\obj\Debug\QLNhaSach.csproj.GenerateResource.cache
 C:\Users\ThinkPad\OneDrive\Desktop\QLNhaSach\QLNhaSach\obj\Debug\QLNhaSach.csproj.CoreCompileInputs.cache

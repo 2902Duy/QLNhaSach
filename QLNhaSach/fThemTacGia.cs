@@ -70,22 +70,24 @@ namespace QLNhaSach
 
             var dstg = busstacgia.DSSACH();
 
-            var TacgiaData = from TacGia in dstg
-                           select new
-                           {
-                               TacGia.TACGIA.MATACGIA,
-                               TacGia.TACGIA.TENTACGIA,
-                               TacGia.TACGIA.QUEQUAN
-                           };
-            dgvTacGia.DataSource = TacgiaData.ToList();
+            var TacgiaData = dstg
+                    .Select(TacGia => new
+                    {
+                    TacGia.TACGIA.MATACGIA,
+                    TacGia.TACGIA.TENTACGIA,
+                    TacGia.TACGIA.QUEQUAN
+                    }).Distinct();
+            binding.DataSource = TacgiaData.ToList();
+            dgvTacGia.DataSource = binding;
+            databinding();
        
         }
         public void databinding()
         {
-           // txtMATG.DataBindings.Add(new Binding("Text", binding, "MATACGIA", true, DataSourceUpdateMode.Never));
-          //  txtTENTACGIA.DataBindings.Add(new Binding("Text", binding, "TENTACGIA", true, DataSourceUpdateMode.Never));
-           // txtQUEQUAN.DataBindings.Add(new Binding("Text", binding, "QUEQUAN", true, DataSourceUpdateMode.Never));
-            
+            txtMATG.DataBindings.Add(new Binding("Text", binding, "MATACGIA", true, DataSourceUpdateMode.Never));
+            txtTENTACGIA.DataBindings.Add(new Binding("Text", binding, "TENTACGIA", true, DataSourceUpdateMode.Never));
+            txtQUEQUAN.DataBindings.Add(new Binding("Text", binding, "QUEQUAN", true, DataSourceUpdateMode.Never));
+
         }
     }
 }
