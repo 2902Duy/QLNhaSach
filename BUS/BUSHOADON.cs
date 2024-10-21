@@ -28,5 +28,24 @@ namespace BUS
             return dstn;
         }
 
+        public void themHD(string name, DateTime date)
+        {
+            try
+            {
+                var id = db.HOADONs.Max(s => s.IDHOADON);
+                string maHD = "HD0" + (id + 1);
+                HOADON hd = new HOADON
+                {
+                    IDHOADON = id,
+                    MAHOADON = maHD,
+                    KHACHHANG = name,
+                    NGAYLAP = date,
+                };
+                db.HOADONs.Add(hd);
+                db.SaveChanges();
+            }
+            catch (Exception ex) { }
+        }
+
     }
 }

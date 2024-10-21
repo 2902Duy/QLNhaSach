@@ -15,11 +15,9 @@ namespace DAL
             SACHes = new HashSet<SACH>();
         }
 
-        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int IDTACGIA { get; set; }
 
         [Key]
-        [DatabaseGenerated(DatabaseGeneratedOption.Computed)]
         [StringLength(6)]
         public string MATACGIA { get; set; }
 

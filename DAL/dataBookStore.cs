@@ -18,8 +18,8 @@ namespace DAL
         public virtual DbSet<NHAXUATBAN> NHAXUATBANs { get; set; }
         public virtual DbSet<SACH> SACHes { get; set; }
         public virtual DbSet<TACGIA> TACGIAs { get; set; }
-        public virtual DbSet<THELOAI> THELOAIs { get; set; }
         public virtual DbSet<TAIKHOAN> TAIKHOANs { get; set; }
+        public virtual DbSet<THELOAI> THELOAIs { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
@@ -30,11 +30,6 @@ namespace DAL
             modelBuilder.Entity<CHITIETHOADON>()
                 .Property(e => e.MASACH)
                 .IsUnicode(false);
-
-            modelBuilder.Entity<CHITIETHOADON>()
-                .Property(e => e.THANHTIEN)
-                .IsRequired()
-                .HasColumnType("int");
 
             modelBuilder.Entity<HOADON>()
                 .Property(e => e.MAHOADON)
@@ -85,11 +80,6 @@ namespace DAL
                 .WithRequired(e => e.TACGIA)
                 .WillCascadeOnDelete(false);
 
-            modelBuilder.Entity<THELOAI>()
-                .HasMany(e => e.SACHes)
-                .WithRequired(e => e.THELOAI)
-                .WillCascadeOnDelete(false);
-
             modelBuilder.Entity<TAIKHOAN>()
                 .Property(e => e.USERNAME)
                 .IsUnicode(false);
@@ -97,6 +87,11 @@ namespace DAL
             modelBuilder.Entity<TAIKHOAN>()
                 .Property(e => e.PASSWORD)
                 .IsUnicode(false);
+
+            modelBuilder.Entity<THELOAI>()
+                .HasMany(e => e.SACHes)
+                .WithRequired(e => e.THELOAI)
+                .WillCascadeOnDelete(false);
         }
     }
 }

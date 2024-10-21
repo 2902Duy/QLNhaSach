@@ -1,4 +1,5 @@
-﻿using System;
+﻿using BUS;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -12,6 +13,7 @@ namespace QLNhaSach
 {
     public partial class fThemSuaHD : Form
     {
+        BUSHOADON bushoadon = new BUSHOADON();
         public fThemSuaHD()
         {
             InitializeComponent();
@@ -21,14 +23,7 @@ namespace QLNhaSach
         {
             try
             {
-                if (txtTenKH.Text.Length < 3 || txtTenKH.Text.Length > 50)
-                {
-                    err.SetError(txtTenKH, "Độ dài tên ít nhất 3 kí tự!");
-                }
-                else
-                {
-                    err.Clear();
-                }
+                bushoadon.themHD(txtTenKH.Text, dtpNgayLap.Value);
             }
             catch (Exception)
             {

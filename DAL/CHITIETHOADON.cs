@@ -23,7 +23,6 @@ namespace DAL
 
         public int? SOLUONG { get; set; }
 
-        [Column(TypeName = "int")]
         public int? THANHTIEN { get; set; }
 
         public virtual HOADON HOADON { get; set; }

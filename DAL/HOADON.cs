@@ -15,11 +15,9 @@ namespace DAL
             CHITIETHOADONs = new HashSet<CHITIETHOADON>();
         }
 
-        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int IDHOADON { get; set; }
 
         [Key]
-        [DatabaseGenerated(DatabaseGeneratedOption.Computed)]
         [StringLength(6)]
         public string MAHOADON { get; set; }
 

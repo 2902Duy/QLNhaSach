@@ -23,90 +23,84 @@ values (N'NXB trẻ'),
 	   (N'NXB mai linh'),
 	   (N'NXB văn học');
 
-insert into TACGIA
-values 
-	   (N'Nguyễn Du',N'Hà Tĩnh'),
-	   (N'Nam Cao',N'Huyện Lý Nhân, Hà Nam'),
-	   (N'Nguyễn Nhật Ánh',N'Huyện Thăng Bình, Quảng Nam'),
-	   (N'Vũ Trọng Phụng',N'Huyện Mỹ Hào, Hưng Yên'),
-	   (N'Hồ Chí Minh',N'xã Kim Liên, huyện Nam Đàn, tỉnh Nghệ An'),
-	   (N'Nguyễn Ngọc Thạch',N'TP Hồ Chí Minh'),
-	   (N'Dale Carnegie',N'Missouri, Hoa Kỳ'),
-	   (N'Nikolai Ostrvsky',N'Volhynia, Đế quốc Nga'),
-	   (N'Tô Hoài',N'Huyện Thanh Oai,Hà Nội'),
-	   (N'Ngô Tất Tố',N'Huyện Đông Anh, Hà Nội');
+INSERT INTO TACGIA (IDTACGIA, MATACGIA, TENTACGIA, QUEQUAN)
+VALUES 
+    (1, 'TG01', N'Nguyễn Du', N'Hà Tĩnh'),
+    (2, 'TG02', N'Nam Cao', N'Huyện Lý Nhân, Hà Nam'),
+    (3, 'TG03', N'Nguyễn Nhật Ánh', N'Huyện Thăng Bình, Quảng Nam'),
+    (4, 'TG04', N'Vũ Trọng Phụng', N'Huyện Mỹ Hào, Hưng Yên'),
+    (5, 'TG05', N'Hồ Chí Minh', N'xã Kim Liên, huyện Nam Đàn, tỉnh Nghệ An'),
+    (6, 'TG06', N'Nguyễn Ngọc Thạch', N'TP Hồ Chí Minh'),
+    (7, 'TG07', N'Dale Carnegie', N'Missouri, Hoa Kỳ'),
+    (8, 'TG08', N'Nikolai Ostrvsky', N'Volhynia, Đế quốc Nga'),
+    (9, 'TG09', N'Tô Hoài', N'Huyện Thanh Oai, Hà Nội'),
+    (10, 'TG010', N'Ngô Tất Tố', N'Huyện Đông Anh, Hà Nội');
 
-insert into SACH(TENSACH,TENTHELOAI,NAMXUATBAN,MATACGIA,GIANHAP,GIABAN,TENNHAXUATBAN)
-values (N'Truyện Kiều',N'Truyện thơ nôm',1814,'TG02',65000,89000,N'NXB trẻ'),
-	   (N'Sống mòn',N'Tiểu thuyết',1956,'TG04',50000,79000,N'NXB đời nay'),
-	   (N'Chí phèo',N'Truyện ngắn',1941,N'TG04',70000,96000,N'NXB đời nay'),
-	   (N'Lão hạc',N'Truyện ngắn',1943,N'TG04',700000,96000,N'NXB đời nay'),
-	   (N'Cú phạt đền',N'Truyện ngắn',1985,N'TG06',76000,99000,N'NXB kim đồng'),
-	   (N'Mắt biếc',N'Truyện dài',1990,N'TG06',89000,110000,N'NXB Trẻ'),
-	   (N'Tôi thấy hoa vàng trên cỏ xanh',N'Truyện dài',2010,N'TG06',100000,125000,N'NXB kim đồng'),
-	   (N'Số đỏ',N'Tiểu thuyết',1936,N'TG08',45000,57000,N'Hà Nội báo'),
-	   (N'Vỡ đê',N'Tiểu thuyết',1936,N'TG08',40000,55000,N'Báo tương lai'),
-	   (N'Nhật ký trong tù',N'Thơ',1942,N'TG010',67000,90000,N'NXB kim đồng'),
-	   (N'Lịch sử nước ta',N'Thơ',1942,N'TG010',66000,89000,N'NXB trẻ'),
-	   (N'Đường cách mệnh',N'Văn xuôi',1927,N'TG010',65000,80000,N'NXB kim đồng'),
-	   (N'Khóc giữa Sài Gòn',N'Tiểu thuyết',2014,N'TG012',77000,98000,N'NXB phụ nữ'),
-	   (N'Lưng chừng co đơn',N'Văn xuôi',2015,N'TG012',55000,65000,N'NXB phụ nữ'),
-	   (N'Dế mèn phiêu lưu ký',N'Văn học',1941,N'TG018',45000,56000,N'NXB kim đồng'),
-	   (N'Tắt đèn',N'Tiểu thuyết',1939,N'TG020',67000,89000,N'NXB mai linh'),
-	   (N'Đắc nhân tâm',N'Tâm lý',1936,N'TG014',89000,126000,N'NXB trẻ'),
-	   (N'Thép đã tôi thế đấy',N'Truyện ngắn',1930,N'TG016',100000,168000,N'NXB văn học');
+
+INSERT INTO SACH (IDMASACH, MaSach, TenSach, TenTheLoai, NamXuatBan, MaTacGia, GiaNhap, GiaBan, TenNhaXuatBan)
+VALUES 
+    (1, 'SS01', N'Truyện Kiều', N'Truyện thơ nôm', 1814, 'TG01', 65000, 89000, N'NXB Trẻ'),
+    (2, 'SS02', N'Sống mòn', N'Tiểu thuyết', 1956, 'TG02', 50000, 79000, N'NXB Đời Nay'),
+    (3, 'SS03', N'Chí phèo', N'Truyện ngắn', 1941, 'TG02', 70000, 96000, N'NXB Đời Nay'),
+    (4, 'SS04', N'Lão hạc', N'Truyện ngắn', 1943, 'TG02', 70000, 96000, N'NXB Đời Nay'),
+    (5, 'SS05', N'Cú phạt đền', N'Truyện ngắn', 1985, 'TG03', 76000, 99000, N'NXB Kim Đồng'),
+    (6, 'SS06', N'Mắt biếc', N'Truyện dài', 1990, 'TG03', 89000, 110000, N'NXB Trẻ'),
+    (7, 'SS07', N'Tôi thấy hoa vàng trên cỏ xanh', N'Truyện dài', 2010, 'TG03', 100000, 125000, N'NXB Kim Đồng'),
+    (8, 'SS08', N'Số đỏ', N'Tiểu thuyết', 1936, 'TG04', 45000, 57000, N'Hà Nội Báo'),
+    (9, 'SS09', N'Vỡ đê', N'Tiểu thuyết', 1936, 'TG04', 40000, 55000, N'Báo Tương Lai'),
+    (10, 'SS010', N'Nhật ký trong tù', N'Thơ', 1942, 'TG05', 67000, 90000, N'NXB Kim Đồng'),
+    (11, 'SS011', N'Lịch sử nước ta', N'Thơ', 1942, 'TG05', 66000, 89000, N'NXB Trẻ'),
+    (12, 'SS012', N'Đường cách mệnh', N'Văn xuôi', 1927, 'TG05', 65000, 80000, N'NXB Kim Đồng'),
+    (13, 'SS013', N'Khóc giữa Sài Gòn', N'Tiểu thuyết', 2014, 'TG06', 77000, 98000, N'NXB Phụ Nữ'),
+    (14, 'SS014', N'Lưng chừng cô đơn', N'Văn xuôi', 2015, 'TG06', 55000, 65000, N'NXB Phụ Nữ'),
+    (15, 'SS015', N'Dế mèn phiêu lưu ký', N'Văn học', 1941, 'TG09', 45000, 56000, N'NXB Kim Đồng'),
+    (16, 'SS016', N'Tắt đèn', N'Tiểu thuyết', 1939, 'TG08', 67000, 89000, N'NXB Mai Linh'),
+    (17, 'SS017', N'Đắc nhân tâm', N'Tâm lý', 1936, 'TG07', 89000, 126000, N'NXB Trẻ'),
+    (18, 'SS018', N'Thép đã tôi thế đấy', N'Truyện ngắn', 1930, 'TG08', 100000, 168000, N'NXB Văn Học');
+
 	   
-<<<<<<< HEAD
-INSERT INTO HOADON (KHACHHANG, NGAYLAP, TONGTIEN) VALUES 
-		(N'Nguyễn Văn An', '2023-10-01', 200000),
-		(N'Trần Thị Bình', '2024-08-02', 150000),
-		(N'Nguyễn Văn Cương', '2024-10-09', 300000),
-		(N'Phạm Văn Dũng', '2022-10-04', 250000),
-		(N'Lê Thị Em', '2023-10-05', 400000);
-=======
-	   INSERT INTO HOADON (KHACHHANG, NGAYLAP, TONGTIEN) VALUES 
-		(N'Nguyễn Văn An', '2023-10-01', 274000),
-		(N'Trần Thị Bình', '2024-08-02', 146000),
-		(N'Nguyễn Văn Cương', '2024-10-09', 294000),
-		(N'Phạm Văn Dũng', '2022-10-04', 290000),
-		(N'Lê Thị Em', '2023-10-05', 252000);
->>>>>>> 09bf54e38c43d747b0fbe213a72302848ac3421e
+
+INSERT INTO HOADON (IDHOADON, MAHOADON, KhachHang, NgayLap, TongTien)
+VALUES 
+    (1, 'HD01', N'Nguyễn Văn An', '2023-10-01', 274000),
+    (2, 'HD02', N'Trần Thị Bình', '2024-08-02', 146000),
+    (3, 'HD03', N'Nguyễn Văn Cương', '2024-10-09', 294000),
+    (4, 'HD04', N'Phạm Văn Dũng', '2022-10-04', 290000),
+    (5, 'HD05', N'Lê Thị Em', '2023-10-05', 250000);
+
+
 
 INSERT INTO CHITIETHOADON (MAHOADON, MASACH, GIABAN, SOLUONG, THANHTIEN) VALUES 
-		('HD001', 'SS0170', 89000, 2, 178000),  
-		('HD001', 'SS0180', 96000, 1, 96000),  
-		('HD002', 'SS0205', 57000, 1, 57000),  
-		('HD002', 'SS0170', 89000, 1, 89000),  
-		('HD003', 'SS0305', 98000, 3, 294000),  
-		('HD004', 'SS0240', 56000, 2, 112000), 
-		('HD004', 'SS0170', 89000, 2, 178000),   
-		('HD005', 'SS0200', 122000, 2, 250000);  
-	INSERT INTO KHOSACH (MASACH, SL) VALUES 
-		('SS0180', 10),
-		('SS0190', 15),
-		('SS0200', 8),
-		('SS0205', 12),
-		('SS0210', 5),
-		('SS0215', 20),
-		('SS0220', 7),
-		('SS0225', 18),
-		('SS0230', 11),
-		('SS0240', 16),
-		('SS0245', 9),
-		('SS0250', 14),
-		('SS0255', 13),
-		('SS0260', 4),
-		('SS0265', 10),
-		('SS0270', 6),
-		('SS0275', 3),
-		('SS0280', 5);
+		('HD01', 'SS011', 89000, 2, 178000),  
+		('HD01', 'SS03', 96000, 1, 96000),  
+		('HD02', 'SS08', 57000, 1, 57000),  
+		('HD02', 'SS016', 89000, 1, 89000),  
+		('HD03', 'SS013', 98000, 3, 294000),  
+		('HD04', 'SS015', 56000, 2, 112000), 
+		('HD04', 'SS01', 89000, 2, 178000),   
+		('HD05', 'SS07', 125000, 2, 250000);  
+	INSERT INTO KHOSACH (ID, IDKHO, MaSach, SL)
+	VALUES 
+    (1, 'KS01', 'SS01', 10),
+    (2, 'KS02', 'SS02', 15),
+    (3, 'KS03', 'SS03', 8),
+    (4, 'KS04', 'SS04', 12),
+    (5, 'KS05', 'SS05', 5),
+    (6, 'KS06', 'SS06', 20),
+    (7, 'KS07', 'SS07', 7),
+    (8, 'KS08', 'SS08', 18),
+    (9, 'KS09', 'SS09', 11),
+    (10, 'KS010', 'SS010', 16),
+    (11, 'KS011', 'SS011', 9),
+    (12, 'KS012', 'SS012', 14),
+    (13, 'KS013', 'SS013', 13),
+    (14, 'KS014', 'SS014', 9),
+    (15, 'KS015', 'SS015', 10),
+    (16, 'KS016', 'SS016', 6),
+    (17, 'KS017', 'SS017', 7),
+    (18, 'KS018', 'SS018', 5);
 
 
 
-<<<<<<< HEAD
 
-	SELECT * FROM THELOAI
-=======
-		
 
->>>>>>> 09bf54e38c43d747b0fbe213a72302848ac3421e

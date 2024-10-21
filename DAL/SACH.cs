@@ -7,7 +7,7 @@ namespace DAL
     using System.Data.Entity.Spatial;
 
     [Table("SACH")]
-    public class SACH
+    public  class SACH
     {
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
         public SACH()
@@ -16,11 +16,9 @@ namespace DAL
             KHOSACHes = new HashSet<KHOSACH>();
         }
 
-        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int IDMASACH { get; set; }
 
         [Key]
-        [DatabaseGenerated(DatabaseGeneratedOption.Computed)]
         [StringLength(6)]
         public string MASACH { get; set; }
 
