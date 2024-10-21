@@ -35,7 +35,7 @@ namespace QLNhaSach
             }
             else
             {
-                MessageBox.Show("Thông báo", "Bạn không có quyền truy cập chức năng này");
+                MessageBox.Show( "Bạn không có quyền truy cập chức năng này","Thông báo");
             }
             
         }
@@ -43,8 +43,11 @@ namespace QLNhaSach
         private void fTongHop_Load(object sender, EventArgs e)
         {
             BUSSACH bussach = new BUSSACH();
-            var sql = bussach.DSSACH();
-            var dss = from sach in sql
+            var sqlsach = bussach.DSSACH();
+            BUSKHO buskho = new BUSKHO();
+            var sqlkho = buskho.DSKHOSACH();
+            var dss = from sach in sqlsach
+                      join kho in sqlkho on sach.SACH.MASACH equals kho.KHOSACH.MASACH   
                       select new {
                       sach.SACH.IDMASACH,
                       sach.SACH.TENSACH,
@@ -53,6 +56,7 @@ namespace QLNhaSach
                       sach.SACH.GIABAN,
                       sach.SACH.NHAXUATBAN.TENNHAXUATBAN,
                       sach.SACH.NAMXUATBAN,
+                      kho.KHOSACH.SL
                       
                       };
 
@@ -101,6 +105,11 @@ namespace QLNhaSach
 
         }
         private void tlsMenu_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        {
+
+        }
+
+        private void lblTaiKhoan_Click(object sender, EventArgs e)
         {
 
         }

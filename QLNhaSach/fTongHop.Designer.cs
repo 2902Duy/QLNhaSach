@@ -1,4 +1,7 @@
-﻿namespace QLNhaSach
+﻿using System.Drawing;
+using System.Windows.Forms;
+
+namespace QLNhaSach
 {
     partial class fTongHop
     {
@@ -29,6 +32,8 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(fTongHop));
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             this.tlsMenu = new System.Windows.Forms.ToolStrip();
             this.tssTaiKhoan = new System.Windows.Forms.ToolStripSplitButton();
             this.tmiTaiKhoan = new System.Windows.Forms.ToolStripMenuItem();
@@ -53,6 +58,8 @@
             // 
             // tlsMenu
             // 
+            this.tlsMenu.BackColor = System.Drawing.Color.LightBlue;
+            this.tlsMenu.ForeColor = System.Drawing.Color.DarkBlue;
             this.tlsMenu.ImageScalingSize = new System.Drawing.Size(19, 19);
             this.tlsMenu.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.tssTaiKhoan,
@@ -109,26 +116,26 @@
             // tmiSach
             // 
             this.tmiSach.Name = "tmiSach";
-            this.tmiSach.Size = new System.Drawing.Size(180, 22);
+            this.tmiSach.Size = new System.Drawing.Size(145, 22);
             this.tmiSach.Text = "Sách";
             // 
             // tmiLoaiSach
             // 
             this.tmiLoaiSach.Name = "tmiLoaiSach";
-            this.tmiLoaiSach.Size = new System.Drawing.Size(180, 22);
+            this.tmiLoaiSach.Size = new System.Drawing.Size(145, 22);
             this.tmiLoaiSach.Text = "Loại sách";
             this.tmiLoaiSach.Click += new System.EventHandler(this.tmiLoaiSach_Click_1);
             // 
             // tmiTacGia
             // 
             this.tmiTacGia.Name = "tmiTacGia";
-            this.tmiTacGia.Size = new System.Drawing.Size(180, 26);
+            this.tmiTacGia.Size = new System.Drawing.Size(145, 22);
             this.tmiTacGia.Text = "Tác giả";
             // 
             // tmiNhaXuatBan
             // 
             this.tmiNhaXuatBan.Name = "tmiNhaXuatBan";
-            this.tmiNhaXuatBan.Size = new System.Drawing.Size(180, 22);
+            this.tmiNhaXuatBan.Size = new System.Drawing.Size(145, 22);
             this.tmiNhaXuatBan.Text = "Nhà xuất bản";
             this.tmiNhaXuatBan.Click += new System.EventHandler(this.tmiNhaXuatBan_Click);
             // 
@@ -170,7 +177,24 @@
             // 
             // dgvSach
             // 
+            this.dgvSach.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.Navy;
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Verdana", 10F, System.Drawing.FontStyle.Bold);
+            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvSach.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
             this.dgvSach.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.LightBlue;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.Color.DarkBlue;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dgvSach.DefaultCellStyle = dataGridViewCellStyle2;
             this.dgvSach.Location = new System.Drawing.Point(25, 54);
             this.dgvSach.Name = "dgvSach";
             this.dgvSach.RowHeadersWidth = 49;
@@ -181,12 +205,16 @@
             // lblTaiKhoan
             // 
             this.lblTaiKhoan.AutoSize = true;
+            this.lblTaiKhoan.BackColor = System.Drawing.SystemColors.Control;
+            this.lblTaiKhoan.Cursor = System.Windows.Forms.Cursors.Cross;
             this.lblTaiKhoan.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.lblTaiKhoan.Location = new System.Drawing.Point(473, 25);
+            this.lblTaiKhoan.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.lblTaiKhoan.Location = new System.Drawing.Point(500, 31);
             this.lblTaiKhoan.Name = "lblTaiKhoan";
             this.lblTaiKhoan.Size = new System.Drawing.Size(127, 20);
             this.lblTaiKhoan.TabIndex = 2;
             this.lblTaiKhoan.Text = "TÀI KHOẢN: duy";
+            this.lblTaiKhoan.Click += new System.EventHandler(this.lblTaiKhoan_Click);
             // 
             // lblDoanhThu
             // 
