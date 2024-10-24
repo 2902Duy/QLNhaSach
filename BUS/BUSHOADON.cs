@@ -44,7 +44,10 @@ namespace BUS
                 db.HOADONs.Add(hd);
                 db.SaveChanges();
             }
-            catch (Exception ex) { }
+            catch (Exception ex) 
+            {
+                
+            }
         }
 
     }

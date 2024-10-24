@@ -54,5 +54,6 @@ namespace DAL
         public virtual TACGIA TACGIA { get; set; }
 
         public virtual THELOAI THELOAI { get; set; }
+
     }
 }

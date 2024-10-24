@@ -51,7 +51,7 @@ namespace QLNhaSach
             if (txtTENTACGIA.Text.Length < 3 || txtTENTACGIA.Text.Length > 100)
             {
 
-                err.SetError(txtTENTACGIA, "Tên sinh viên không hợp lệ, vui lòng nhập lại!");
+                err.SetError(txtTENTACGIA, "Tên tác giả không hợp lệ, vui lòng nhập lại!");
             }
             else
             {
@@ -87,6 +87,11 @@ namespace QLNhaSach
             txtMATG.DataBindings.Add(new Binding("Text", binding, "MATACGIA", true, DataSourceUpdateMode.Never));
             txtTENTACGIA.DataBindings.Add(new Binding("Text", binding, "TENTACGIA", true, DataSourceUpdateMode.Never));
             txtQUEQUAN.DataBindings.Add(new Binding("Text", binding, "QUEQUAN", true, DataSourceUpdateMode.Never));
+
+        }
+
+        private void btnSua_Click(object sender, EventArgs e)
+        {
 
         }
     }

@@ -58,3 +58,18 @@ D:\Tổng hợp phiếu Trịnh Kiển Đạt\QLNhaSach\BUS\obj\Debug\BUS.csproj
 D:\Tổng hợp phiếu Trịnh Kiển Đạt\QLNhaSach\BUS\obj\Debug\BUS.csproj.Up2Date
 D:\Tổng hợp phiếu Trịnh Kiển Đạt\QLNhaSach\BUS\obj\Debug\BUS.dll
 D:\Tổng hợp phiếu Trịnh Kiển Đạt\QLNhaSach\BUS\obj\Debug\BUS.pdb
+C:\Users\DELL\Downloads\QLNhaSach\BUS\bin\Debug\BUS.dll.config
+C:\Users\DELL\Downloads\QLNhaSach\BUS\bin\Debug\BUS.dll
+C:\Users\DELL\Downloads\QLNhaSach\BUS\bin\Debug\BUS.pdb
+C:\Users\DELL\Downloads\QLNhaSach\BUS\bin\Debug\DAL.dll
+C:\Users\DELL\Downloads\QLNhaSach\BUS\bin\Debug\EntityFramework.dll
+C:\Users\DELL\Downloads\QLNhaSach\BUS\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\DELL\Downloads\QLNhaSach\BUS\bin\Debug\DAL.pdb
+C:\Users\DELL\Downloads\QLNhaSach\BUS\bin\Debug\DAL.dll.config
+C:\Users\DELL\Downloads\QLNhaSach\BUS\bin\Debug\EntityFramework.xml
+C:\Users\DELL\Downloads\QLNhaSach\BUS\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\DELL\Downloads\QLNhaSach\BUS\obj\Debug\BUS.csproj.AssemblyReference.cache
+C:\Users\DELL\Downloads\QLNhaSach\BUS\obj\Debug\BUS.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Downloads\QLNhaSach\BUS\obj\Debug\BUS.csproj.Up2Date
+C:\Users\DELL\Downloads\QLNhaSach\BUS\obj\Debug\BUS.dll
+C:\Users\DELL\Downloads\QLNhaSach\BUS\obj\Debug\BUS.pdb

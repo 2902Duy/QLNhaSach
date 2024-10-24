@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using DAL;
 
@@ -24,5 +25,73 @@ namespace BUS
 
         }
 
+        public void themSach(string tenSach ,string tacGia, string theLoai, string tenNhaSX, int giaNhap, int giaBan, int namXB)
+        {
+            var id = db.SACHes.Max(s => s.IDMASACH) + 1;
+            string maSach= "SS00" + (id + 1);
+
+            var tacGiaObj = db.TACGIAs.FirstOrDefault(t => t.TENTACGIA == tacGia);
+            if (tacGiaObj == null)
+            {
+                tacGiaObj = new TACGIA { TENTACGIA = tacGia };
+                db.TACGIAs.Add(tacGiaObj); 
+            }
+
+            SACH sach = new SACH
+            {
+                IDMASACH = id,
+                MASACH = maSach,
+                TENSACH = tenSach,
+                TACGIA = tacGiaObj,
+                TENTHELOAI = theLoai,
+                TENNHAXUATBAN = tenNhaSX,
+                GIANHAP = giaNhap,
+                GIABAN = giaBan,
+                NAMXUATBAN = namXB
+            };
+            db.SACHes.Add(sach);
+            db.SaveChanges();
+        }
+
+        public void xoaSach(int idMaSach)
+        {
+            var sach = db.SACHes.FirstOrDefault(s => s.IDMASACH == idMaSach);
+
+            if (sach != null) 
+            {
+                db.SACHes.Remove(sach); 
+                db.SaveChanges(); 
+            }
+        }
+
+        public void suaSach(int idMaSach, string tenSach, string tacGia, string theLoai, string tenNhaSX, int giaNhap, int giaBan, int namXB)
+        {
+            var sach = db.SACHes.FirstOrDefault(s => s.IDMASACH == idMaSach);
+
+            if (sach != null)
+            {
+                sach.TENSACH = tenSach;
+                var tacGiaObj = db.TACGIAs.FirstOrDefault(t => t.TENTACGIA == tacGia);
+                if (tacGiaObj == null)
+                {
+                    tacGiaObj = new TACGIA { TENTACGIA = tacGia };
+                    db.TACGIAs.Add(tacGiaObj);
+                }
+
+                sach.TACGIA = tacGiaObj;
+                sach.TENTHELOAI = theLoai;
+                sach.TENNHAXUATBAN = tenNhaSX;
+                sach.GIANHAP = giaNhap;
+                sach.GIABAN = giaBan;
+                sach.NAMXUATBAN = namXB;
+
+                db.SaveChanges();
+            }
+            else
+            {
+                throw new InvalidOperationException("Sách không tồn tại.");
+            }
+        }
     }
+
 }
