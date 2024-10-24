@@ -135,6 +135,7 @@
             this.dgvTacGia.RowTemplate.Height = 24;
             this.dgvTacGia.Size = new System.Drawing.Size(720, 226);
             this.dgvTacGia.TabIndex = 12;
+            this.dgvTacGia.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvTacGia_CellContentClick);
             // 
             // btnXoa
             // 
@@ -145,6 +146,7 @@
             this.btnXoa.TabIndex = 13;
             this.btnXoa.Text = "Xóa";
             this.btnXoa.UseVisualStyleBackColor = true;
+            this.btnXoa.Click += new System.EventHandler(this.btnXoa_Click);
             // 
             // btnSua
             // 

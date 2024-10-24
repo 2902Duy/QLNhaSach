@@ -57,13 +57,10 @@ D:\Tonghopphieu\QLNhaSach\QLNhaSach\obj\Debug\QLNhaSach.fLoaiSach.resources
 D:\Tonghopphieu\QLNhaSach\QLNhaSach\obj\Debug\QLNhaSach.fNhaXuatBan.resources
 D:\Tonghopphieu\QLNhaSach\QLNhaSach\obj\Debug\QLNhaSach.fSuaSach.resources
 D:\Tonghopphieu\QLNhaSach\QLNhaSach\obj\Debug\QLNhaSach.fTaiKhoan.resources
-D:\Tonghopphieu\QLNhaSach\QLNhaSach\obj\Debug\QLNhaSach.fThemSach.resources
 D:\Tonghopphieu\QLNhaSach\QLNhaSach\obj\Debug\QLNhaSach.fThemSuaHD.resources
 D:\Tonghopphieu\QLNhaSach\QLNhaSach\obj\Debug\QLNhaSach.fThemTacGia.resources
 D:\Tonghopphieu\QLNhaSach\QLNhaSach\obj\Debug\QLNhaSach.fThongKe.resources
 D:\Tonghopphieu\QLNhaSach\QLNhaSach\obj\Debug\QLNhaSach.fTongHop.resources
-D:\Tonghopphieu\QLNhaSach\QLNhaSach\obj\Debug\QLNhaSach.fXoaSach.resources
-D:\Tonghopphieu\QLNhaSach\QLNhaSach\obj\Debug\QLNhaSach.Fxoatacgia.resources
 D:\Tonghopphieu\QLNhaSach\QLNhaSach\obj\Debug\QLNhaSach.Properties.Resources.resources
 D:\Tonghopphieu\QLNhaSach\QLNhaSach\obj\Debug\QLNhaSach.csproj.GenerateResource.cache
 D:\Tonghopphieu\QLNhaSach\QLNhaSach\obj\Debug\QLNhaSach.csproj.CoreCompileInputs.cache
