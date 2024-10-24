@@ -1,4 +1,5 @@
 ﻿using BUS;
+using DAL;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -20,10 +21,47 @@ namespace QLNhaSach
         {
             InitializeComponent();
         }
+        private void UpdateDataGridView()
+        {
+            var dstg = busstacgia.DSSACH_TACGIA();
+            var tacgiaData = from TacGia in dstg
+                             select new
+                             {
+                                 TacGia.IDTACGIA,
+                                 TacGia.TENTACGIA,
+                                 TacGia.QUEQUAN
+                             };
 
+            binding.DataSource = tacgiaData.ToList();
+            dgvTacGia.DataSource = binding;
+            binding.ResetBindings(false);
+
+        }
         private void btnThem_Click(object sender, EventArgs e)
         {
+            try
+            {
+                if (string.IsNullOrEmpty(txtTENTACGIA.Text) )
+                    throw new InvalidOperationException("Vui lòng chọn đầy đủ thông tin Tác giả, quê quán.");
 
+                BUSSACH busstacgia = new BUSSACH();
+                busstacgia.themTacGia(
+
+                    txtTENTACGIA.Text,
+                    txtQUEQUAN.Text
+                );
+
+                MessageBox.Show("Thêm tác giả thành công!");
+                UpdateDataGridView();
+            }
+            catch (InvalidOperationException ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Đã xảy ra lỗi: " + ex.Message);
+            }
         }
 
         private void txtMATG_TextChanged(object sender, EventArgs e)
@@ -66,33 +104,92 @@ namespace QLNhaSach
 
         private void fThemTacGia_Load(object sender, EventArgs e)
         {
-            BUSSACH busstacgia = new BUSSACH();
+            
+            using (dataBookStore db = new dataBookStore())
+            {
+                BUSSACH busstacgia = new BUSSACH();
 
-            var dstg = busstacgia.DSSACH();
+                var dstg = busstacgia.DSSACH_TACGIA();
 
-            var TacgiaData = dstg
-                    .Select(TacGia => new
-                    {
-                    TacGia.TACGIA.MATACGIA,
-                    TacGia.TACGIA.TENTACGIA,
-                    TacGia.TACGIA.QUEQUAN
-                    }).Distinct();
-            binding.DataSource = TacgiaData.ToList();
-            dgvTacGia.DataSource = binding;
-            databinding();
-       
+                var TacgiaData = dstg
+                        .Select(TacGia => new
+                        {
+                            TacGia.IDTACGIA,
+                            TacGia.TENTACGIA,
+                            TacGia.QUEQUAN
+                        }).Distinct();
+                txtMATG.ReadOnly = true;
+                binding.DataSource = TacgiaData.ToList();
+                databinding();
+                dgvTacGia.DataSource = binding;
+            }
+
+
         }
         public void databinding()
         {
-            txtMATG.DataBindings.Add(new Binding("Text", binding, "MATACGIA", true, DataSourceUpdateMode.Never));
+            txtMATG.DataBindings.Add(new Binding("Text", binding, "IDTACGIA", true, DataSourceUpdateMode.Never));
             txtTENTACGIA.DataBindings.Add(new Binding("Text", binding, "TENTACGIA", true, DataSourceUpdateMode.Never));
             txtQUEQUAN.DataBindings.Add(new Binding("Text", binding, "QUEQUAN", true, DataSourceUpdateMode.Never));
 
         }
+        
 
         private void btnSua_Click(object sender, EventArgs e)
         {
+            if (dgvTacGia.SelectedRows.Count > 0)
+            {
+                int idTacGia = Convert.ToInt32(dgvTacGia.SelectedRows[0].Cells["IDTACGIA"].Value);
 
+                try
+                {
+                    string tenTG = txtTENTACGIA.Text;
+                    string quequan = txtQUEQUAN.Text;
+
+                    busstacgia.suaTacGia(idTacGia, tenTG, quequan);
+                    MessageBox.Show("Sửa thành công!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    UpdateDataGridView();
+                }
+                
+                catch (Exception ex)
+                {
+                    MessageBox.Show("Có lỗi xảy ra khi sửa tác giả: " + ex.Message, "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
+            else
+            {
+                MessageBox.Show("Vui lòng chọn một hàng để sửa.", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
+        }
+
+        private void dgvTacGia_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void btnXoa_Click(object sender, EventArgs e)
+        {
+            if (dgvTacGia.SelectedRows.Count > 0)
+            {
+                int idTacGia = Convert.ToInt32(dgvTacGia.SelectedRows[0].Cells["IDTACGIA"].Value);
+
+                try
+                {
+                    busstacgia.xoaTacGia(idTacGia);
+
+                    MessageBox.Show("Xóa tác giả thành công!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+                    UpdateDataGridView();
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show("Có lỗi xảy ra khi xóa tác giả: " + ex.Message, "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
+            else
+            {
+                MessageBox.Show("Vui lòng chọn một hàng để xóa.", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
         }
     }
 }

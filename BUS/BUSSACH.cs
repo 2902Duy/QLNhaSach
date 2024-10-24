@@ -96,6 +96,7 @@ namespace BUS
                 throw new InvalidOperationException("Sách không tồn tại.");
             }
         }
+<<<<<<< HEAD
         public void ThemTheLoai(string tenTheLoai)
         {
             try
@@ -140,6 +141,64 @@ namespace BUS
                 throw new Exception($"Lỗi khi xóa thể loại: {ex.Message}");
             }
         }
+=======
+
+
+        public List<TACGIA> DSSACH_TACGIA()
+        {
+            using (var db = new dataBookStore())
+            {
+
+                return db.TACGIAs.ToList(); // Lấy tất cả tác giả
+            }
+        }
+
+        public void themTacGia(string tenTacGia, string Quequan)
+        {
+            var id = db.TACGIAs.Max(s => s.IDTACGIA) + 1;
+            string maTacGia = "TG00" + (id + 1);
+
+            TACGIA tg = new TACGIA
+            {
+                IDTACGIA = id,
+                MATACGIA = maTacGia,
+                TENTACGIA = tenTacGia,
+                QUEQUAN = Quequan,
+               
+            };
+            db.TACGIAs.Add(tg);
+            db.SaveChanges();
+        }
+
+        public void xoaTacGia(int idTacGia)
+        {
+            var tacgia = db.TACGIAs.FirstOrDefault(s => s.IDTACGIA == idTacGia);
+
+            if (tacgia != null)
+            {     
+           
+                db.TACGIAs.Remove(tacgia);
+                db.SaveChanges();
+            }
+        }
+
+        public void suaTacGia(int idTacGia, string tenTacGIa, string Quequan)
+        {
+            var tacgia = db.TACGIAs.FirstOrDefault(s => s.IDTACGIA == idTacGia);
+
+            if (tacgia != null)
+            {
+                tacgia.TENTACGIA = tenTacGIa ;
+                tacgia.QUEQUAN = Quequan ;
+                db.SaveChanges();
+            }
+            else
+            {
+                throw new InvalidOperationException("Tác giả không tồn tại.");
+            }
+        }
+
+>>>>>>> a36fad12fd3ae0c445bc03a8043e55c93d9814ad
     }
 
 }
