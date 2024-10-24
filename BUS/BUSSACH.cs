@@ -24,6 +24,10 @@ namespace BUS
             return dss;
 
         }
+        public IEnumerable<THELOAI> DSTHELOAI()
+        {
+            return db.THELOAIs.ToList();
+        }
 
         public void themSach(string tenSach ,string tacGia, string theLoai, string tenNhaSX, int giaNhap, int giaBan, int namXB)
         {
@@ -90,6 +94,50 @@ namespace BUS
             else
             {
                 throw new InvalidOperationException("Sách không tồn tại.");
+            }
+        }
+        public void ThemTheLoai(string tenTheLoai)
+        {
+            try
+            {
+
+                var TheLoaiExist = db.THELOAIs.FirstOrDefault(t => t.TENTHELOAI == tenTheLoai); 
+                if (TheLoaiExist != null)
+                {
+                    throw new Exception("Tên thể loại sách đã tồn tại.");
+                }
+                THELOAI theLoaiMoi = new THELOAI
+                {
+                    TENTHELOAI = tenTheLoai
+                };
+
+                db.THELOAIs.Add(theLoaiMoi);
+                db.SaveChanges();
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("Có lỗi xảy ra khi thêm thể loại sách: " + ex.Message);
+            }
+        }
+
+        public void XoaTheLoai(string tenTheLoai)
+        {
+            try
+            {
+                var theLoai = db.THELOAIs.FirstOrDefault(t => t.TENTHELOAI == tenTheLoai);
+                if (theLoai != null)
+                {
+                    db.THELOAIs.Remove(theLoai);
+                    db.SaveChanges(); 
+                }
+                else
+                {
+                    throw new Exception("Thể loại không tồn tại!");
+                }
+            }
+            catch (Exception ex)
+            {
+                throw new Exception($"Lỗi khi xóa thể loại: {ex.Message}");
             }
         }
     }

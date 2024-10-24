@@ -113,5 +113,23 @@ namespace QLNhaSach
         {
 
         }
+
+        private void tmiTacGia_Click(object sender, EventArgs e)
+        {
+            fThemTacGia fThemTacGia = new fThemTacGia();
+            fThemTacGia.Show();
+        }
+
+        private void tmiSach_Click(object sender, EventArgs e)
+        {
+            fSuaSach fSuaSach = new fSuaSach();
+            fSuaSach.Show();
+        }
+
+        private void tmiTheLoaiS_Click(object sender, EventArgs e)
+        {
+            fLoaiSach fLoaiSach = new fLoaiSach();
+            fLoaiSach.Show();
+        }
     }
 }

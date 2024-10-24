@@ -90,11 +90,11 @@
     <Compile Include="fKho.Designer.cs">
       <DependentUpon>fKho.cs</DependentUpon>
     </Compile>
-    <Compile Include="FLoaiSach.cs">
+    <Compile Include="fLoaiSach.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FLoaiSach.Designer.cs">
-      <DependentUpon>FLoaiSach.cs</DependentUpon>
+    <Compile Include="fLoaiSach.Designer.cs">
+      <DependentUpon>fLoaiSach.cs</DependentUpon>
     </Compile>
     <Compile Include="fNhaXuatBan.cs">
       <SubType>Form</SubType>
@@ -156,8 +156,8 @@
     <EmbeddedResource Include="fKho.resx">
       <DependentUpon>fKho.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FLoaiSach.resx">
-      <DependentUpon>FLoaiSach.cs</DependentUpon>
+    <EmbeddedResource Include="fLoaiSach.resx">
+      <DependentUpon>fLoaiSach.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="fNhaXuatBan.resx">
       <DependentUpon>fNhaXuatBan.cs</DependentUpon>

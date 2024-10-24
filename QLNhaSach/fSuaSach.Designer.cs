@@ -64,6 +64,7 @@
             this.dgvSuaS.RowTemplate.Height = 24;
             this.dgvSuaS.Size = new System.Drawing.Size(856, 278);
             this.dgvSuaS.TabIndex = 0;
+            this.dgvSuaS.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvSuaS_CellContentClick);
             // 
             // label2
             // 
@@ -273,7 +274,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.dgvSuaS);
             this.Name = "fSuaSach";
-            this.Text = "CHỈNH SỬA SÁCH";
+            this.Text = "CÀI ĐẶT SÁCH";
             this.Load += new System.EventHandler(this.fSuaSach_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvSuaS)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.err)).EndInit();

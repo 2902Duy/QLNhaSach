@@ -50,7 +50,7 @@
             // dgvKho
             // 
             this.dgvKho.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvKho.Location = new System.Drawing.Point(34, 12);
+            this.dgvKho.Location = new System.Drawing.Point(23, 12);
             this.dgvKho.Name = "dgvKho";
             this.dgvKho.RowHeadersWidth = 49;
             this.dgvKho.RowTemplate.Height = 24;
@@ -84,14 +84,14 @@
             this.lblTen.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.01739F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTen.Location = new System.Drawing.Point(19, 323);
             this.lblTen.Name = "lblTen";
-            this.lblTen.Size = new System.Drawing.Size(99, 20);
+            this.lblTen.Size = new System.Drawing.Size(93, 20);
             this.lblTen.TabIndex = 19;
             this.lblTen.Text = "TÊN SÁCH:";
             // 
             // cmbTenS
             // 
             this.cmbTenS.FormattingEnabled = true;
-            this.cmbTenS.Location = new System.Drawing.Point(118, 323);
+            this.cmbTenS.Location = new System.Drawing.Point(124, 323);
             this.cmbTenS.Name = "cmbTenS";
             this.cmbTenS.Size = new System.Drawing.Size(121, 24);
             this.cmbTenS.TabIndex = 20;
@@ -102,20 +102,20 @@
             this.lblSL.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.01739F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblSL.Location = new System.Drawing.Point(18, 357);
             this.lblSL.Name = "lblSL";
-            this.lblSL.Size = new System.Drawing.Size(103, 20);
+            this.lblSL.Size = new System.Drawing.Size(97, 20);
             this.lblSL.TabIndex = 21;
             this.lblSL.Text = "SỐ LƯỢNG:";
             // 
             // dudSL1
             // 
-            this.dudSL1.Location = new System.Drawing.Point(118, 355);
+            this.dudSL1.Location = new System.Drawing.Point(124, 355);
             this.dudSL1.Name = "dudSL1";
             this.dudSL1.Size = new System.Drawing.Size(156, 22);
             this.dudSL1.TabIndex = 22;
             // 
             // btnLuu
             // 
-            this.btnLuu.Location = new System.Drawing.Point(297, 348);
+            this.btnLuu.Location = new System.Drawing.Point(319, 348);
             this.btnLuu.Name = "btnLuu";
             this.btnLuu.Size = new System.Drawing.Size(108, 35);
             this.btnLuu.TabIndex = 23;
@@ -129,7 +129,7 @@
             this.label1.ForeColor = System.Drawing.SystemColors.InfoText;
             this.label1.Location = new System.Drawing.Point(17, 407);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(188, 33);
+            this.label1.Size = new System.Drawing.Size(176, 32);
             this.label1.TabIndex = 24;
             this.label1.Text = "CHỌN SÁCH";
             // 
@@ -149,7 +149,7 @@
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.01739F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(19, 713);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(99, 20);
+            this.label2.Size = new System.Drawing.Size(93, 20);
             this.label2.TabIndex = 26;
             this.label2.Text = "TÊN SÁCH:";
             // 
@@ -159,7 +159,7 @@
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.01739F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(19, 773);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(103, 20);
+            this.label3.Size = new System.Drawing.Size(97, 20);
             this.label3.TabIndex = 27;
             this.label3.Text = "SỐ LƯỢNG:";
             // 
@@ -173,16 +173,16 @@
             // 
             // domainUpDown1
             // 
-            this.domainUpDown1.Location = new System.Drawing.Point(118, 771);
+            this.domainUpDown1.Location = new System.Drawing.Point(124, 771);
             this.domainUpDown1.Name = "domainUpDown1";
             this.domainUpDown1.Size = new System.Drawing.Size(156, 22);
             this.domainUpDown1.TabIndex = 29;
             // 
             // btnThem
             // 
-            this.btnThem.Location = new System.Drawing.Point(297, 766);
+            this.btnThem.Location = new System.Drawing.Point(319, 765);
             this.btnThem.Name = "btnThem";
-            this.btnThem.Size = new System.Drawing.Size(156, 30);
+            this.btnThem.Size = new System.Drawing.Size(108, 32);
             this.btnThem.TabIndex = 30;
             this.btnThem.Text = "THÊM";
             this.btnThem.UseVisualStyleBackColor = true;
