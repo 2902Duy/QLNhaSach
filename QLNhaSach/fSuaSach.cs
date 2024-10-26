@@ -267,6 +267,11 @@ namespace QLNhaSach
                 e.Handled = true;
             }
         }
+
+        private void dgvSuaS_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }
 

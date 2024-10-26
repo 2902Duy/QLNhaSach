@@ -92,6 +92,7 @@ namespace QLNhaSach
 
         private void btnThem_Click(object sender, EventArgs e)
         {
+            /*
             try
             {
                 if (string.IsNullOrEmpty(txtMaS.Text) || string.IsNullOrEmpty(txtSluong.Text))
@@ -120,6 +121,7 @@ namespace QLNhaSach
             {
                 MessageBox.Show("Đã xảy ra lỗi: " + ex.Message);
             }
+            */        
         }
         private void btnSua_Click(object sender, EventArgs e)
         {

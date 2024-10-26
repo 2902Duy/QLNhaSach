@@ -33,12 +33,12 @@
             this.btnXoa = new System.Windows.Forms.Button();
             this.lblTen = new System.Windows.Forms.Label();
             this.lblSL = new System.Windows.Forms.Label();
-            this.btnThem = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.txtMaKho = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.txtSluong = new System.Windows.Forms.TextBox();
             this.txtMaS = new System.Windows.Forms.TextBox();
+            this.btnThem = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgvKho)).BeginInit();
             this.SuspendLayout();
             // 
@@ -60,7 +60,7 @@
             this.btnSua.Name = "btnSua";
             this.btnSua.Size = new System.Drawing.Size(187, 30);
             this.btnSua.TabIndex = 17;
-            this.btnSua.Text = "CHỌN SỬA";
+            this.btnSua.Text = "CHỈNH SỬA";
             this.btnSua.UseVisualStyleBackColor = true;
             this.btnSua.Click += new System.EventHandler(this.btnSua_Click);
             // 
@@ -94,17 +94,6 @@
             this.lblSL.Size = new System.Drawing.Size(98, 20);
             this.lblSL.TabIndex = 21;
             this.lblSL.Text = "SỐ LƯỢNG";
-            // 
-            // btnThem
-            // 
-            this.btnThem.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnThem.Location = new System.Drawing.Point(548, 420);
-            this.btnThem.Name = "btnThem";
-            this.btnThem.Size = new System.Drawing.Size(187, 30);
-            this.btnThem.TabIndex = 30;
-            this.btnThem.Text = "THÊM LOẠI SÁCH";
-            this.btnThem.UseVisualStyleBackColor = true;
-            this.btnThem.Click += new System.EventHandler(this.btnThem_Click);
             // 
             // label1
             // 
@@ -148,6 +137,17 @@
             this.txtMaS.Size = new System.Drawing.Size(207, 22);
             this.txtMaS.TabIndex = 34;
             // 
+            // btnThem
+            // 
+            this.btnThem.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnThem.Location = new System.Drawing.Point(548, 420);
+            this.btnThem.Name = "btnThem";
+            this.btnThem.Size = new System.Drawing.Size(187, 30);
+            this.btnThem.TabIndex = 30;
+            this.btnThem.Text = "THÊM LOẠI SÁCH";
+            this.btnThem.UseVisualStyleBackColor = true;
+            this.btnThem.Click += new System.EventHandler(this.btnThem_Click);
+            // 
             // fKho
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -180,11 +180,11 @@
         private System.Windows.Forms.Button btnXoa;
         private System.Windows.Forms.Label lblTen;
         private System.Windows.Forms.Label lblSL;
-        private System.Windows.Forms.Button btnThem;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox txtMaKho;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox txtSluong;
         private System.Windows.Forms.TextBox txtMaS;
+        private System.Windows.Forms.Button btnThem;
     }
 }

@@ -28,73 +28,82 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnXoa = new System.Windows.Forms.Button();
+            this.btnThem = new System.Windows.Forms.Button();
             this.txtThemNXB = new System.Windows.Forms.TextBox();
             this.dgvNXB = new System.Windows.Forms.DataGridView();
             this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dgvNXB)).BeginInit();
             this.SuspendLayout();
             // 
-            // button2
+            // btnXoa
             // 
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.01739F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(227, 331);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 12;
-            this.button2.Text = "XÓA";
-            this.button2.UseVisualStyleBackColor = true;
+            this.btnXoa.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.01739F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnXoa.Location = new System.Drawing.Point(303, 407);
+            this.btnXoa.Margin = new System.Windows.Forms.Padding(4);
+            this.btnXoa.Name = "btnXoa";
+            this.btnXoa.Size = new System.Drawing.Size(100, 28);
+            this.btnXoa.TabIndex = 12;
+            this.btnXoa.Text = "XÓA";
+            this.btnXoa.UseVisualStyleBackColor = true;
+            this.btnXoa.Click += new System.EventHandler(this.btnXoa_Click);
             // 
-            // button1
+            // btnThem
             // 
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.01739F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(93, 331);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 11;
-            this.button1.Text = "THÊM";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnThem.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.01739F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnThem.Location = new System.Drawing.Point(124, 407);
+            this.btnThem.Margin = new System.Windows.Forms.Padding(4);
+            this.btnThem.Name = "btnThem";
+            this.btnThem.Size = new System.Drawing.Size(100, 28);
+            this.btnThem.TabIndex = 11;
+            this.btnThem.Text = "THÊM";
+            this.btnThem.UseVisualStyleBackColor = true;
+            this.btnThem.Click += new System.EventHandler(this.btnThem_Click);
             // 
             // txtThemNXB
             // 
-            this.txtThemNXB.Location = new System.Drawing.Point(174, 285);
+            this.txtThemNXB.Location = new System.Drawing.Point(205, 351);
+            this.txtThemNXB.Margin = new System.Windows.Forms.Padding(4);
             this.txtThemNXB.Name = "txtThemNXB";
-            this.txtThemNXB.Size = new System.Drawing.Size(200, 20);
+            this.txtThemNXB.Size = new System.Drawing.Size(265, 22);
             this.txtThemNXB.TabIndex = 9;
             // 
             // dgvNXB
             // 
             this.dgvNXB.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgvNXB.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvNXB.Location = new System.Drawing.Point(12, 12);
+            this.dgvNXB.Location = new System.Drawing.Point(16, 15);
+            this.dgvNXB.Margin = new System.Windows.Forms.Padding(4);
             this.dgvNXB.Name = "dgvNXB";
             this.dgvNXB.RowHeadersWidth = 49;
-            this.dgvNXB.Size = new System.Drawing.Size(376, 255);
+            this.dgvNXB.Size = new System.Drawing.Size(501, 314);
             this.dgvNXB.TabIndex = 8;
+            this.dgvNXB.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvNXB_CellContentClick);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.01739F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(26, 288);
+            this.label1.Location = new System.Drawing.Point(65, 353);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(142, 17);
+            this.label1.Size = new System.Drawing.Size(132, 20);
             this.label1.TabIndex = 13;
-            this.label1.Text = "TEN NHÀ XUẤT BẢN";
+            this.label1.Text = "Tên nhà xuất bản";
             // 
             // fNhaXuatBan
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(396, 405);
+            this.ClientSize = new System.Drawing.Size(528, 498);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnXoa);
+            this.Controls.Add(this.btnThem);
             this.Controls.Add(this.txtThemNXB);
             this.Controls.Add(this.dgvNXB);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "fNhaXuatBan";
-            this.Text = "Form1";
+            this.Text = "NHÀ XUẤT BẢN";
             this.Load += new System.EventHandler(this.fNhaXuatBan_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvNXB)).EndInit();
             this.ResumeLayout(false);
@@ -104,8 +113,8 @@
 
         #endregion
 
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnXoa;
+        private System.Windows.Forms.Button btnThem;
         private System.Windows.Forms.TextBox txtThemNXB;
         private System.Windows.Forms.DataGridView dgvNXB;
         private System.Windows.Forms.Label label1;
