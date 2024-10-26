@@ -96,6 +96,13 @@ namespace BUS
                 throw new InvalidOperationException("Sách không tồn tại.");
             }
         }
+
+        public SACH timSachTheoMa(string MaSach)
+        {
+            
+            SACH sach = db.SACHes.Where(s=>s.MASACH.Equals(MaSach)).FirstOrDefault();
+            return sach;
+        }
         public void ThemTheLoai(string tenTheLoai)
         {
             try

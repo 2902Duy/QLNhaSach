@@ -28,26 +28,30 @@ namespace BUS
             return dstn;
         }
 
-        public void themHD(string name, DateTime date)
+        public HOADON themHD( DateTime date)
         {
-            try
-            {
-                var id = db.HOADONs.Max(s => s.IDHOADON);
-                string maHD = "HD0" + (id + 1);
+            
+                var id = db.HOADONs.Max(s => s.IDHOADON)+1;
+                string maHD = "HD0"+id;
                 HOADON hd = new HOADON
                 {
                     IDHOADON = id,
                     MAHOADON = maHD,
-                    KHACHHANG = name,
                     NGAYLAP = date,
                 };
                 db.HOADONs.Add(hd);
                 db.SaveChanges();
-            }
-            catch (Exception ex) 
-            {
-                
-            }
+                return hd;
+        }
+        public HOADON TimHD(string mahd)
+        {
+            return db.HOADONs.Find(mahd);
+        }
+
+        public void themcthd(CHITIETHOADON ct)
+        {
+            db.CHITIETHOADONs.Add(ct);
+            db.SaveChanges();
         }
 
     }

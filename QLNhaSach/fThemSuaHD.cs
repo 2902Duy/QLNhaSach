@@ -18,12 +18,21 @@ namespace QLNhaSach
         {
             InitializeComponent();
         }
+        public fThemSuaHD(string mahd)
+        {
+            InitializeComponent();
+            var hd = bushoadon.TimHD(mahd);
+            txtMaHD.Text=hd.MAHOADON.ToString();
+            txtTenKH.Text= hd.KHACHHANG.ToString();
+            dtpNgayLap.Value = hd.NGAYLAP.Value;
+        }
+
         private ErrorProvider err = new ErrorProvider();
         private void btnOK_Click(object sender, EventArgs e)
         {
             try
             {
-                bushoadon.themHD(txtTenKH.Text, dtpNgayLap.Value);
+                
             }
             catch (Exception)
             {

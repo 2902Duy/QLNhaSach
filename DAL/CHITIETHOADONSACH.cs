@@ -8,7 +8,10 @@ namespace DAL
 {
     public class CHITIETHOADONSACH
     {
-        CHITIETSACH CHITIETSACH { get; set; }
-        CHITIETHOADON CHITIETHOADON { get; set; }   
+        public string MASACH {  get; set; }
+        public int GIABAN { get; set; }
+        public int SOLUONG { get; set; }
+        public int THANHTIEN { get; set; }
+
     }
 }

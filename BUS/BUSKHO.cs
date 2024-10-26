@@ -64,5 +64,19 @@ namespace BUS
                 throw new InvalidOperationException("Không tồn tại.");
             }
         }
+
+        public bool KiemtraSLSach(int sl, string masach)
+        {
+            var sach = db.KHOSACHes.Where(s=> s.MASACH.Equals(masach)).FirstOrDefault();
+            if (sl > sach.SL)
+                return false;
+            return true;
+        }
+        public void capNhapSoLuongSach(int sl, string masach)
+        {
+            var sach = db.KHOSACHes.Where(s=>s.MASACH.Equals (masach)).FirstOrDefault();
+            sach.SL = (byte?)(sach.SL-sl);
+            db.SaveChanges();
+        }
     }
 }
