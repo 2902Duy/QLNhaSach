@@ -7,6 +7,7 @@ using System.Data;
 using System.Drawing;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
@@ -36,7 +37,7 @@ namespace QLNhaSach
             try
             {
                 var hd = bushd.themHD(DateTime.Now);
-
+                int sumMoney =0;
                 foreach (var ch in listSach)
                 {
                     CHITIETHOADON ct = new CHITIETHOADON
@@ -49,10 +50,16 @@ namespace QLNhaSach
                     };
                     string masach = ct.MASACH;
                     int sl = ct.SOLUONG.Value;
+                    sumMoney =sumMoney+ ct.THANHTIEN.Value;
                     bushd.themcthd(ct);
                     buskho.capNhapSoLuongSach(sl, masach);
 
                 }
+                bushd.tongtienhd(sumMoney, hd.MAHOADON);
+                using (ReportHD report = new ReportHD(hd.MAHOADON))
+                {
+                    report.ShowDialog();
+                }    
 
             }
             catch(Exception ex)

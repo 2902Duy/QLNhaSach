@@ -53,6 +53,12 @@ namespace BUS
             db.CHITIETHOADONs.Add(ct);
             db.SaveChanges();
         }
+        public void tongtienhd(int sumMoney,string mahd)
+        {
+            var hd = db.HOADONs.Find(mahd);
+            hd.TONGTIEN = sumMoney;
+            db.SaveChanges();
+        }
 
     }
 }

@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="QLSACHDataSet" targetNamespace="http://tempuri.org/QLSACHDataSet.xsd" xmlns:mstns="http://tempuri.org/QLSACHDataSet.xsd" xmlns="http://tempuri.org/QLSACHDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="QLSACHConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="QLSACHConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.QLNhaSach.Properties.Settings.GlobalReference.Default.QLSACHConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="REPORTHDTableAdapter" GeneratorDataComponentClassName="REPORTHDTableAdapter" Name="REPORTHD" UserDataComponentName="REPORTHDTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="QLSACHConnectionString (Settings)" DbObjectName="QLSACH.dbo.REPORTHD" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT MAHOADON, TENSACH, GIABAN, SOLUONG, THANHTIEN, KHACHHANG, NGAYLAP, TONGTIEN FROM dbo.REPORTHD</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="MAHOADON" DataSetColumn="MAHOADON" />
+              <Mapping SourceColumn="TENSACH" DataSetColumn="TENSACH" />
+              <Mapping SourceColumn="GIABAN" DataSetColumn="GIABAN" />
+              <Mapping SourceColumn="SOLUONG" DataSetColumn="SOLUONG" />
+              <Mapping SourceColumn="THANHTIEN" DataSetColumn="THANHTIEN" />
+              <Mapping SourceColumn="KHACHHANG" DataSetColumn="KHACHHANG" />
+              <Mapping SourceColumn="NGAYLAP" DataSetColumn="NGAYLAP" />
+              <Mapping SourceColumn="TONGTIEN" DataSetColumn="TONGTIEN" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="QLSACHDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_UserDSName="QLSACHDataSet" msprop:Generator_DataSetName="QLSACHDataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="REPORTHD" msprop:Generator_RowEvHandlerName="REPORTHDRowChangeEventHandler" msprop:Generator_RowDeletedName="REPORTHDRowDeleted" msprop:Generator_RowDeletingName="REPORTHDRowDeleting" msprop:Generator_RowEvArgName="REPORTHDRowChangeEvent" msprop:Generator_TablePropName="REPORTHD" msprop:Generator_RowChangedName="REPORTHDRowChanged" msprop:Generator_RowChangingName="REPORTHDRowChanging" msprop:Generator_TableClassName="REPORTHDDataTable" msprop:Generator_RowClassName="REPORTHDRow" msprop:Generator_TableVarName="tableREPORTHD" msprop:Generator_UserTableName="REPORTHD">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="MAHOADON" msprop:Generator_ColumnPropNameInRow="MAHOADON" msprop:Generator_ColumnPropNameInTable="MAHOADONColumn" msprop:Generator_ColumnVarNameInTable="columnMAHOADON" msprop:Generator_UserColumnName="MAHOADON">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="6" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="TENSACH" msprop:Generator_ColumnPropNameInRow="TENSACH" msprop:Generator_ColumnPropNameInTable="TENSACHColumn" msprop:Generator_ColumnVarNameInTable="columnTENSACH" msprop:Generator_UserColumnName="TENSACH" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="GIABAN" msprop:Generator_ColumnPropNameInRow="GIABAN" msprop:Generator_ColumnPropNameInTable="GIABANColumn" msprop:Generator_ColumnVarNameInTable="columnGIABAN" msprop:Generator_UserColumnName="GIABAN" type="xs:int" minOccurs="0" />
+              <xs:element name="SOLUONG" msprop:Generator_ColumnPropNameInRow="SOLUONG" msprop:Generator_ColumnPropNameInTable="SOLUONGColumn" msprop:Generator_ColumnVarNameInTable="columnSOLUONG" msprop:Generator_UserColumnName="SOLUONG" type="xs:int" minOccurs="0" />
+              <xs:element name="THANHTIEN" msprop:Generator_ColumnPropNameInRow="THANHTIEN" msprop:Generator_ColumnPropNameInTable="THANHTIENColumn" msprop:Generator_ColumnVarNameInTable="columnTHANHTIEN" msprop:Generator_UserColumnName="THANHTIEN" type="xs:int" minOccurs="0" />
+              <xs:element name="KHACHHANG" msprop:Generator_ColumnPropNameInRow="KHACHHANG" msprop:Generator_ColumnPropNameInTable="KHACHHANGColumn" msprop:Generator_ColumnVarNameInTable="columnKHACHHANG" msprop:Generator_UserColumnName="KHACHHANG" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="NGAYLAP" msprop:Generator_ColumnPropNameInRow="NGAYLAP" msprop:Generator_ColumnPropNameInTable="NGAYLAPColumn" msprop:Generator_ColumnVarNameInTable="columnNGAYLAP" msprop:Generator_UserColumnName="NGAYLAP" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="TONGTIEN" msprop:Generator_ColumnPropNameInRow="TONGTIEN" msprop:Generator_ColumnPropNameInTable="TONGTIENColumn" msprop:Generator_ColumnVarNameInTable="columnTONGTIEN" msprop:Generator_UserColumnName="TONGTIEN" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
