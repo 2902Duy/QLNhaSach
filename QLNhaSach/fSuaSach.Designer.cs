@@ -71,7 +71,7 @@
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.01739F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(23, 360);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(97, 20);
+            this.label2.Size = new System.Drawing.Size(104, 20);
             this.label2.TabIndex = 2;
             this.label2.Text = "TÊN SÁCH :";
             // 
@@ -81,7 +81,7 @@
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.01739F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(23, 412);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(81, 20);
+            this.label3.Size = new System.Drawing.Size(85, 20);
             this.label3.TabIndex = 3;
             this.label3.Text = "TÁC GIẢ :";
             // 
@@ -91,7 +91,7 @@
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.01739F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.Location = new System.Drawing.Point(23, 471);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(103, 20);
+            this.label5.Size = new System.Drawing.Size(109, 20);
             this.label5.TabIndex = 5;
             this.label5.Text = "LOẠI SÁCH :";
             // 
@@ -101,7 +101,7 @@
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.01739F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.Location = new System.Drawing.Point(23, 527);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(85, 20);
+            this.label6.Size = new System.Drawing.Size(92, 20);
             this.label6.TabIndex = 6;
             this.label6.Text = "TÊN NXB :";
             // 
@@ -111,7 +111,7 @@
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.01739F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.Location = new System.Drawing.Point(450, 363);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(86, 20);
+            this.label7.Size = new System.Drawing.Size(89, 20);
             this.label7.TabIndex = 7;
             this.label7.Text = "GIÁ MUA :";
             // 
@@ -121,7 +121,7 @@
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.01739F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.Location = new System.Drawing.Point(450, 412);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(83, 20);
+            this.label8.Size = new System.Drawing.Size(87, 20);
             this.label8.TabIndex = 8;
             this.label8.Text = "GIÁ BÁN :";
             // 
@@ -131,7 +131,7 @@
             this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.01739F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.Location = new System.Drawing.Point(450, 471);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(136, 20);
+            this.label10.Size = new System.Drawing.Size(144, 20);
             this.label10.TabIndex = 10;
             this.label10.Text = "NĂM SẢN XUẤT :";
             // 
