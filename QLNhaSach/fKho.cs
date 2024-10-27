@@ -36,6 +36,7 @@ namespace QLNhaSach
                         Kho.KHOSACH.SL
                     });
                 txtMaKho.ReadOnly = true;
+                txtMaS.ReadOnly = true;
                 binding.DataSource = KhoData.ToList();
                 databinding();
                 dgvKho.DataSource = binding;
@@ -90,39 +91,6 @@ namespace QLNhaSach
             }
         }
 
-        private void btnThem_Click(object sender, EventArgs e)
-        {
-            /*
-            try
-            {
-                if (string.IsNullOrEmpty(txtMaS.Text) || string.IsNullOrEmpty(txtSluong.Text))
-                    throw new InvalidOperationException("Vui lòng chọn đầy đủ thông tin Mã sách và số lượng.");
-
-                // Chuyển đổi số lượng từ txtSluong
-                byte soluong = byte.Parse(txtSluong.Text);
-
-                buskho.themSachKho(
-                    txtMaS.Text,  // Mã sách dưới dạng chuỗi
-                    soluong       // Số lượng dưới dạng byte
-                );
-
-                MessageBox.Show("Thêm sách vào kho thành công!");
-                UpdateDataGridView();
-            }
-            catch (InvalidOperationException ex)
-            {
-                MessageBox.Show(ex.Message);
-            }
-            catch (FormatException)
-            {
-                MessageBox.Show("Số lượng không hợp lệ. Vui lòng nhập một số hợp lệ.");
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show("Đã xảy ra lỗi: " + ex.Message);
-            }
-            */        
-        }
         private void btnSua_Click(object sender, EventArgs e)
         {
             if (dgvKho.SelectedRows.Count > 0)
@@ -147,6 +115,16 @@ namespace QLNhaSach
             {
                 MessageBox.Show("Vui lòng chọn một hàng để sửa.", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
+        }
+
+        private void txtMaS_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtMaKho_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

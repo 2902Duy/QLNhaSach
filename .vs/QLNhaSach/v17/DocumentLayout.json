@@ -1,134 +1,182 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\ThinkPad\\OneDrive\\Desktop\\QLNhaSach\\",
+  "WorkspaceRootPath": "C:\\Users\\DELL\\Downloads\\QLNhaSach\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CEE0838A-89BA-434F-AB12-9D065C8B543E}|QLNhaSach\\QLNhaSach.csproj|c:\\users\\thinkpad\\onedrive\\desktop\\qlnhasach\\qlnhasach\\reporthoadon.rdlc||{46F6D2A1-5E86-4080-A799-01F3D0E23796}",
-      "RelativeMoniker": "D:0:0:{CEE0838A-89BA-434F-AB12-9D065C8B543E}|QLNhaSach\\QLNhaSach.csproj|solutionrelative:qlnhasach\\reporthoadon.rdlc||{46F6D2A1-5E86-4080-A799-01F3D0E23796}"
+      "AbsoluteMoniker": "D:0:0:{CEE0838A-89BA-434F-AB12-9D065C8B543E}|QLNhaSach\\QLNhaSach.csproj|C:\\Users\\DELL\\Downloads\\QLNhaSach\\qlnhasach\\fkho.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CEE0838A-89BA-434F-AB12-9D065C8B543E}|QLNhaSach\\QLNhaSach.csproj|solutionrelative:qlnhasach\\fkho.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CEE0838A-89BA-434F-AB12-9D065C8B543E}|QLNhaSach\\QLNhaSach.csproj|C:\\Users\\ThinkPad\\OneDrive\\Desktop\\QLNhaSach\\qlnhasach\\reporthd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{CEE0838A-89BA-434F-AB12-9D065C8B543E}|QLNhaSach\\QLNhaSach.csproj|solutionrelative:qlnhasach\\reporthd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CEE0838A-89BA-434F-AB12-9D065C8B543E}|QLNhaSach\\QLNhaSach.csproj|C:\\Users\\ThinkPad\\OneDrive\\Desktop\\QLNhaSach\\qlnhasach\\reporthd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CEE0838A-89BA-434F-AB12-9D065C8B543E}|QLNhaSach\\QLNhaSach.csproj|solutionrelative:qlnhasach\\reporthd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7C22474B-C9E6-446B-BE1D-35C8EC918896}|DAL\\DAL.csproj|C:\\Users\\ThinkPad\\OneDrive\\Desktop\\QLNhaSach\\dal\\databookstore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7C22474B-C9E6-446B-BE1D-35C8EC918896}|DAL\\DAL.csproj|solutionrelative:dal\\databookstore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CEE0838A-89BA-434F-AB12-9D065C8B543E}|QLNhaSach\\QLNhaSach.csproj|C:\\Users\\ThinkPad\\OneDrive\\Desktop\\QLNhaSach\\qlnhasach\\fhoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CEE0838A-89BA-434F-AB12-9D065C8B543E}|QLNhaSach\\QLNhaSach.csproj|solutionrelative:qlnhasach\\fhoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CEE0838A-89BA-434F-AB12-9D065C8B543E}|QLNhaSach\\QLNhaSach.csproj|C:\\Users\\ThinkPad\\OneDrive\\Desktop\\QLNhaSach\\qlnhasach\\fhoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{CEE0838A-89BA-434F-AB12-9D065C8B543E}|QLNhaSach\\QLNhaSach.csproj|solutionrelative:qlnhasach\\fhoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5563A55F-B4EB-4F43-A3E0-BBA5A7E862A8}|BUS\\BUS.csproj|C:\\Users\\ThinkPad\\OneDrive\\Desktop\\QLNhaSach\\bus\\bushoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5563A55F-B4EB-4F43-A3E0-BBA5A7E862A8}|BUS\\BUS.csproj|solutionrelative:bus\\bushoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CEE0838A-89BA-434F-AB12-9D065C8B543E}|QLNhaSach\\QLNhaSach.csproj|C:\\Users\\ThinkPad\\OneDrive\\Desktop\\QLNhaSach\\qlnhasach\\fthemsuahd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{CEE0838A-89BA-434F-AB12-9D065C8B543E}|QLNhaSach\\QLNhaSach.csproj|solutionrelative:qlnhasach\\fthemsuahd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7C22474B-C9E6-446B-BE1D-35C8EC918896}|DAL\\DAL.csproj|C:\\Users\\ThinkPad\\OneDrive\\Desktop\\QLNhaSach\\dal\\hoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7C22474B-C9E6-446B-BE1D-35C8EC918896}|DAL\\DAL.csproj|solutionrelative:dal\\hoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7C22474B-C9E6-446B-BE1D-35C8EC918896}|DAL\\DAL.csproj|C:\\Users\\ThinkPad\\OneDrive\\Desktop\\QLNhaSach\\dal\\chitiethoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7C22474B-C9E6-446B-BE1D-35C8EC918896}|DAL\\DAL.csproj|solutionrelative:dal\\chitiethoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7C22474B-C9E6-446B-BE1D-35C8EC918896}|DAL\\DAL.csproj|C:\\Users\\ThinkPad\\OneDrive\\Desktop\\QLNhaSach\\dal\\theloai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7C22474B-C9E6-446B-BE1D-35C8EC918896}|DAL\\DAL.csproj|solutionrelative:dal\\theloai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5563A55F-B4EB-4F43-A3E0-BBA5A7E862A8}|BUS\\BUS.csproj|C:\\Users\\ThinkPad\\OneDrive\\Desktop\\QLNhaSach\\bus\\buskho.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5563A55F-B4EB-4F43-A3E0-BBA5A7E862A8}|BUS\\BUS.csproj|solutionrelative:bus\\buskho.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7C22474B-C9E6-446B-BE1D-35C8EC918896}|DAL\\DAL.csproj|C:\\Users\\ThinkPad\\OneDrive\\Desktop\\QLNhaSach\\dal\\chitiethoadonsach.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7C22474B-C9E6-446B-BE1D-35C8EC918896}|DAL\\DAL.csproj|solutionrelative:dal\\chitiethoadonsach.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7C22474B-C9E6-446B-BE1D-35C8EC918896}|DAL\\DAL.csproj|C:\\Users\\ThinkPad\\OneDrive\\Desktop\\QLNhaSach\\dal\\chitietkho.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7C22474B-C9E6-446B-BE1D-35C8EC918896}|DAL\\DAL.csproj|solutionrelative:dal\\chitietkho.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7C22474B-C9E6-446B-BE1D-35C8EC918896}|DAL\\DAL.csproj|C:\\Users\\ThinkPad\\OneDrive\\Desktop\\QLNhaSach\\dal\\chitietsach.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7C22474B-C9E6-446B-BE1D-35C8EC918896}|DAL\\DAL.csproj|solutionrelative:dal\\chitietsach.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7C22474B-C9E6-446B-BE1D-35C8EC918896}|DAL\\DAL.csproj|C:\\Users\\ThinkPad\\OneDrive\\Desktop\\QLNhaSach\\dal\\khosach.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7C22474B-C9E6-446B-BE1D-35C8EC918896}|DAL\\DAL.csproj|solutionrelative:dal\\khosach.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7C22474B-C9E6-446B-BE1D-35C8EC918896}|DAL\\DAL.csproj|C:\\Users\\ThinkPad\\OneDrive\\Desktop\\QLNhaSach\\dal\\sach.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7C22474B-C9E6-446B-BE1D-35C8EC918896}|DAL\\DAL.csproj|solutionrelative:dal\\sach.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7C22474B-C9E6-446B-BE1D-35C8EC918896}|DAL\\DAL.csproj|C:\\Users\\ThinkPad\\OneDrive\\Desktop\\QLNhaSach\\dal\\taikhoan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7C22474B-C9E6-446B-BE1D-35C8EC918896}|DAL\\DAL.csproj|solutionrelative:dal\\taikhoan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7C22474B-C9E6-446B-BE1D-35C8EC918896}|DAL\\DAL.csproj|C:\\Users\\ThinkPad\\OneDrive\\Desktop\\QLNhaSach\\dal\\tacgia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7C22474B-C9E6-446B-BE1D-35C8EC918896}|DAL\\DAL.csproj|solutionrelative:dal\\tacgia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7C22474B-C9E6-446B-BE1D-35C8EC918896}|DAL\\DAL.csproj|C:\\Users\\ThinkPad\\OneDrive\\Desktop\\QLNhaSach\\dal\\nhaxuatban.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7C22474B-C9E6-446B-BE1D-35C8EC918896}|DAL\\DAL.csproj|solutionrelative:dal\\nhaxuatban.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CEE0838A-89BA-434F-AB12-9D065C8B543E}|QLNhaSach\\QLNhaSach.csproj|C:\\Users\\ThinkPad\\OneDrive\\Desktop\\QLNhaSach\\qlnhasach\\fchitiethd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{CEE0838A-89BA-434F-AB12-9D065C8B543E}|QLNhaSach\\QLNhaSach.csproj|solutionrelative:qlnhasach\\fchitiethd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5563A55F-B4EB-4F43-A3E0-BBA5A7E862A8}|BUS\\BUS.csproj|C:\\Users\\ThinkPad\\OneDrive\\Desktop\\QLNhaSach\\bus\\bussach.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5563A55F-B4EB-4F43-A3E0-BBA5A7E862A8}|BUS\\BUS.csproj|solutionrelative:bus\\bussach.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7C22474B-C9E6-446B-BE1D-35C8EC918896}|DAL\\DAL.csproj|C:\\Users\\ThinkPad\\OneDrive\\Desktop\\QLNhaSach\\dal\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{7C22474B-C9E6-446B-BE1D-35C8EC918896}|DAL\\DAL.csproj|solutionrelative:dal\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CEE0838A-89BA-434F-AB12-9D065C8B543E}|QLNhaSach\\QLNhaSach.csproj|C:\\Users\\ThinkPad\\OneDrive\\Desktop\\QLNhaSach\\qlnhasach\\fthemsuahd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CEE0838A-89BA-434F-AB12-9D065C8B543E}|QLNhaSach\\QLNhaSach.csproj|solutionrelative:qlnhasach\\fthemsuahd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CEE0838A-89BA-434F-AB12-9D065C8B543E}|QLNhaSach\\QLNhaSach.csproj|C:\\Users\\ThinkPad\\OneDrive\\Desktop\\QLNhaSach\\qlnhasach\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CEE0838A-89BA-434F-AB12-9D065C8B543E}|QLNhaSach\\QLNhaSach.csproj|solutionrelative:qlnhasach\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5563A55F-B4EB-4F43-A3E0-BBA5A7E862A8}|BUS\\BUS.csproj|C:\\Users\\ThinkPad\\OneDrive\\Desktop\\QLNhaSach\\bus\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{5563A55F-B4EB-4F43-A3E0-BBA5A7E862A8}|BUS\\BUS.csproj|solutionrelative:bus\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7C22474B-C9E6-446B-BE1D-35C8EC918896}|DAL\\DAL.csproj|C:\\Users\\ThinkPad\\OneDrive\\Desktop\\QLNhaSach\\dal\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{7C22474B-C9E6-446B-BE1D-35C8EC918896}|DAL\\DAL.csproj|solutionrelative:dal\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CEE0838A-89BA-434F-AB12-9D065C8B543E}|QLNhaSach\\QLNhaSach.csproj|C:\\Users\\ThinkPad\\OneDrive\\Desktop\\QLNhaSach\\qlnhasach\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{CEE0838A-89BA-434F-AB12-9D065C8B543E}|QLNhaSach\\QLNhaSach.csproj|solutionrelative:qlnhasach\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CEE0838A-89BA-434F-AB12-9D065C8B543E}|QLNhaSach\\QLNhaSach.csproj|C:\\Users\\ThinkPad\\OneDrive\\Desktop\\QLNhaSach\\qlnhasach\\fnhaxuatban.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CEE0838A-89BA-434F-AB12-9D065C8B543E}|QLNhaSach\\QLNhaSach.csproj|solutionrelative:qlnhasach\\fnhaxuatban.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CEE0838A-89BA-434F-AB12-9D065C8B543E}|QLNhaSach\\QLNhaSach.csproj|C:\\Users\\ThinkPad\\OneDrive\\Desktop\\QLNhaSach\\qlnhasach\\floaisach.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CEE0838A-89BA-434F-AB12-9D065C8B543E}|QLNhaSach\\QLNhaSach.csproj|solutionrelative:qlnhasach\\floaisach.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CEE0838A-89BA-434F-AB12-9D065C8B543E}|QLNhaSach\\QLNhaSach.csproj|C:\\Users\\ThinkPad\\OneDrive\\Desktop\\QLNhaSach\\qlnhasach\\fkho.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CEE0838A-89BA-434F-AB12-9D065C8B543E}|QLNhaSach\\QLNhaSach.csproj|c:\\users\\dell\\downloads\\qlnhasach\\qlnhasach\\fkho.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CEE0838A-89BA-434F-AB12-9D065C8B543E}|QLNhaSach\\QLNhaSach.csproj|solutionrelative:qlnhasach\\fkho.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CEE0838A-89BA-434F-AB12-9D065C8B543E}|QLNhaSach\\QLNhaSach.csproj|C:\\Users\\ThinkPad\\OneDrive\\Desktop\\QLNhaSach\\qlnhasach\\fkho.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{CEE0838A-89BA-434F-AB12-9D065C8B543E}|QLNhaSach\\QLNhaSach.csproj|solutionrelative:qlnhasach\\fkho.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{5563A55F-B4EB-4F43-A3E0-BBA5A7E862A8}|BUS\\BUS.csproj|C:\\Users\\DELL\\Downloads\\QLNhaSach\\bus\\buskho.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5563A55F-B4EB-4F43-A3E0-BBA5A7E862A8}|BUS\\BUS.csproj|solutionrelative:bus\\buskho.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5563A55F-B4EB-4F43-A3E0-BBA5A7E862A8}|BUS\\BUS.csproj|C:\\Users\\DELL\\Downloads\\QLNhaSach\\bus\\busnxb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5563A55F-B4EB-4F43-A3E0-BBA5A7E862A8}|BUS\\BUS.csproj|solutionrelative:bus\\busnxb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5563A55F-B4EB-4F43-A3E0-BBA5A7E862A8}|BUS\\BUS.csproj|C:\\Users\\DELL\\Downloads\\QLNhaSach\\bus\\bussach.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5563A55F-B4EB-4F43-A3E0-BBA5A7E862A8}|BUS\\BUS.csproj|solutionrelative:bus\\bussach.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEE0838A-89BA-434F-AB12-9D065C8B543E}|QLNhaSach\\QLNhaSach.csproj|C:\\Users\\DELL\\Downloads\\QLNhaSach\\qlnhasach\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEE0838A-89BA-434F-AB12-9D065C8B543E}|QLNhaSach\\QLNhaSach.csproj|solutionrelative:qlnhasach\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C22474B-C9E6-446B-BE1D-35C8EC918896}|DAL\\DAL.csproj|C:\\Users\\DELL\\Downloads\\QLNhaSach\\dal\\khosach.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C22474B-C9E6-446B-BE1D-35C8EC918896}|DAL\\DAL.csproj|solutionrelative:dal\\khosach.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C22474B-C9E6-446B-BE1D-35C8EC918896}|DAL\\DAL.csproj|C:\\Users\\DELL\\Downloads\\QLNhaSach\\dal\\chitietkho.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C22474B-C9E6-446B-BE1D-35C8EC918896}|DAL\\DAL.csproj|solutionrelative:dal\\chitietkho.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEE0838A-89BA-434F-AB12-9D065C8B543E}|QLNhaSach\\QLNhaSach.csproj|C:\\Users\\DELL\\Downloads\\QLNhaSach\\qlnhasach\\fhoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CEE0838A-89BA-434F-AB12-9D065C8B543E}|QLNhaSach\\QLNhaSach.csproj|solutionrelative:qlnhasach\\fhoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEE0838A-89BA-434F-AB12-9D065C8B543E}|QLNhaSach\\QLNhaSach.csproj|C:\\Users\\DELL\\Downloads\\QLNhaSach\\qlnhasach\\fthemtacgia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CEE0838A-89BA-434F-AB12-9D065C8B543E}|QLNhaSach\\QLNhaSach.csproj|solutionrelative:qlnhasach\\fthemtacgia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEE0838A-89BA-434F-AB12-9D065C8B543E}|QLNhaSach\\QLNhaSach.csproj|C:\\Users\\DELL\\Downloads\\QLNhaSach\\qlnhasach\\fnhaxuatban.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CEE0838A-89BA-434F-AB12-9D065C8B543E}|QLNhaSach\\QLNhaSach.csproj|solutionrelative:qlnhasach\\fnhaxuatban.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEE0838A-89BA-434F-AB12-9D065C8B543E}|QLNhaSach\\QLNhaSach.csproj|C:\\Users\\DELL\\Downloads\\QLNhaSach\\qlnhasach\\fsuasach.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CEE0838A-89BA-434F-AB12-9D065C8B543E}|QLNhaSach\\QLNhaSach.csproj|solutionrelative:qlnhasach\\fsuasach.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEE0838A-89BA-434F-AB12-9D065C8B543E}|QLNhaSach\\QLNhaSach.csproj|C:\\Users\\DELL\\Downloads\\QLNhaSach\\qlnhasach\\fthemsuahd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CEE0838A-89BA-434F-AB12-9D065C8B543E}|QLNhaSach\\QLNhaSach.csproj|solutionrelative:qlnhasach\\fthemsuahd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEE0838A-89BA-434F-AB12-9D065C8B543E}|QLNhaSach\\QLNhaSach.csproj|C:\\Users\\DELL\\Downloads\\QLNhaSach\\qlnhasach\\fthongke.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CEE0838A-89BA-434F-AB12-9D065C8B543E}|QLNhaSach\\QLNhaSach.csproj|solutionrelative:qlnhasach\\fthongke.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEE0838A-89BA-434F-AB12-9D065C8B543E}|QLNhaSach\\QLNhaSach.csproj|C:\\Users\\DELL\\Downloads\\QLNhaSach\\qlnhasach\\reporthoadon.rdlc||{46F6D2A1-5E86-4080-A799-01F3D0E23796}",
+      "RelativeMoniker": "D:0:0:{CEE0838A-89BA-434F-AB12-9D065C8B543E}|QLNhaSach\\QLNhaSach.csproj|solutionrelative:qlnhasach\\reporthoadon.rdlc||{46F6D2A1-5E86-4080-A799-01F3D0E23796}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEE0838A-89BA-434F-AB12-9D065C8B543E}|QLNhaSach\\QLNhaSach.csproj|C:\\Users\\DELL\\Downloads\\QLNhaSach\\qlnhasach\\reporthd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CEE0838A-89BA-434F-AB12-9D065C8B543E}|QLNhaSach\\QLNhaSach.csproj|solutionrelative:qlnhasach\\reporthd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEE0838A-89BA-434F-AB12-9D065C8B543E}|QLNhaSach\\QLNhaSach.csproj|C:\\Users\\DELL\\Downloads\\QLNhaSach\\qlnhasach\\ftonghop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CEE0838A-89BA-434F-AB12-9D065C8B543E}|QLNhaSach\\QLNhaSach.csproj|solutionrelative:qlnhasach\\ftonghop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEE0838A-89BA-434F-AB12-9D065C8B543E}|QLNhaSach\\QLNhaSach.csproj|C:\\Users\\DELL\\Downloads\\QLNhaSach\\qlnhasach\\floaisach.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CEE0838A-89BA-434F-AB12-9D065C8B543E}|QLNhaSach\\QLNhaSach.csproj|solutionrelative:qlnhasach\\floaisach.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEE0838A-89BA-434F-AB12-9D065C8B543E}|QLNhaSach\\QLNhaSach.csproj|C:\\Users\\DELL\\Downloads\\QLNhaSach\\qlnhasach\\ftaikhoan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CEE0838A-89BA-434F-AB12-9D065C8B543E}|QLNhaSach\\QLNhaSach.csproj|solutionrelative:qlnhasach\\ftaikhoan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEE0838A-89BA-434F-AB12-9D065C8B543E}|QLNhaSach\\QLNhaSach.csproj|C:\\Users\\DELL\\Downloads\\QLNhaSach\\qlnhasach\\toexcel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEE0838A-89BA-434F-AB12-9D065C8B543E}|QLNhaSach\\QLNhaSach.csproj|solutionrelative:qlnhasach\\toexcel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEE0838A-89BA-434F-AB12-9D065C8B543E}|QLNhaSach\\QLNhaSach.csproj|C:\\Users\\DELL\\Downloads\\QLNhaSach\\qlnhasach\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{CEE0838A-89BA-434F-AB12-9D065C8B543E}|QLNhaSach\\QLNhaSach.csproj|solutionrelative:qlnhasach\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEE0838A-89BA-434F-AB12-9D065C8B543E}|QLNhaSach\\QLNhaSach.csproj|C:\\Users\\DELL\\Downloads\\QLNhaSach\\qlnhasach\\fdangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CEE0838A-89BA-434F-AB12-9D065C8B543E}|QLNhaSach\\QLNhaSach.csproj|solutionrelative:qlnhasach\\fdangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEE0838A-89BA-434F-AB12-9D065C8B543E}|QLNhaSach\\QLNhaSach.csproj|C:\\Users\\DELL\\Downloads\\QLNhaSach\\qlnhasach\\fbaocao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CEE0838A-89BA-434F-AB12-9D065C8B543E}|QLNhaSach\\QLNhaSach.csproj|solutionrelative:qlnhasach\\fbaocao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEE0838A-89BA-434F-AB12-9D065C8B543E}|QLNhaSach\\QLNhaSach.csproj|C:\\Users\\DELL\\Downloads\\QLNhaSach\\qlnhasach\\fchitiethd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CEE0838A-89BA-434F-AB12-9D065C8B543E}|QLNhaSach\\QLNhaSach.csproj|solutionrelative:qlnhasach\\fchitiethd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEE0838A-89BA-434F-AB12-9D065C8B543E}|QLNhaSach\\QLNhaSach.csproj|C:\\Users\\DELL\\Downloads\\QLNhaSach\\qlnhasach\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{CEE0838A-89BA-434F-AB12-9D065C8B543E}|QLNhaSach\\QLNhaSach.csproj|solutionrelative:qlnhasach\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C22474B-C9E6-446B-BE1D-35C8EC918896}|DAL\\DAL.csproj|C:\\Users\\DELL\\Downloads\\QLNhaSach\\dal\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{7C22474B-C9E6-446B-BE1D-35C8EC918896}|DAL\\DAL.csproj|solutionrelative:dal\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5563A55F-B4EB-4F43-A3E0-BBA5A7E862A8}|BUS\\BUS.csproj|C:\\Users\\DELL\\Downloads\\QLNhaSach\\bus\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{5563A55F-B4EB-4F43-A3E0-BBA5A7E862A8}|BUS\\BUS.csproj|solutionrelative:bus\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEE0838A-89BA-434F-AB12-9D065C8B543E}|QLNhaSach\\QLNhaSach.csproj|C:\\Users\\DELL\\Downloads\\QLNhaSach\\qlnhasach\\reporthd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEE0838A-89BA-434F-AB12-9D065C8B543E}|QLNhaSach\\QLNhaSach.csproj|solutionrelative:qlnhasach\\reporthd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C22474B-C9E6-446B-BE1D-35C8EC918896}|DAL\\DAL.csproj|C:\\Users\\DELL\\Downloads\\QLNhaSach\\dal\\databookstore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C22474B-C9E6-446B-BE1D-35C8EC918896}|DAL\\DAL.csproj|solutionrelative:dal\\databookstore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEE0838A-89BA-434F-AB12-9D065C8B543E}|QLNhaSach\\QLNhaSach.csproj|C:\\Users\\DELL\\Downloads\\QLNhaSach\\qlnhasach\\fhoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEE0838A-89BA-434F-AB12-9D065C8B543E}|QLNhaSach\\QLNhaSach.csproj|solutionrelative:qlnhasach\\fhoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5563A55F-B4EB-4F43-A3E0-BBA5A7E862A8}|BUS\\BUS.csproj|C:\\Users\\DELL\\Downloads\\QLNhaSach\\bus\\bushoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5563A55F-B4EB-4F43-A3E0-BBA5A7E862A8}|BUS\\BUS.csproj|solutionrelative:bus\\bushoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C22474B-C9E6-446B-BE1D-35C8EC918896}|DAL\\DAL.csproj|C:\\Users\\DELL\\Downloads\\QLNhaSach\\dal\\hoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C22474B-C9E6-446B-BE1D-35C8EC918896}|DAL\\DAL.csproj|solutionrelative:dal\\hoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C22474B-C9E6-446B-BE1D-35C8EC918896}|DAL\\DAL.csproj|C:\\Users\\DELL\\Downloads\\QLNhaSach\\dal\\chitiethoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C22474B-C9E6-446B-BE1D-35C8EC918896}|DAL\\DAL.csproj|solutionrelative:dal\\chitiethoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C22474B-C9E6-446B-BE1D-35C8EC918896}|DAL\\DAL.csproj|C:\\Users\\DELL\\Downloads\\QLNhaSach\\dal\\theloai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C22474B-C9E6-446B-BE1D-35C8EC918896}|DAL\\DAL.csproj|solutionrelative:dal\\theloai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C22474B-C9E6-446B-BE1D-35C8EC918896}|DAL\\DAL.csproj|C:\\Users\\DELL\\Downloads\\QLNhaSach\\dal\\chitiethoadonsach.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C22474B-C9E6-446B-BE1D-35C8EC918896}|DAL\\DAL.csproj|solutionrelative:dal\\chitiethoadonsach.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C22474B-C9E6-446B-BE1D-35C8EC918896}|DAL\\DAL.csproj|C:\\Users\\DELL\\Downloads\\QLNhaSach\\dal\\chitietsach.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C22474B-C9E6-446B-BE1D-35C8EC918896}|DAL\\DAL.csproj|solutionrelative:dal\\chitietsach.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C22474B-C9E6-446B-BE1D-35C8EC918896}|DAL\\DAL.csproj|C:\\Users\\DELL\\Downloads\\QLNhaSach\\dal\\sach.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C22474B-C9E6-446B-BE1D-35C8EC918896}|DAL\\DAL.csproj|solutionrelative:dal\\sach.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C22474B-C9E6-446B-BE1D-35C8EC918896}|DAL\\DAL.csproj|C:\\Users\\DELL\\Downloads\\QLNhaSach\\dal\\taikhoan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C22474B-C9E6-446B-BE1D-35C8EC918896}|DAL\\DAL.csproj|solutionrelative:dal\\taikhoan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C22474B-C9E6-446B-BE1D-35C8EC918896}|DAL\\DAL.csproj|C:\\Users\\DELL\\Downloads\\QLNhaSach\\dal\\tacgia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C22474B-C9E6-446B-BE1D-35C8EC918896}|DAL\\DAL.csproj|solutionrelative:dal\\tacgia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C22474B-C9E6-446B-BE1D-35C8EC918896}|DAL\\DAL.csproj|C:\\Users\\DELL\\Downloads\\QLNhaSach\\dal\\nhaxuatban.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C22474B-C9E6-446B-BE1D-35C8EC918896}|DAL\\DAL.csproj|solutionrelative:dal\\nhaxuatban.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C22474B-C9E6-446B-BE1D-35C8EC918896}|DAL\\DAL.csproj|C:\\Users\\DELL\\Downloads\\QLNhaSach\\dal\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{7C22474B-C9E6-446B-BE1D-35C8EC918896}|DAL\\DAL.csproj|solutionrelative:dal\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEE0838A-89BA-434F-AB12-9D065C8B543E}|QLNhaSach\\QLNhaSach.csproj|C:\\Users\\DELL\\Downloads\\QLNhaSach\\qlnhasach\\fthemsuahd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEE0838A-89BA-434F-AB12-9D065C8B543E}|QLNhaSach\\QLNhaSach.csproj|solutionrelative:qlnhasach\\fthemsuahd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEE0838A-89BA-434F-AB12-9D065C8B543E}|QLNhaSach\\QLNhaSach.csproj|C:\\Users\\DELL\\Downloads\\QLNhaSach\\qlnhasach\\fnhaxuatban.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEE0838A-89BA-434F-AB12-9D065C8B543E}|QLNhaSach\\QLNhaSach.csproj|solutionrelative:qlnhasach\\fnhaxuatban.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEE0838A-89BA-434F-AB12-9D065C8B543E}|QLNhaSach\\QLNhaSach.csproj|C:\\Users\\DELL\\Downloads\\QLNhaSach\\qlnhasach\\floaisach.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEE0838A-89BA-434F-AB12-9D065C8B543E}|QLNhaSach\\QLNhaSach.csproj|solutionrelative:qlnhasach\\floaisach.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -138,28 +186,28 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\ThinkPad\\OneDrive\\Desktop\\QLNhaSach\\QLNhaSach\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Downloads\\QLNhaSach\\QLNhaSach\\Program.cs",
               "RelativeDocumentMoniker": "QLNhaSach\\Program.cs",
-              "ToolTip": "C:\\Users\\ThinkPad\\OneDrive\\Desktop\\QLNhaSach\\QLNhaSach\\Program.cs",
+              "ToolTip": "C:\\Users\\DELL\\Downloads\\QLNhaSach\\QLNhaSach\\Program.cs",
               "RelativeToolTip": "QLNhaSach\\Program.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAewBMAAAArAAAAAAAAAA==",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-26T02:01:59.595Z",
               "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 12,
               "Title": "fThemSuaHD.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\ThinkPad\\OneDrive\\Desktop\\QLNhaSach\\QLNhaSach\\fThemSuaHD.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Downloads\\QLNhaSach\\QLNhaSach\\fThemSuaHD.cs",
               "RelativeDocumentMoniker": "QLNhaSach\\fThemSuaHD.cs",
-              "ToolTip": "C:\\Users\\ThinkPad\\OneDrive\\Desktop\\QLNhaSach\\QLNhaSach\\fThemSuaHD.cs [Design]",
+              "ToolTip": "C:\\Users\\DELL\\Downloads\\QLNhaSach\\QLNhaSach\\fThemSuaHD.cs [Design]",
               "RelativeToolTip": "QLNhaSach\\fThemSuaHD.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-26T13:29:23.093Z",
@@ -167,11 +215,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "fHoaDon.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\ThinkPad\\OneDrive\\Desktop\\QLNhaSach\\QLNhaSach\\fHoaDon.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Downloads\\QLNhaSach\\QLNhaSach\\fHoaDon.cs",
               "RelativeDocumentMoniker": "QLNhaSach\\fHoaDon.cs",
-              "ToolTip": "C:\\Users\\ThinkPad\\OneDrive\\Desktop\\QLNhaSach\\QLNhaSach\\fHoaDon.cs [Design]",
+              "ToolTip": "C:\\Users\\DELL\\Downloads\\QLNhaSach\\QLNhaSach\\fHoaDon.cs [Design]",
               "RelativeToolTip": "QLNhaSach\\fHoaDon.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-26T12:35:34.034Z",
@@ -179,56 +227,51 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 29,
               "Title": "fHoaDon.cs",
-              "DocumentMoniker": "C:\\Users\\ThinkPad\\OneDrive\\Desktop\\QLNhaSach\\QLNhaSach\\fHoaDon.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Downloads\\QLNhaSach\\QLNhaSach\\fHoaDon.cs",
               "RelativeDocumentMoniker": "QLNhaSach\\fHoaDon.cs",
-              "ToolTip": "C:\\Users\\ThinkPad\\OneDrive\\Desktop\\QLNhaSach\\QLNhaSach\\fHoaDon.cs",
+              "ToolTip": "C:\\Users\\DELL\\Downloads\\QLNhaSach\\QLNhaSach\\fHoaDon.cs",
               "RelativeToolTip": "QLNhaSach\\fHoaDon.cs",
-              "ViewState": "AgIAACMAAAAAAAAAAAAjwDwAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-26T12:35:36.907Z",
               "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 27,
               "Title": "ReportHD.cs",
-              "DocumentMoniker": "C:\\Users\\ThinkPad\\OneDrive\\Desktop\\QLNhaSach\\QLNhaSach\\ReportHD.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Downloads\\QLNhaSach\\QLNhaSach\\ReportHD.cs",
               "RelativeDocumentMoniker": "QLNhaSach\\ReportHD.cs",
-              "ToolTip": "C:\\Users\\ThinkPad\\OneDrive\\Desktop\\QLNhaSach\\QLNhaSach\\ReportHD.cs",
+              "ToolTip": "C:\\Users\\DELL\\Downloads\\QLNhaSach\\QLNhaSach\\ReportHD.cs",
               "RelativeToolTip": "QLNhaSach\\ReportHD.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAAwwDQAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-26T14:43:16.526Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 15,
               "Title": "ReportHD.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\ThinkPad\\OneDrive\\Desktop\\QLNhaSach\\QLNhaSach\\ReportHD.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Downloads\\QLNhaSach\\QLNhaSach\\ReportHD.cs",
               "RelativeDocumentMoniker": "QLNhaSach\\ReportHD.cs",
-              "ToolTip": "C:\\Users\\ThinkPad\\OneDrive\\Desktop\\QLNhaSach\\QLNhaSach\\ReportHD.cs [Design]",
+              "ToolTip": "C:\\Users\\DELL\\Downloads\\QLNhaSach\\QLNhaSach\\ReportHD.cs [Design]",
               "RelativeToolTip": "QLNhaSach\\ReportHD.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-26T14:36:08.161Z",
-              "IsPinned": true,
-              "EditorCaption": " [Design]"
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 14,
               "Title": "ReportHoaDon.rdlc [Design]",
-              "DocumentMoniker": "C:\\Users\\ThinkPad\\OneDrive\\Desktop\\QLNhaSach\\QLNhaSach\\ReportHoaDon.rdlc",
+              "DocumentMoniker": "C:\\Users\\DELL\\Downloads\\QLNhaSach\\QLNhaSach\\ReportHoaDon.rdlc",
               "RelativeDocumentMoniker": "QLNhaSach\\ReportHoaDon.rdlc",
-              "ToolTip": "C:\\Users\\ThinkPad\\OneDrive\\Desktop\\QLNhaSach\\QLNhaSach\\ReportHoaDon.rdlc [Design]*",
-              "RelativeToolTip": "QLNhaSach\\ReportHoaDon.rdlc [Design]*",
+              "ToolTip": "C:\\Users\\DELL\\Downloads\\QLNhaSach\\QLNhaSach\\ReportHoaDon.rdlc [Design]",
+              "RelativeToolTip": "QLNhaSach\\ReportHoaDon.rdlc [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001755|",
               "WhenOpened": "2024-10-26T14:42:48.711Z",
-              "IsPinned": true,
-              "EditorCaption": " [Design]"
+              "IsPinned": true
             },
             {
               "$type": "Bookmark",
@@ -239,77 +282,234 @@
               "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "fKho.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\DELL\\Downloads\\QLNhaSach\\QLNhaSach\\fKho.cs",
+              "RelativeDocumentMoniker": "QLNhaSach\\fKho.cs",
+              "ToolTip": "C:\\Users\\DELL\\Downloads\\QLNhaSach\\QLNhaSach\\fKho.cs [Design]",
+              "RelativeToolTip": "QLNhaSach\\fKho.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T01:04:58.311Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "dataBookStore.cs",
-              "DocumentMoniker": "C:\\Users\\ThinkPad\\OneDrive\\Desktop\\QLNhaSach\\DAL\\dataBookStore.cs",
-              "RelativeDocumentMoniker": "DAL\\dataBookStore.cs",
-              "ToolTip": "C:\\Users\\ThinkPad\\OneDrive\\Desktop\\QLNhaSach\\DAL\\dataBookStore.cs",
-              "RelativeToolTip": "DAL\\dataBookStore.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "fKho.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Downloads\\QLNhaSach\\QLNhaSach\\fKho.cs",
+              "RelativeDocumentMoniker": "QLNhaSach\\fKho.cs",
+              "ToolTip": "C:\\Users\\DELL\\Downloads\\QLNhaSach\\QLNhaSach\\fKho.cs",
+              "RelativeToolTip": "QLNhaSach\\fKho.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAYwCYAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-26T15:10:30.976Z",
+              "WhenOpened": "2024-10-26T01:09:14.483Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BUSKHO.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Downloads\\QLNhaSach\\BUS\\BUSKHO.cs",
+              "RelativeDocumentMoniker": "BUS\\BUSKHO.cs",
+              "ToolTip": "C:\\Users\\DELL\\Downloads\\QLNhaSach\\BUS\\BUSKHO.cs",
+              "RelativeToolTip": "BUS\\BUSKHO.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAIwBkAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T01:04:42.565Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "THELOAI.cs",
-              "DocumentMoniker": "C:\\Users\\ThinkPad\\OneDrive\\Desktop\\QLNhaSach\\DAL\\THELOAI.cs",
-              "RelativeDocumentMoniker": "DAL\\THELOAI.cs",
-              "ToolTip": "C:\\Users\\ThinkPad\\OneDrive\\Desktop\\QLNhaSach\\DAL\\THELOAI.cs",
-              "RelativeToolTip": "DAL\\THELOAI.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAaAAAAAAAAAA==",
+              "Title": "fNhaXuatBan.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\DELL\\Downloads\\QLNhaSach\\QLNhaSach\\fNhaXuatBan.cs",
+              "RelativeDocumentMoniker": "QLNhaSach\\fNhaXuatBan.cs",
+              "ToolTip": "C:\\Users\\DELL\\Downloads\\QLNhaSach\\QLNhaSach\\fNhaXuatBan.cs [Design]",
+              "RelativeToolTip": "QLNhaSach\\fNhaXuatBan.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-26T15:06:18.208Z"
+              "WhenOpened": "2024-10-27T04:44:19.481Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "TAIKHOAN.cs",
-              "DocumentMoniker": "C:\\Users\\ThinkPad\\OneDrive\\Desktop\\QLNhaSach\\DAL\\TAIKHOAN.cs",
-              "RelativeDocumentMoniker": "DAL\\TAIKHOAN.cs",
-              "ToolTip": "C:\\Users\\ThinkPad\\OneDrive\\Desktop\\QLNhaSach\\DAL\\TAIKHOAN.cs",
-              "RelativeToolTip": "DAL\\TAIKHOAN.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "BUSNXB.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Downloads\\QLNhaSach\\BUS\\BUSNXB.cs",
+              "RelativeDocumentMoniker": "BUS\\BUSNXB.cs",
+              "ToolTip": "C:\\Users\\DELL\\Downloads\\QLNhaSach\\BUS\\BUSNXB.cs",
+              "RelativeToolTip": "BUS\\BUSNXB.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-26T15:06:16.2Z"
+              "WhenOpened": "2024-10-27T04:48:00.162Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "TACGIA.cs",
-              "DocumentMoniker": "C:\\Users\\ThinkPad\\OneDrive\\Desktop\\QLNhaSach\\DAL\\TACGIA.cs",
-              "RelativeDocumentMoniker": "DAL\\TACGIA.cs",
-              "ToolTip": "C:\\Users\\ThinkPad\\OneDrive\\Desktop\\QLNhaSach\\DAL\\TACGIA.cs",
-              "RelativeToolTip": "DAL\\TACGIA.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 11,
+              "Title": "fSuaSach.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\DELL\\Downloads\\QLNhaSach\\QLNhaSach\\fSuaSach.cs",
+              "RelativeDocumentMoniker": "QLNhaSach\\fSuaSach.cs",
+              "ToolTip": "C:\\Users\\DELL\\Downloads\\QLNhaSach\\QLNhaSach\\fSuaSach.cs [Design]",
+              "RelativeToolTip": "QLNhaSach\\fSuaSach.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-26T15:06:10.914Z"
+              "WhenOpened": "2024-10-27T04:44:19.037Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CHITIETKHO.CS",
+              "DocumentMoniker": "C:\\Users\\DELL\\Downloads\\QLNhaSach\\DAL\\CHITIETKHO.CS",
+              "RelativeDocumentMoniker": "DAL\\CHITIETKHO.CS",
+              "ToolTip": "C:\\Users\\DELL\\Downloads\\QLNhaSach\\DAL\\CHITIETKHO.CS",
+              "RelativeToolTip": "DAL\\CHITIETKHO.CS",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T15:05:42.25Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "KHOSACH.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Downloads\\QLNhaSach\\DAL\\KHOSACH.cs",
+              "RelativeDocumentMoniker": "DAL\\KHOSACH.cs",
+              "ToolTip": "C:\\Users\\DELL\\Downloads\\QLNhaSach\\DAL\\KHOSACH.cs",
+              "RelativeToolTip": "DAL\\KHOSACH.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T15:05:46.581Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "fThemTacGia.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\DELL\\Downloads\\QLNhaSach\\QLNhaSach\\fThemTacGia.cs",
+              "RelativeDocumentMoniker": "QLNhaSach\\fThemTacGia.cs",
+              "ToolTip": "C:\\Users\\DELL\\Downloads\\QLNhaSach\\QLNhaSach\\fThemTacGia.cs [Design]",
+              "RelativeToolTip": "QLNhaSach\\fThemTacGia.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T04:41:43.53Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BUSSACH.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Downloads\\QLNhaSach\\BUS\\BUSSACH.cs",
+              "RelativeDocumentMoniker": "BUS\\BUSSACH.cs",
+              "ToolTip": "C:\\Users\\DELL\\Downloads\\QLNhaSach\\BUS\\BUSSACH.cs",
+              "RelativeToolTip": "BUS\\BUSSACH.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T01:07:12.116Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "fThongKe.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\DELL\\Downloads\\QLNhaSach\\QLNhaSach\\fThongKe.cs",
+              "RelativeDocumentMoniker": "QLNhaSach\\fThongKe.cs",
+              "ToolTip": "C:\\Users\\DELL\\Downloads\\QLNhaSach\\QLNhaSach\\fThongKe.cs [Design]",
+              "RelativeToolTip": "QLNhaSach\\fThongKe.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T04:41:44.313Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 16,
-              "Title": "SACH.cs",
-              "DocumentMoniker": "C:\\Users\\ThinkPad\\OneDrive\\Desktop\\QLNhaSach\\DAL\\SACH.cs",
-              "RelativeDocumentMoniker": "DAL\\SACH.cs",
-              "ToolTip": "C:\\Users\\ThinkPad\\OneDrive\\Desktop\\QLNhaSach\\DAL\\SACH.cs",
-              "RelativeToolTip": "DAL\\SACH.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Title": "fTongHop.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\DELL\\Downloads\\QLNhaSach\\QLNhaSach\\fTongHop.cs",
+              "RelativeDocumentMoniker": "QLNhaSach\\fTongHop.cs",
+              "ToolTip": "C:\\Users\\DELL\\Downloads\\QLNhaSach\\QLNhaSach\\fTongHop.cs [Design]",
+              "RelativeToolTip": "QLNhaSach\\fTongHop.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-26T15:06:06.517Z"
+              "WhenOpened": "2024-10-27T04:41:45.532Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "fLoaiSach.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\DELL\\Downloads\\QLNhaSach\\QLNhaSach\\FLoaiSach.cs",
+              "RelativeDocumentMoniker": "QLNhaSach\\FLoaiSach.cs",
+              "ToolTip": "C:\\Users\\DELL\\Downloads\\QLNhaSach\\QLNhaSach\\FLoaiSach.cs [Design]",
+              "RelativeToolTip": "QLNhaSach\\FLoaiSach.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T04:44:25.809Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "fTaiKhoan.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\DELL\\Downloads\\QLNhaSach\\QLNhaSach\\fTaiKhoan.cs",
+              "RelativeDocumentMoniker": "QLNhaSach\\fTaiKhoan.cs",
+              "ToolTip": "C:\\Users\\DELL\\Downloads\\QLNhaSach\\QLNhaSach\\fTaiKhoan.cs [Design]",
+              "RelativeToolTip": "QLNhaSach\\fTaiKhoan.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T04:41:42.499Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "packages.config",
+              "DocumentMoniker": "C:\\Users\\DELL\\Downloads\\QLNhaSach\\QLNhaSach\\packages.config",
+              "RelativeDocumentMoniker": "QLNhaSach\\packages.config",
+              "ToolTip": "C:\\Users\\DELL\\Downloads\\QLNhaSach\\QLNhaSach\\packages.config",
+              "RelativeToolTip": "QLNhaSach\\packages.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-10-27T04:41:58.114Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 19,
+              "Title": "toExcel.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Downloads\\QLNhaSach\\QLNhaSach\\toExcel.cs",
+              "RelativeDocumentMoniker": "QLNhaSach\\toExcel.cs",
+              "ToolTip": "C:\\Users\\DELL\\Downloads\\QLNhaSach\\QLNhaSach\\toExcel.cs",
+              "RelativeToolTip": "QLNhaSach\\toExcel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T04:42:03.603Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "fBaoCao.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\DELL\\Downloads\\QLNhaSach\\QLNhaSach\\fBaoCao.cs",
+              "RelativeDocumentMoniker": "QLNhaSach\\fBaoCao.cs",
+              "ToolTip": "C:\\Users\\DELL\\Downloads\\QLNhaSach\\QLNhaSach\\fBaoCao.cs [Design]",
+              "RelativeToolTip": "QLNhaSach\\fBaoCao.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T04:41:40.422Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "fDangNhap.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\DELL\\Downloads\\QLNhaSach\\QLNhaSach\\fDangNhap.cs",
+              "RelativeDocumentMoniker": "QLNhaSach\\fDangNhap.cs",
+              "ToolTip": "C:\\Users\\DELL\\Downloads\\QLNhaSach\\QLNhaSach\\fDangNhap.cs [Design]",
+              "RelativeToolTip": "QLNhaSach\\fDangNhap.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T04:41:39.815Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "App.config",
+              "DocumentMoniker": "C:\\Users\\DELL\\Downloads\\QLNhaSach\\QLNhaSach\\App.config",
+              "RelativeDocumentMoniker": "QLNhaSach\\App.config",
+              "ToolTip": "C:\\Users\\DELL\\Downloads\\QLNhaSach\\QLNhaSach\\App.config",
+              "RelativeToolTip": "QLNhaSach\\App.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-10-26T05:51:55.287Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
               "Title": "NHAXUATBAN.cs",
-              "DocumentMoniker": "C:\\Users\\ThinkPad\\OneDrive\\Desktop\\QLNhaSach\\DAL\\NHAXUATBAN.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Downloads\\QLNhaSach\\DAL\\NHAXUATBAN.cs",
               "RelativeDocumentMoniker": "DAL\\NHAXUATBAN.cs",
-              "ToolTip": "C:\\Users\\ThinkPad\\OneDrive\\Desktop\\QLNhaSach\\DAL\\NHAXUATBAN.cs",
+              "ToolTip": "C:\\Users\\DELL\\Downloads\\QLNhaSach\\DAL\\NHAXUATBAN.cs",
               "RelativeToolTip": "DAL\\NHAXUATBAN.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -317,23 +517,71 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "KHOSACH.cs",
-              "DocumentMoniker": "C:\\Users\\ThinkPad\\OneDrive\\Desktop\\QLNhaSach\\DAL\\KHOSACH.cs",
-              "RelativeDocumentMoniker": "DAL\\KHOSACH.cs",
-              "ToolTip": "C:\\Users\\ThinkPad\\OneDrive\\Desktop\\QLNhaSach\\DAL\\KHOSACH.cs",
-              "RelativeToolTip": "DAL\\KHOSACH.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAUAAAAAAAAAA==",
+              "DocumentIndex": 36,
+              "Title": "SACH.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Downloads\\QLNhaSach\\DAL\\SACH.cs",
+              "RelativeDocumentMoniker": "DAL\\SACH.cs",
+              "ToolTip": "C:\\Users\\DELL\\Downloads\\QLNhaSach\\DAL\\SACH.cs",
+              "RelativeToolTip": "DAL\\SACH.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-26T15:05:46.581Z"
+              "WhenOpened": "2024-10-26T15:06:06.517Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 38,
+              "Title": "TACGIA.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Downloads\\QLNhaSach\\DAL\\TACGIA.cs",
+              "RelativeDocumentMoniker": "DAL\\TACGIA.cs",
+              "ToolTip": "C:\\Users\\DELL\\Downloads\\QLNhaSach\\DAL\\TACGIA.cs",
+              "RelativeToolTip": "DAL\\TACGIA.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T15:06:10.914Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "App.config",
+              "DocumentMoniker": "C:\\Users\\DELL\\Downloads\\QLNhaSach\\BUS\\App.config",
+              "RelativeDocumentMoniker": "BUS\\App.config",
+              "ToolTip": "C:\\Users\\DELL\\Downloads\\QLNhaSach\\BUS\\App.config",
+              "RelativeToolTip": "BUS\\App.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAABWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-10-26T05:52:51.589Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "App.config",
+              "DocumentMoniker": "C:\\Users\\DELL\\Downloads\\QLNhaSach\\DAL\\App.config",
+              "RelativeDocumentMoniker": "DAL\\App.config",
+              "ToolTip": "C:\\Users\\DELL\\Downloads\\QLNhaSach\\DAL\\App.config",
+              "RelativeToolTip": "DAL\\App.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAABWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-10-26T05:52:13.296Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "fChiTietHD.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\DELL\\Downloads\\QLNhaSach\\QLNhaSach\\fChiTietHD.cs",
+              "RelativeDocumentMoniker": "QLNhaSach\\fChiTietHD.cs",
+              "ToolTip": "C:\\Users\\DELL\\Downloads\\QLNhaSach\\QLNhaSach\\fChiTietHD.cs [Design]",
+              "RelativeToolTip": "QLNhaSach\\fChiTietHD.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T13:29:15.855Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
               "Title": "CHITIETSACH.cs",
-              "DocumentMoniker": "C:\\Users\\ThinkPad\\OneDrive\\Desktop\\QLNhaSach\\DAL\\CHITIETSACH.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Downloads\\QLNhaSach\\DAL\\CHITIETSACH.cs",
               "RelativeDocumentMoniker": "DAL\\CHITIETSACH.cs",
-              "ToolTip": "C:\\Users\\ThinkPad\\OneDrive\\Desktop\\QLNhaSach\\DAL\\CHITIETSACH.cs",
+              "ToolTip": "C:\\Users\\DELL\\Downloads\\QLNhaSach\\DAL\\CHITIETSACH.cs",
               "RelativeToolTip": "DAL\\CHITIETSACH.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -341,23 +589,47 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "CHITIETKHO.CS",
-              "DocumentMoniker": "C:\\Users\\ThinkPad\\OneDrive\\Desktop\\QLNhaSach\\DAL\\CHITIETKHO.CS",
-              "RelativeDocumentMoniker": "DAL\\CHITIETKHO.CS",
-              "ToolTip": "C:\\Users\\ThinkPad\\OneDrive\\Desktop\\QLNhaSach\\DAL\\CHITIETKHO.CS",
-              "RelativeToolTip": "DAL\\CHITIETKHO.CS",
+              "DocumentIndex": 37,
+              "Title": "TAIKHOAN.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Downloads\\QLNhaSach\\DAL\\TAIKHOAN.cs",
+              "RelativeDocumentMoniker": "DAL\\TAIKHOAN.cs",
+              "ToolTip": "C:\\Users\\DELL\\Downloads\\QLNhaSach\\DAL\\TAIKHOAN.cs",
+              "RelativeToolTip": "DAL\\TAIKHOAN.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-26T15:05:42.25Z"
+              "WhenOpened": "2024-10-26T15:06:16.2Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 33,
+              "Title": "THELOAI.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Downloads\\QLNhaSach\\DAL\\THELOAI.cs",
+              "RelativeDocumentMoniker": "DAL\\THELOAI.cs",
+              "ToolTip": "C:\\Users\\DELL\\Downloads\\QLNhaSach\\DAL\\THELOAI.cs",
+              "RelativeToolTip": "DAL\\THELOAI.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T15:06:18.208Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "dataBookStore.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Downloads\\QLNhaSach\\DAL\\dataBookStore.cs",
+              "RelativeDocumentMoniker": "DAL\\dataBookStore.cs",
+              "ToolTip": "C:\\Users\\DELL\\Downloads\\QLNhaSach\\DAL\\dataBookStore.cs",
+              "RelativeToolTip": "DAL\\dataBookStore.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T15:10:30.976Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
               "Title": "packages.config",
-              "DocumentMoniker": "C:\\Users\\ThinkPad\\OneDrive\\Desktop\\QLNhaSach\\DAL\\packages.config",
+              "DocumentMoniker": "C:\\Users\\DELL\\Downloads\\QLNhaSach\\DAL\\packages.config",
               "RelativeDocumentMoniker": "DAL\\packages.config",
-              "ToolTip": "C:\\Users\\ThinkPad\\OneDrive\\Desktop\\QLNhaSach\\DAL\\packages.config",
+              "ToolTip": "C:\\Users\\DELL\\Downloads\\QLNhaSach\\DAL\\packages.config",
               "RelativeToolTip": "DAL\\packages.config",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
@@ -365,11 +637,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 34,
               "Title": "CHITIETHOADONSACH.cs",
-              "DocumentMoniker": "C:\\Users\\ThinkPad\\OneDrive\\Desktop\\QLNhaSach\\DAL\\CHITIETHOADONSACH.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Downloads\\QLNhaSach\\DAL\\CHITIETHOADONSACH.cs",
               "RelativeDocumentMoniker": "DAL\\CHITIETHOADONSACH.cs",
-              "ToolTip": "C:\\Users\\ThinkPad\\OneDrive\\Desktop\\QLNhaSach\\DAL\\CHITIETHOADONSACH.cs",
+              "ToolTip": "C:\\Users\\DELL\\Downloads\\QLNhaSach\\DAL\\CHITIETHOADONSACH.cs",
               "RelativeToolTip": "DAL\\CHITIETHOADONSACH.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -377,34 +649,22 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 41,
               "Title": "fThemSuaHD.cs",
-              "DocumentMoniker": "C:\\Users\\ThinkPad\\OneDrive\\Desktop\\QLNhaSach\\QLNhaSach\\fThemSuaHD.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Downloads\\QLNhaSach\\QLNhaSach\\fThemSuaHD.cs",
               "RelativeDocumentMoniker": "QLNhaSach\\fThemSuaHD.cs",
-              "ToolTip": "C:\\Users\\ThinkPad\\OneDrive\\Desktop\\QLNhaSach\\QLNhaSach\\fThemSuaHD.cs",
+              "ToolTip": "C:\\Users\\DELL\\Downloads\\QLNhaSach\\QLNhaSach\\fThemSuaHD.cs",
               "RelativeToolTip": "QLNhaSach\\fThemSuaHD.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAhwCIAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-26T13:30:05.781Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "fChiTietHD.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\ThinkPad\\OneDrive\\Desktop\\QLNhaSach\\QLNhaSach\\fChiTietHD.cs",
-              "RelativeDocumentMoniker": "QLNhaSach\\fChiTietHD.cs",
-              "ToolTip": "C:\\Users\\ThinkPad\\OneDrive\\Desktop\\QLNhaSach\\QLNhaSach\\fChiTietHD.cs [Design]",
-              "RelativeToolTip": "QLNhaSach\\fChiTietHD.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-26T13:29:15.855Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 30,
               "Title": "BUSHOADON.cs",
-              "DocumentMoniker": "C:\\Users\\ThinkPad\\OneDrive\\Desktop\\QLNhaSach\\BUS\\BUSHOADON.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Downloads\\QLNhaSach\\BUS\\BUSHOADON.cs",
               "RelativeDocumentMoniker": "BUS\\BUSHOADON.cs",
-              "ToolTip": "C:\\Users\\ThinkPad\\OneDrive\\Desktop\\QLNhaSach\\BUS\\BUSHOADON.cs",
+              "ToolTip": "C:\\Users\\DELL\\Downloads\\QLNhaSach\\BUS\\BUSHOADON.cs",
               "RelativeToolTip": "BUS\\BUSHOADON.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAADQAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -412,49 +672,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "App.config",
-              "DocumentMoniker": "C:\\Users\\ThinkPad\\OneDrive\\Desktop\\QLNhaSach\\BUS\\App.config",
-              "RelativeDocumentMoniker": "BUS\\App.config",
-              "ToolTip": "C:\\Users\\ThinkPad\\OneDrive\\Desktop\\QLNhaSach\\BUS\\App.config",
-              "RelativeToolTip": "BUS\\App.config",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2024-10-26T05:52:51.589Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "App.config",
-              "DocumentMoniker": "C:\\Users\\ThinkPad\\OneDrive\\Desktop\\QLNhaSach\\DAL\\App.config",
-              "RelativeDocumentMoniker": "DAL\\App.config",
-              "ToolTip": "C:\\Users\\ThinkPad\\OneDrive\\Desktop\\QLNhaSach\\DAL\\App.config",
-              "RelativeToolTip": "DAL\\App.config",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2024-10-26T05:52:13.296Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "App.config",
-              "DocumentMoniker": "C:\\Users\\ThinkPad\\OneDrive\\Desktop\\QLNhaSach\\QLNhaSach\\App.config",
-              "RelativeDocumentMoniker": "QLNhaSach\\App.config",
-              "ToolTip": "C:\\Users\\ThinkPad\\OneDrive\\Desktop\\QLNhaSach\\QLNhaSach\\App.config",
-              "RelativeToolTip": "QLNhaSach\\App.config",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2024-10-26T05:51:55.287Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 31,
               "Title": "HOADON.cs",
-              "DocumentMoniker": "C:\\Users\\ThinkPad\\OneDrive\\Desktop\\QLNhaSach\\DAL\\HOADON.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Downloads\\QLNhaSach\\DAL\\HOADON.cs",
               "RelativeDocumentMoniker": "DAL\\HOADON.cs",
-              "ToolTip": "C:\\Users\\ThinkPad\\OneDrive\\Desktop\\QLNhaSach\\DAL\\HOADON.cs",
+              "ToolTip": "C:\\Users\\DELL\\Downloads\\QLNhaSach\\DAL\\HOADON.cs",
               "RelativeToolTip": "DAL\\HOADON.cs",
               "ViewState": "AgIAAA0AAAAAAAAAAAAgwBsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -462,11 +684,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 32,
               "Title": "CHITIETHOADON.cs",
-              "DocumentMoniker": "C:\\Users\\ThinkPad\\OneDrive\\Desktop\\QLNhaSach\\DAL\\CHITIETHOADON.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Downloads\\QLNhaSach\\DAL\\CHITIETHOADON.cs",
               "RelativeDocumentMoniker": "DAL\\CHITIETHOADON.cs",
-              "ToolTip": "C:\\Users\\ThinkPad\\OneDrive\\Desktop\\QLNhaSach\\DAL\\CHITIETHOADON.cs",
+              "ToolTip": "C:\\Users\\DELL\\Downloads\\QLNhaSach\\DAL\\CHITIETHOADON.cs",
               "RelativeToolTip": "DAL\\CHITIETHOADON.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAAQwBUAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -474,74 +696,25 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 42,
               "Title": "fNhaXuatBan.cs",
-              "DocumentMoniker": "C:\\Users\\ThinkPad\\OneDrive\\Desktop\\QLNhaSach\\QLNhaSach\\fNhaXuatBan.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Downloads\\QLNhaSach\\QLNhaSach\\fNhaXuatBan.cs",
               "RelativeDocumentMoniker": "QLNhaSach\\fNhaXuatBan.cs",
-              "ToolTip": "C:\\Users\\ThinkPad\\OneDrive\\Desktop\\QLNhaSach\\QLNhaSach\\fNhaXuatBan.cs",
+              "ToolTip": "C:\\Users\\DELL\\Downloads\\QLNhaSach\\QLNhaSach\\fNhaXuatBan.cs",
               "RelativeToolTip": "QLNhaSach\\fNhaXuatBan.cs",
-              "ViewState": "AgIAACsAAAAAAAAAAAAhwDQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-26T02:03:28.479Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 43,
               "Title": "fLoaiSach.cs",
-              "DocumentMoniker": "C:\\Users\\ThinkPad\\OneDrive\\Desktop\\QLNhaSach\\QLNhaSach\\FLoaiSach.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Downloads\\QLNhaSach\\QLNhaSach\\FLoaiSach.cs",
               "RelativeDocumentMoniker": "QLNhaSach\\FLoaiSach.cs",
-              "ToolTip": "C:\\Users\\ThinkPad\\OneDrive\\Desktop\\QLNhaSach\\QLNhaSach\\FLoaiSach.cs",
+              "ToolTip": "C:\\Users\\DELL\\Downloads\\QLNhaSach\\QLNhaSach\\FLoaiSach.cs",
               "RelativeToolTip": "QLNhaSach\\FLoaiSach.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAlwB4AAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-26T02:03:22.351Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "fKho.cs",
-              "DocumentMoniker": "C:\\Users\\ThinkPad\\OneDrive\\Desktop\\QLNhaSach\\QLNhaSach\\fKho.cs",
-              "RelativeDocumentMoniker": "QLNhaSach\\fKho.cs",
-              "ToolTip": "C:\\Users\\ThinkPad\\OneDrive\\Desktop\\QLNhaSach\\QLNhaSach\\fKho.cs",
-              "RelativeToolTip": "QLNhaSach\\fKho.cs",
-              "ViewState": "AgIAADQAAAAAAAAAAAAQwCMAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-26T01:09:14.483Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "BUSSACH.cs",
-              "DocumentMoniker": "C:\\Users\\ThinkPad\\OneDrive\\Desktop\\QLNhaSach\\BUS\\BUSSACH.cs",
-              "RelativeDocumentMoniker": "BUS\\BUSSACH.cs",
-              "ToolTip": "C:\\Users\\ThinkPad\\OneDrive\\Desktop\\QLNhaSach\\BUS\\BUSSACH.cs",
-              "RelativeToolTip": "BUS\\BUSSACH.cs",
-              "ViewState": "AgIAAHcAAAAAAAAAAAArwGcAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-26T01:07:12.116Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "fKho.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\ThinkPad\\OneDrive\\Desktop\\QLNhaSach\\QLNhaSach\\fKho.cs",
-              "RelativeDocumentMoniker": "QLNhaSach\\fKho.cs",
-              "ToolTip": "C:\\Users\\ThinkPad\\OneDrive\\Desktop\\QLNhaSach\\QLNhaSach\\fKho.cs [Design]",
-              "RelativeToolTip": "QLNhaSach\\fKho.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-26T01:04:58.311Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "BUSKHO.cs",
-              "DocumentMoniker": "C:\\Users\\ThinkPad\\OneDrive\\Desktop\\QLNhaSach\\BUS\\BUSKHO.cs",
-              "RelativeDocumentMoniker": "BUS\\BUSKHO.cs",
-              "ToolTip": "C:\\Users\\ThinkPad\\OneDrive\\Desktop\\QLNhaSach\\BUS\\BUSKHO.cs",
-              "RelativeToolTip": "BUS\\BUSKHO.cs",
-              "ViewState": "AgIAADcAAAAAAAAAAAAWwE0AAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-26T01:04:42.565Z"
             }
           ]
         },
