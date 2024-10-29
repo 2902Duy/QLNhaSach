@@ -53,12 +53,32 @@ namespace BUS
             db.CHITIETHOADONs.Add(ct);
             db.SaveChanges();
         }
+        public void themSachTrung(string maHD, string maSach,int sl)
+        {
+            var hd =db.CHITIETHOADONs.Find(maHD,maSach);
+            hd.SOLUONG += sl;
+            hd.THANHTIEN =hd.GIABAN*hd.SOLUONG;
+        }
         public void tongtienhd(int sumMoney,string mahd)
         {
             var hd = db.HOADONs.Find(mahd);
             hd.TONGTIEN = sumMoney;
             db.SaveChanges();
         }
-
+        public int tongDoanhThu()
+        {
+            return db.HOADONs.Sum(s => s.TONGTIEN??0);
+        }
+        public int tongKhachHang()
+        {
+            return db.HOADONs.Count();
+        }
+        public bool isDetailExists(string maHD,string maSach)
+        {
+            foreach(var hd in db.CHITIETHOADONs)
+                if(hd.MAHOADON.Equals(maHD)&&hd.MASACH.Equals(maSach))
+                    return false;
+            return true;
+        }
     }
 }

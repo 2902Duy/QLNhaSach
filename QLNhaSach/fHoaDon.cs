@@ -38,8 +38,13 @@ namespace QLNhaSach
 
         private void btnHT_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Xác nhận hoàn thành hóa đơn này?", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Question);
-            themHDMoi();
+            DialogResult result = MessageBox.Show("Xác nhận hoàn thành hóa đơn này?", "Thông báo", MessageBoxButtons.OKCancel, MessageBoxIcon.Question);
+
+            if (result == DialogResult.OK)
+            {
+
+                themHDMoi();
+            }
         }
 
         public void themHDMoi()
@@ -61,7 +66,16 @@ namespace QLNhaSach
                     string masach = ct.MASACH;
                     int sl = ct.SOLUONG.Value;
                     sumMoney =sumMoney+ ct.THANHTIEN.Value;
-                    bushd.themcthd(ct);
+                    if (!bushd.isDetailExists(ct.MAHOADON, ct.MASACH))
+                    {
+                        bushd.themSachTrung(ct.MAHOADON, ct.MASACH, ct.SOLUONG ?? 0);
+
+                    }
+                    else
+                    {
+                        bushd.themcthd(ct);
+                    }
+                    
                     buskho.capNhapSoLuongSach(sl, masach);
 
                 }
@@ -74,7 +88,7 @@ namespace QLNhaSach
             }
             catch(Exception ex)
             {
-                MessageBox.Show(ex.Message);
+                MessageBox.Show(ex.InnerException?.Message ?? ex.Message);
             }
         }
         private void fHoaDon_Load(object sender, EventArgs e)
@@ -134,12 +148,18 @@ namespace QLNhaSach
             try
             {
                 int sl = int.Parse(txtsoluong.Text);
+                if (!bussach.kiemTraTenSach(cmbTenS.Text))
+                {
+                    MessageBox.Show("Sách đã chọn không tồn tại!");
+                    return;
+                }
                 string masach = cmbTenS.SelectedValue.ToString();
                 if (!buskho.KiemtraSLSach(sl, masach))
                 {
 
-                    MessageBox.Show("Số lượng sách trong kho không đủ");
+                    MessageBox.Show("Số lượng sách trong kho không đủ!");
                 }
+                   
                 else
                 {
                     SACH sach = bussach.timSachTheoMa(masach);
@@ -173,6 +193,26 @@ namespace QLNhaSach
         {
             fThongKe fThongKe = new fThongKe();
             fThongKe.Show();
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnXoa_Click(object sender, EventArgs e)
+        {
+            if (dgvChonS.SelectedRows.Count > 0)
+            {
+                int viTri = dgvChonS.SelectedRows[0].Index; 
+                bindingSach.RemoveAt(viTri);
+                dgvChonS.DataSource= bindingSach;
+                listSach.RemoveAt(viTri);
+            }
+            else
+            {
+                MessageBox.Show("Chọn vị trí để xóa!");
+            }
         }
     }
 }

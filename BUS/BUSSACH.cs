@@ -202,7 +202,17 @@ namespace BUS
                 throw new InvalidOperationException("Tác giả không tồn tại.");
             }
         }
-
+        public bool kiemTraTenSach(string tenSach)
+        {
+            var lsSach = from s in db.SACHes
+                         select s.TENSACH;
+            foreach (var s in lsSach.ToList())
+            {
+                if (s.Equals(tenSach))
+                    return true;
+            }
+            return false;
+        }
     }
 
 }
