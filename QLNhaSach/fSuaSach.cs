@@ -20,9 +20,16 @@ namespace QLNhaSach
         public fSuaSach()
         {
             InitializeComponent();
-            //InitializeNumericUpDown();
-        }
+            SetControlTextColor(Color.Black);
 
+        }
+        private void SetControlTextColor(Color color)
+        {
+            foreach (Control control in this.Controls)
+            {
+                control.ForeColor = color;
+            }
+        }
 
         private void txtTENSACH_KeyPress(object sender, KeyPressEventArgs e)
         {
@@ -271,6 +278,24 @@ namespace QLNhaSach
         private void dgvSuaS_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
 
+        }
+
+        private void tmiTheLoai_Click(object sender, EventArgs e)
+        {
+            fLoaiSach fLoaiSach = new fLoaiSach();
+            fLoaiSach.Show();
+        }
+
+        private void tmiTacGia_Click(object sender, EventArgs e)
+        {
+            fThemTacGia fThemTacGia = new fThemTacGia();
+            fThemTacGia.Show();
+        }
+
+        private void tmiNXB_Click(object sender, EventArgs e)
+        {
+            fNhaXuatBan fNhaXuatBan = new fNhaXuatBan();
+            fNhaXuatBan.Show();
         }
     }
 }

@@ -24,7 +24,17 @@ namespace QLNhaSach
         {
             InitializeComponent();
             fillTenSach();
+            SetControlTextColor(Color.Black);
+
         }
+        private void SetControlTextColor(Color color)
+        {
+            foreach (Control control in this.Controls)
+            {
+                control.ForeColor = color;
+            }
+        }
+
 
         private void btnHT_Click(object sender, EventArgs e)
         {
@@ -157,6 +167,12 @@ namespace QLNhaSach
             catch (Exception ex) { 
             MessageBox.Show( ex.Message);
             }
+        }
+
+        private void btnThongKe_Click(object sender, EventArgs e)
+        {
+            fThongKe fThongKe = new fThongKe();
+            fThongKe.Show();
         }
     }
 }

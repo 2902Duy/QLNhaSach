@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label10 = new System.Windows.Forms.Label();
             this.cmbTenS = new System.Windows.Forms.ComboBox();
             this.label1 = new System.Windows.Forms.Label();
             this.dgvChonS = new System.Windows.Forms.DataGridView();
@@ -37,23 +36,14 @@
             this.label9 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.txtsoluong = new System.Windows.Forms.TextBox();
+            this.btnThongKe = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgvChonS)).BeginInit();
             this.SuspendLayout();
-            // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Rockwell", 16.27826F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(317, 9);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(145, 32);
-            this.label10.TabIndex = 23;
-            this.label10.Text = "HÓA ĐƠN";
             // 
             // cmbTenS
             // 
             this.cmbTenS.FormattingEnabled = true;
-            this.cmbTenS.Location = new System.Drawing.Point(120, 288);
+            this.cmbTenS.Location = new System.Drawing.Point(324, 375);
             this.cmbTenS.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.cmbTenS.Name = "cmbTenS";
             this.cmbTenS.Size = new System.Drawing.Size(145, 24);
@@ -63,7 +53,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.01739F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(25, 290);
+            this.label1.Location = new System.Drawing.Point(229, 377);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(89, 20);
             this.label1.TabIndex = 36;
@@ -71,19 +61,21 @@
             // 
             // dgvChonS
             // 
+            this.dgvChonS.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgvChonS.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvChonS.Location = new System.Drawing.Point(29, 91);
+            this.dgvChonS.Location = new System.Drawing.Point(29, 58);
             this.dgvChonS.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.dgvChonS.Name = "dgvChonS";
             this.dgvChonS.RowHeadersWidth = 49;
             this.dgvChonS.RowTemplate.Height = 24;
-            this.dgvChonS.Size = new System.Drawing.Size(733, 178);
+            this.dgvChonS.Size = new System.Drawing.Size(1001, 295);
             this.dgvChonS.TabIndex = 35;
             this.dgvChonS.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvChonS_CellContentClick);
             // 
             // btnHT
             // 
-            this.btnHT.Location = new System.Drawing.Point(564, 390);
+            this.btnHT.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.01739F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnHT.Location = new System.Drawing.Point(851, 474);
             this.btnHT.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnHT.Name = "btnHT";
             this.btnHT.Size = new System.Drawing.Size(199, 46);
@@ -94,10 +86,11 @@
             // 
             // btnchon
             // 
-            this.btnchon.Location = new System.Drawing.Point(651, 283);
+            this.btnchon.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.01739F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnchon.Location = new System.Drawing.Point(434, 474);
             this.btnchon.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnchon.Name = "btnchon";
-            this.btnchon.Size = new System.Drawing.Size(112, 37);
+            this.btnchon.Size = new System.Drawing.Size(155, 46);
             this.btnchon.TabIndex = 33;
             this.btnchon.Text = "CHỌN";
             this.btnchon.UseVisualStyleBackColor = true;
@@ -107,7 +100,7 @@
             // 
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.01739F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(347, 290);
+            this.label9.Location = new System.Drawing.Point(559, 379);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(93, 20);
             this.label9.TabIndex = 32;
@@ -117,7 +110,7 @@
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Rockwell", 16.27826F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(303, 52);
+            this.label8.Location = new System.Drawing.Point(12, 9);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(176, 32);
             this.label8.TabIndex = 30;
@@ -125,19 +118,32 @@
             // 
             // txtsoluong
             // 
-            this.txtsoluong.Location = new System.Drawing.Point(475, 289);
-            this.txtsoluong.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtsoluong.Location = new System.Drawing.Point(659, 379);
+            this.txtsoluong.Margin = new System.Windows.Forms.Padding(4);
             this.txtsoluong.Name = "txtsoluong";
             this.txtsoluong.Size = new System.Drawing.Size(132, 22);
             this.txtsoluong.TabIndex = 38;
             this.txtsoluong.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             this.txtsoluong.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox1_KeyPress);
             // 
+            // btnThongKe
+            // 
+            this.btnThongKe.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.01739F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnThongKe.Location = new System.Drawing.Point(895, 358);
+            this.btnThongKe.Name = "btnThongKe";
+            this.btnThongKe.Size = new System.Drawing.Size(135, 38);
+            this.btnThongKe.TabIndex = 39;
+            this.btnThongKe.Text = "THỐNG KÊ";
+            this.btnThongKe.UseVisualStyleBackColor = true;
+            this.btnThongKe.Click += new System.EventHandler(this.btnThongKe_Click);
+            // 
             // fHoaDon
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(781, 505);
+            this.BackColor = System.Drawing.Color.PowderBlue;
+            this.ClientSize = new System.Drawing.Size(1062, 531);
+            this.Controls.Add(this.btnThongKe);
             this.Controls.Add(this.txtsoluong);
             this.Controls.Add(this.cmbTenS);
             this.Controls.Add(this.label1);
@@ -146,7 +152,6 @@
             this.Controls.Add(this.btnchon);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.label8);
-            this.Controls.Add(this.label10);
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "fHoaDon";
             this.Text = "HÓA ĐƠN";
@@ -158,8 +163,6 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.Label label10;
         private System.Windows.Forms.ComboBox cmbTenS;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.DataGridView dgvChonS;
@@ -168,6 +171,7 @@
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.TextBox txtsoluong;
+        private System.Windows.Forms.Button btnThongKe;
     }
 }
 

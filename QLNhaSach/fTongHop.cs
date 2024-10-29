@@ -16,27 +16,25 @@ namespace QLNhaSach
     public partial class fTongHop : Form
     {
         BindingSource BindingSource= new BindingSource();
-        string _username;
-        string _admin = "hutech@123";
         public fTongHop(string username)
         {
             InitializeComponent();
             lblTaiKhoan.Text = "TÀI KHOẢN: "+username;
-            _username = username;
             lblNgayThang.Text = DateTime.Now.ToString("dd-MM-yyyy");
+            SetControlTextColor(Color.Black);
+
+        }
+        private void SetControlTextColor(Color color)
+        {
+            foreach (Control control in this.Controls)
+            {
+                control.ForeColor = color;
+            }
         }
 
         private void tmiTaiKhoan_Click(object sender, EventArgs e)
         {
-            if (_username == _admin) 
-            {
-                fTaiKhoan TaiKhoan = new fTaiKhoan();
-                TaiKhoan.Show();
-            }
-            else
-            {
-                MessageBox.Show( "Bạn không có quyền truy cập chức năng này","Thông báo");
-            }
+          
             
         }
 
@@ -63,73 +61,6 @@ namespace QLNhaSach
             BindingSource.DataSource = dss.ToList();
             dgvSach.DataSource = BindingSource;
 
-        }
-        private void tmiDangXuat_Click_1(object sender, EventArgs e)
-        {
-            this.Close();
-        }
-
-      
-        private void tmiThongKe_Click(object sender, EventArgs e)
-        {
-            fThongKe fThongKe = new fThongKe(); 
-            fThongKe.Show();
-        }
-
-        private void tmiHoaDon_Click_1(object sender, EventArgs e)
-        {
-            fHoaDon fHoaDon = new fHoaDon();
-            fHoaDon.Show();
-        }
-
-        private void tsbKhoHang_Click_1(object sender, EventArgs e)
-        {
-            fKho fKho = new fKho();
-            fKho.Show();
-        }
-
-        private void tmiLoaiSach_Click_1(object sender, EventArgs e)
-        {
-            fLoaiSach fLoaiSach = new fLoaiSach();
-            fLoaiSach.Show();
-        }
-
-        private void tmiNhaXuatBan_Click(object sender, EventArgs e)
-        {
-            fNhaXuatBan fNhaXuatBan = new fNhaXuatBan();
-            fNhaXuatBan.Show();
-        }
-
-        private void dgvSach_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-
-        }
-        private void tlsMenu_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
-        {
-
-        }
-
-        private void lblTaiKhoan_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void tmiTacGia_Click(object sender, EventArgs e)
-        {
-            fThemTacGia fThemTacGia = new fThemTacGia();
-            fThemTacGia.Show();
-        }
-
-        private void tmiSach_Click(object sender, EventArgs e)
-        {
-            fSuaSach fSuaSach = new fSuaSach();
-            fSuaSach.Show();
-        }
-
-        private void tmiTheLoaiS_Click(object sender, EventArgs e)
-        {
-            fLoaiSach fLoaiSach = new fLoaiSach();
-            fLoaiSach.Show();
         }
     }
 }

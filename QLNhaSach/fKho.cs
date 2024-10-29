@@ -20,6 +20,15 @@ namespace QLNhaSach
         public fKho()
         {
             InitializeComponent();
+            SetControlTextColor(Color.Black);
+
+        }
+        private void SetControlTextColor(Color color)
+        {
+            foreach (Control control in this.Controls)
+            {
+                control.ForeColor = color;
+            }
         }
 
         private void fKho_Load(object sender, EventArgs e)

@@ -17,77 +17,57 @@ namespace QLNhaSach
         public fDangNhap()
         {
             InitializeComponent();
-            txtMatKhau.UseSystemPasswordChar = true;
+            txtMatK.UseSystemPasswordChar = true;
         }
-
-        private void lblMatKhau_Click(object sender, EventArgs e)
+        private void btnDangNhap1_Click(object sender, EventArgs e)
         {
-
-        }
-
-        private void btnDangNhap_Click(object sender, EventArgs e)
-        {
-
             try
             {
                 BUSTAIKHOAN dn = new BUSTAIKHOAN();
                 err.Clear();
-                if (string.IsNullOrEmpty(txtTaiKhoan.Text) || txtTaiKhoan.Text.Length < 3)
+                if (string.IsNullOrEmpty(txtTaiK.Text) || txtTaiK.Text.Length < 3)
                 {
-                    err.SetError(txtTaiKhoan, "Tên tài khoản không được bỏ trống và phải có ít nhất 3 kí tự");
+                    err.SetError(txtTaiK, "Tên tài khoản không được bỏ trống và phải có ít nhất 3 kí tự");
+                }
+                if (string.IsNullOrEmpty(txtMatK.Text) || txtMatK.Text.Length < 3)
+                {
+                    err.SetError(txtMatK, "Mật khầu không được bỏ trống và phải có ít nhất 3 kí tự");
                 }
 
                 else
                 {
-                    if (dn.kiemTraDangNhap(txtTaiKhoan.Text, txtMatKhau.Text))
+                    if (dn.kiemTraDangNhap(txtTaiK.Text, txtMatK.Text))
                     {
-                        fTongHop fTongHop = new fTongHop(txtTaiKhoan.Text);
+                        MidForm midForm = new MidForm(txtTaiK.Text);
                         this.Hide();
-                        fTongHop.Show();
+                        midForm.Show();
                     }
-                    else 
+                    else
                     {
-                        err.SetError(txtTaiKhoan, "Tên tài khoản hoặc mật khẩu sai");
+                        err.SetError(txtTaiK, "Tên tài khoản hoặc mật khẩu sai");
                     }
 
                 }
             }
-            catch 
+            catch
             {
-                
+
             }
         }
 
-        
-
-        private void chkHienMatKhau_CheckedChanged(object sender, EventArgs e)
+        private void chkHienMatKhau1_CheckedChanged(object sender, EventArgs e)
         {
-            if (chkHienMatKhau.CheckState == CheckState.Checked)
+            if (chkHienMatKhau1.CheckState == CheckState.Checked)
             {
-                txtMatKhau.UseSystemPasswordChar = false;
+                txtMatK.UseSystemPasswordChar = false;
             }
             else
             {
-                txtMatKhau.UseSystemPasswordChar= true;
+                txtMatK.UseSystemPasswordChar = true;
             }
         }
 
-        private void fDangNhap_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void txtTaiKhoan_TextChanged(object sender, EventArgs e)
-        {
-            
-        }
-
-        private void txtMatKhau_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label1_Click(object sender, EventArgs e)
+        private void panel7_Paint(object sender, PaintEventArgs e)
         {
 
         }

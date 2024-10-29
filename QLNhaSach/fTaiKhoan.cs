@@ -19,6 +19,15 @@ namespace QLNhaSach
         {
             InitializeComponent();
             txtMatKhau.UseSystemPasswordChar = true;
+            SetControlTextColor(Color.Black);
+
+        }
+        private void SetControlTextColor(Color color)
+        {
+            foreach (Control control in this.Controls)
+            {
+                control.ForeColor = color;
+            }
         }
 
         private void chkHienMatKhau_CheckedChanged(object sender, EventArgs e)
@@ -67,7 +76,7 @@ namespace QLNhaSach
                 {
 
                     string username = txtTaiKhoan.Text;
-                    string password = txtTaiKhoan.Text.Trim();
+                    string password = txtMatKhau.Text.Trim();
                     bustk.themTaiKhoan(username, password);
                     loaddata();
                     binding.ResetBindings(false);
