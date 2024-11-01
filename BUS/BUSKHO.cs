@@ -22,6 +22,7 @@ namespace BUS
         }
         public void themSachKho(string maSach, byte soluong)
         {
+
             var id = db.KHOSACHes.Max(s => s.ID) + 1;
             string maKho = "KS00" + (id + 1);
             KHOSACH ks = new KHOSACH
@@ -46,14 +47,15 @@ namespace BUS
             }
         }
 
-        public void SuaSachKho(int id, string MaSach, byte soluong)
+        public void SuaSachKho(int id, string MaSach,string Tensach, byte soluong)
         {
             var kho = db.KHOSACHes.FirstOrDefault(s => s.ID == id);
 
             if (kho != null)
             {
                 kho.MASACH = MaSach;
-                kho.SL = soluong;
+                kho.SACH.TENSACH = Tensach;
+                kho.SL += soluong; 
                 db.SaveChanges();
             }
             else

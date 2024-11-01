@@ -42,6 +42,7 @@ namespace QLNhaSach
                     {
                         Kho.KHOSACH.ID,
                         Kho.KHOSACH.MASACH,
+                        Kho.SACH.TENSACH,
                         Kho.KHOSACH.SL
                     });
                 txtMaKho.ReadOnly = true;
@@ -55,6 +56,7 @@ namespace QLNhaSach
         {
             txtMaKho.DataBindings.Add(new Binding("Text", binding, "ID", true, DataSourceUpdateMode.Never));
             txtMaS.DataBindings.Add(new Binding("Text", binding, "MASACH", true, DataSourceUpdateMode.Never));
+            txtTenSach.DataBindings.Add(new Binding("Text", binding, "TENSACH", true, DataSourceUpdateMode.Never));
             txtSluong.DataBindings.Add(new Binding("Text", binding, "SL", true, DataSourceUpdateMode.Never));
 
         }
@@ -67,6 +69,7 @@ namespace QLNhaSach
                              {
                                  Kho.KHOSACH.ID,
                                  Kho.KHOSACH.MASACH,
+                                 Kho.SACH.TENSACH,
                                  Kho.KHOSACH.SL
                              };
 
@@ -105,16 +108,22 @@ namespace QLNhaSach
             if (dgvKho.SelectedRows.Count > 0)
             {
                 int id = Convert.ToInt32(dgvKho.SelectedRows[0].Cells["ID"].Value);
-
                 try
                 {
                     string MaSach = txtMaS.Text;
+                    string Tensach = txtTenSach.Text;
                     byte soluong = byte.Parse(txtSluong.Text);
-                    buskho.SuaSachKho(id, MaSach, soluong);
+
+                    if (soluong < 0)
+                    {
+                        MessageBox.Show("Số lượng không được âm.", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                        return;
+                    }
+
+                    buskho.SuaSachKho(id, MaSach, Tensach, soluong);
                     MessageBox.Show("Sửa thành công!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     UpdateDataGridView();
                 }
-
                 catch (Exception ex)
                 {
                     MessageBox.Show("Có lỗi xảy ra khi sửa sách trong kho: " + ex.Message, "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);

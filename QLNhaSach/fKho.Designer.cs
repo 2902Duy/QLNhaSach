@@ -38,6 +38,8 @@
             this.label2 = new System.Windows.Forms.Label();
             this.txtSluong = new System.Windows.Forms.TextBox();
             this.txtMaS = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.txtTenSach = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.dgvKho)).BeginInit();
             this.SuspendLayout();
             // 
@@ -55,7 +57,7 @@
             // btnSua
             // 
             this.btnSua.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.01739F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSua.Location = new System.Drawing.Point(805, 384);
+            this.btnSua.Location = new System.Drawing.Point(795, 369);
             this.btnSua.Name = "btnSua";
             this.btnSua.Size = new System.Drawing.Size(229, 50);
             this.btnSua.TabIndex = 17;
@@ -66,7 +68,7 @@
             // btnXoa
             // 
             this.btnXoa.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.01739F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnXoa.Location = new System.Drawing.Point(805, 460);
+            this.btnXoa.Location = new System.Drawing.Point(795, 437);
             this.btnXoa.Name = "btnXoa";
             this.btnXoa.Size = new System.Drawing.Size(229, 50);
             this.btnXoa.TabIndex = 18;
@@ -80,7 +82,7 @@
             this.lblTen.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.01739F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTen.Location = new System.Drawing.Point(28, 384);
             this.lblTen.Name = "lblTen";
-            this.lblTen.Size = new System.Drawing.Size(86, 20);
+            this.lblTen.Size = new System.Drawing.Size(91, 20);
             this.lblTen.TabIndex = 19;
             this.lblTen.Text = "MÃ SÁCH ";
             // 
@@ -90,7 +92,7 @@
             this.lblSL.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.01739F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblSL.Location = new System.Drawing.Point(345, 384);
             this.lblSL.Name = "lblSL";
-            this.lblSL.Size = new System.Drawing.Size(93, 20);
+            this.lblSL.Size = new System.Drawing.Size(98, 20);
             this.lblSL.TabIndex = 21;
             this.lblSL.Text = "SỐ LƯỢNG";
             // 
@@ -101,7 +103,7 @@
             this.label1.ForeColor = System.Drawing.SystemColors.InfoText;
             this.label1.Location = new System.Drawing.Point(12, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(155, 32);
+            this.label1.Size = new System.Drawing.Size(167, 33);
             this.label1.TabIndex = 24;
             this.label1.Text = "KHO SÁCH";
             // 
@@ -125,7 +127,7 @@
             // 
             // txtSluong
             // 
-            this.txtSluong.Location = new System.Drawing.Point(444, 382);
+            this.txtSluong.Location = new System.Drawing.Point(461, 382);
             this.txtSluong.Name = "txtSluong";
             this.txtSluong.Size = new System.Drawing.Size(160, 22);
             this.txtSluong.TabIndex = 33;
@@ -138,12 +140,31 @@
             this.txtMaS.TabIndex = 34;
             this.txtMaS.TextChanged += new System.EventHandler(this.txtMaS_TextChanged);
             // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(346, 452);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(94, 20);
+            this.label3.TabIndex = 35;
+            this.label3.Text = "TÊN SÁCH";
+            // 
+            // txtTenSach
+            // 
+            this.txtTenSach.Location = new System.Drawing.Point(461, 450);
+            this.txtTenSach.Name = "txtTenSach";
+            this.txtTenSach.Size = new System.Drawing.Size(160, 22);
+            this.txtTenSach.TabIndex = 36;
+            // 
             // fKho
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.PowderBlue;
             this.ClientSize = new System.Drawing.Size(1062, 513);
+            this.Controls.Add(this.txtTenSach);
+            this.Controls.Add(this.label3);
             this.Controls.Add(this.txtMaS);
             this.Controls.Add(this.txtSluong);
             this.Controls.Add(this.label2);
@@ -175,5 +196,7 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox txtSluong;
         private System.Windows.Forms.TextBox txtMaS;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.TextBox txtTenSach;
     }
 }
