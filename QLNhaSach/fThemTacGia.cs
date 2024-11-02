@@ -20,6 +20,15 @@ namespace QLNhaSach
         public fThemTacGia()
         {
             InitializeComponent();
+            SetControlTextColor(Color.Black);
+
+        }
+        private void SetControlTextColor(Color color)
+        {
+            foreach (Control control in this.Controls)
+            {
+                control.ForeColor = color;
+            }
         }
         private void UpdateDataGridView()
         {
@@ -190,6 +199,13 @@ namespace QLNhaSach
             {
                 MessageBox.Show("Vui lòng chọn một hàng để xóa.", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
+        }
+
+        public event EventHandler QuayLaiClicked;
+        private void btnQuayLai_Click(object sender, EventArgs e)
+        {
+            
+            QuayLaiClicked?.Invoke(this, EventArgs.Empty);
         }
     }
 }

@@ -15,6 +15,9 @@ namespace QLNhaSach
 {
     public partial class fSuaSach : Form
     {
+        public event EventHandler TacGiaClicked;
+        public event EventHandler NXBClicked;
+        public event EventHandler TheLoaiClicked;
         BUSSACH busSach = new BUSSACH();
         BindingSource binding = new BindingSource();
         public fSuaSach()
@@ -282,20 +285,17 @@ namespace QLNhaSach
 
         private void tmiTheLoai_Click(object sender, EventArgs e)
         {
-            fLoaiSach fLoaiSach = new fLoaiSach();
-            fLoaiSach.Show();
+            TheLoaiClicked?.Invoke(this, EventArgs.Empty);
         }
 
         private void tmiTacGia_Click(object sender, EventArgs e)
         {
-            fThemTacGia fThemTacGia = new fThemTacGia();
-            fThemTacGia.Show();
+            TacGiaClicked?.Invoke(this, EventArgs.Empty);
         }
 
         private void tmiNXB_Click(object sender, EventArgs e)
         {
-            fNhaXuatBan fNhaXuatBan = new fNhaXuatBan();
-            fNhaXuatBan.Show();
+            NXBClicked?.Invoke(this, EventArgs.Empty);  
         }
     }
 }

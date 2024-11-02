@@ -188,11 +188,10 @@ namespace QLNhaSach
             MessageBox.Show( ex.Message);
             }
         }
-
+        public event EventHandler ThongKeClicked;
         private void btnThongKe_Click(object sender, EventArgs e)
         {
-            fThongKe fThongKe = new fThongKe();
-            fThongKe.Show();
+            ThongKeClicked?.Invoke(this, EventArgs.Empty);
         }
 
         private void label1_Click(object sender, EventArgs e)

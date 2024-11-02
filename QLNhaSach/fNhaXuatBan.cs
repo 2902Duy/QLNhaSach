@@ -17,9 +17,16 @@ namespace QLNhaSach
         public fNhaXuatBan()
         {
             InitializeComponent();
-        }
+            SetControlTextColor(Color.Black);
 
-        
+        }
+        private void SetControlTextColor(Color color)
+        {
+            foreach (Control control in this.Controls)
+            {
+                control.ForeColor = color;
+            }
+        }
 
         private void fNhaXuatBan_Load(object sender, EventArgs e)
         {
@@ -74,6 +81,12 @@ namespace QLNhaSach
             {
                 MessageBox.Show(ex.Message, "Lỗi");
             }
+        }
+
+        public event EventHandler QuayLaiClicked;
+        private void btnQuayLai_Click(object sender, EventArgs e)
+        {
+            QuayLaiClicked?.Invoke(this, EventArgs.Empty);
         }
     }
 }

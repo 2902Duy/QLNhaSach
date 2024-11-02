@@ -180,7 +180,6 @@ C:\Users\DELL\Downloads\QLNhaSach\QLNhaSach\bin\Debug\DAL.dll.config
 C:\Users\DELL\Downloads\QLNhaSach\QLNhaSach\bin\Debug\EntityFramework.xml
 C:\Users\DELL\Downloads\QLNhaSach\QLNhaSach\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\DELL\Downloads\QLNhaSach\QLNhaSach\obj\Debug\QLNhaSach.csproj.AssemblyReference.cache
-C:\Users\DELL\Downloads\QLNhaSach\QLNhaSach\obj\Debug\QLNhaSach.fBaoCao.resources
 C:\Users\DELL\Downloads\QLNhaSach\QLNhaSach\obj\Debug\QLNhaSach.fChiTietHD.resources
 C:\Users\DELL\Downloads\QLNhaSach\QLNhaSach\obj\Debug\QLNhaSach.fDangNhap.resources
 C:\Users\DELL\Downloads\QLNhaSach\QLNhaSach\obj\Debug\QLNhaSach.fHoaDon.resources

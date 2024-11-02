@@ -19,8 +19,16 @@ namespace QLNhaSach
         public fLoaiSach()
         {
             InitializeComponent();
-        }
+            SetControlTextColor(Color.Black);
 
+        }
+        private void SetControlTextColor(Color color)
+        {
+            foreach (Control control in this.Controls)
+            {
+                control.ForeColor = color;
+            }
+        }
         private void fLoaiSach_Load(object sender, EventArgs e)
         {
             LoadDSTheLoai();
@@ -68,6 +76,13 @@ namespace QLNhaSach
             {
                 MessageBox.Show(ex.Message, "Lỗi");
             }
+        }
+
+        public event EventHandler QuayLaiClicked;
+        private void btnQuayLai_Click(object sender, EventArgs e)
+        {
+            QuayLaiClicked?.Invoke(this, EventArgs.Empty);
+
         }
     }
 }

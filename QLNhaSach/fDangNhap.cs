@@ -31,7 +31,7 @@ namespace QLNhaSach
                 }
                 if (string.IsNullOrEmpty(txtMatK.Text) || txtMatK.Text.Length < 3)
                 {
-                    err.SetError(txtMatK, "Mật khầu không được bỏ trống và phải có ít nhất 3 kí tự");
+                    err.SetError(txtMatK, "Mật khẩu không được bỏ trống và phải có ít nhất 3 kí tự");
                 }
 
                 else
@@ -68,6 +68,11 @@ namespace QLNhaSach
         }
 
         private void panel7_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void txtMatK_TextChanged(object sender, EventArgs e)
         {
 
         }

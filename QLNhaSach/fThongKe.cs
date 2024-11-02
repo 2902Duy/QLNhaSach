@@ -19,8 +19,16 @@ namespace QLNhaSach
         public fThongKe()
         {
             InitializeComponent();
-        }
+            SetControlTextColor(Color.Black);
 
+        }
+        private void SetControlTextColor(Color color)
+        {
+            foreach (Control control in this.Controls)
+            {
+                control.ForeColor = color;
+            }
+        }
         private void btnThoat_Click(object sender, EventArgs e)
         {
             Close();
@@ -93,6 +101,10 @@ namespace QLNhaSach
             dtpTuNgay.Value = new DateTime(2020, 1, 1);
         }
 
-
+        public event EventHandler QuayLaiClicked;
+        private void btnQuayLai_Click(object sender, EventArgs e)
+        {
+            QuayLaiClicked?.Invoke(this, EventArgs.Empty);
+        }
     }
 }

@@ -28,7 +28,7 @@ namespace QLNhaSach
         {
             if (currentFormChild != null)
             {
-                currentFormChild.Close();
+                currentFormChild.Hide();
             }
 
             currentFormChild = ChildForm;
@@ -57,12 +57,69 @@ namespace QLNhaSach
 
         private void btnSach_Click(object sender, EventArgs e)
         {
-            OpenChildForm(new fSuaSach());
+            var fSuaSach = new fSuaSach();
+
+            fSuaSach.TheLoaiClicked += (s, ev) =>
+            {
+                var fTheLoai = new fLoaiSach();
+                fTheLoai.QuayLaiClicked += (ss, args) =>
+                {
+                    fTheLoai.Close();
+                    fSuaSach.Show();
+                    OpenChildForm(fSuaSach);
+                };
+                fSuaSach.Hide();
+                OpenChildForm(fTheLoai);
+            };
+
+            fSuaSach.TacGiaClicked += (s, ev) =>
+            {
+                var fTacGia = new fThemTacGia();
+                fTacGia.QuayLaiClicked += (ss, args) =>
+                {
+                    fTacGia.Close();
+                    fSuaSach.Show();
+                    OpenChildForm(fSuaSach);
+
+                };
+                fSuaSach.Hide();
+                OpenChildForm(fTacGia);
+            };
+
+            fSuaSach.NXBClicked += (s, ev) =>
+            {
+                var fNXB = new fNhaXuatBan();
+                fNXB.QuayLaiClicked += (ss, args) =>
+                {
+                    fNXB.Close();
+                    fSuaSach.Show();
+                    OpenChildForm(fSuaSach);
+
+                };
+                fSuaSach.Hide();
+                OpenChildForm(fNXB);
+            };
+
+
+            OpenChildForm(fSuaSach);
         }
 
         private void btnHoaDon_Click(object sender, EventArgs e)
         {
-            OpenChildForm(new fHoaDon());
+            var fHoaDon = new fHoaDon();
+            fHoaDon.ThongKeClicked += (s, ev) =>
+            {
+                var fThongKe = new fThongKe();
+                fThongKe.QuayLaiClicked += (ss, args) =>
+                {
+                    fThongKe.Hide();
+                    OpenChildForm(fHoaDon);
+                };
+                OpenChildForm(fThongKe);
+                fHoaDon.Hide();
+            };
+
+            OpenChildForm(fHoaDon);
 
         }
 

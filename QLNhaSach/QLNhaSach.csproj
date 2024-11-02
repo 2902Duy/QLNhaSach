@@ -121,12 +121,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="fBaoCao.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="fBaoCao.Designer.cs">
-      <DependentUpon>fBaoCao.cs</DependentUpon>
-    </Compile>
     <Compile Include="fChiTietHD.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -214,9 +208,6 @@
       <DependentUpon>MidForm.cs</DependentUpon>
     </Compile>
     <Compile Include="toExcel.cs" />
-    <EmbeddedResource Include="fBaoCao.resx">
-      <DependentUpon>fBaoCao.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="fChiTietHD.resx">
       <DependentUpon>fChiTietHD.cs</DependentUpon>
     </EmbeddedResource>
