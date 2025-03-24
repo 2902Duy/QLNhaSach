@@ -20,10 +20,11 @@ namespace QLNhaSach
             InitializeComponent();
             _username = username;
             OpenChildForm(new fTongHop(""));
-            lblHome.Click += lblHome_Click;
+            lblHome.Click += lblHome_Click_1;
         }
 
         private Form currentFormChild;
+
         public void OpenChildForm(Form ChildForm)
         {
             if (currentFormChild != null)
@@ -42,22 +43,55 @@ namespace QLNhaSach
             ChildForm.Show();
         }
 
-        private void btnTaiKhoan_Click(object sender, EventArgs e)
+        private void btnExit_Click(object sender, EventArgs e)
         {
-          
-            if (_username == _admin)
-            {
-                OpenChildForm(new fTaiKhoan());
-            }
-            else
-            {
-                MessageBox.Show("Bạn không có quyền truy cập chức năng này", "Thông báo");
-            }
+            Application.Exit();
         }
 
-        private void btnSach_Click(object sender, EventArgs e)
+        private void btnDangXuat_Click(object sender, EventArgs e)
         {
-            var fSuaSach = new fSuaSach();
+            this.Close();
+            fDangNhap fDangNhap = new fDangNhap();
+            fDangNhap.Show();
+        }
+
+        private void lblHome_Click_1(object sender, EventArgs e)
+        {
+            OpenChildForm(new fTongHop(""));
+            lblTitle.Text = "Home";
+        }
+
+        private void btnKho_Click_1(object sender, EventArgs e)
+        {
+            OpenChildForm(new fKho());
+            lblTitle.Text = "Kho";
+
+        }
+
+        private void btnHoaDon_Click_1(object sender, EventArgs e)
+        {
+            var fHoaDon = new fHoaDon();
+            fHoaDon.ThongKeClicked += (s, ev) =>
+            {
+                var fThongKe = new fThongKe();
+                fThongKe.QuayLaiClicked += (ss, args) =>
+                {
+                    fThongKe.Hide();
+                    OpenChildForm(fHoaDon);
+                    lblTitle.Text = "Hóa đơn";
+                };
+                lblTitle.Text = "Thống kê";
+                OpenChildForm(fThongKe);
+                fHoaDon.Hide();
+            };
+
+            OpenChildForm(fHoaDon);
+            lblTitle.Text = "Hóa đơn";
+        }
+
+        private void btnSach_Click_1(object sender, EventArgs e)
+        {
+             var fSuaSach = new fSuaSach();
 
             fSuaSach.TheLoaiClicked += (s, ev) =>
             {
@@ -67,9 +101,11 @@ namespace QLNhaSach
                     fTheLoai.Close();
                     fSuaSach.Show();
                     OpenChildForm(fSuaSach);
+                    lblTitle.Text = "Sách";
                 };
                 fSuaSach.Hide();
                 OpenChildForm(fTheLoai);
+                lblTitle.Text = "Thể loại";
             };
 
             fSuaSach.TacGiaClicked += (s, ev) =>
@@ -80,10 +116,12 @@ namespace QLNhaSach
                     fTacGia.Close();
                     fSuaSach.Show();
                     OpenChildForm(fSuaSach);
+                    lblTitle.Text = "Sách";
 
                 };
                 fSuaSach.Hide();
                 OpenChildForm(fTacGia);
+                lblTitle.Text = "Tác giả";
             };
 
             fSuaSach.NXBClicked += (s, ev) =>
@@ -94,71 +132,55 @@ namespace QLNhaSach
                     fNXB.Close();
                     fSuaSach.Show();
                     OpenChildForm(fSuaSach);
+                    lblTitle.Text = "Sách";
 
                 };
                 fSuaSach.Hide();
                 OpenChildForm(fNXB);
+                lblTitle.Text = "Nhà xuất bản";
             };
 
-
+            lblTitle.Text = "Sách";
             OpenChildForm(fSuaSach);
         }
-
-        private void btnHoaDon_Click(object sender, EventArgs e)
+        private void btnTaiKhoan_Click(object sender, EventArgs e)
         {
-            var fHoaDon = new fHoaDon();
-            fHoaDon.ThongKeClicked += (s, ev) =>
+            if (_username == _admin)
             {
-                var fThongKe = new fThongKe();
-                fThongKe.QuayLaiClicked += (ss, args) =>
-                {
-                    fThongKe.Hide();
-                    OpenChildForm(fHoaDon);
-                };
-                OpenChildForm(fThongKe);
-                fHoaDon.Hide();
-            };
-
-            OpenChildForm(fHoaDon);
-
+                OpenChildForm(new fTaiKhoan());
+                lblTitle.Text = "Tài Khoản";
+            }
+            else
+            {
+                MessageBox.Show("Bạn không có quyền truy cập chức năng này", "Thông báo");
+            }
         }
 
-        private void btnKho_Click(object sender, EventArgs e)
-        {
-            OpenChildForm(new fKho());
-
-        }
-
-        private void TestForm_Load(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void panel_body_Paint(object sender, PaintEventArgs e)
+        private void pb_ThuNho_Click(object sender, EventArgs e)
         {
-
+            this.WindowState = FormWindowState.Minimized;
         }
 
-        private void btnExit_Click(object sender, EventArgs e)
+        private void pb_PhongTo_Click(object sender, EventArgs e)
+        {
+            if (this.WindowState == FormWindowState.Normal)
+            {
+                this.WindowState = FormWindowState.Maximized; // Phóng to
+            }
+            else
+            {
+                this.WindowState = FormWindowState.Normal; // Trở về bình thường
+            }
+        }
+
+        private void pb_Thoat_Click(object sender, EventArgs e)
         {
             Application.Exit();
-        }
-
-        private void panel_header_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void lblHome_Click(object sender, EventArgs e)
-        {
-            OpenChildForm(new fTongHop(""));
-        }
-
-        private void lblDangXuat_Click(object sender, EventArgs e)
-        {
-            this.Close();
-            fDangNhap fDangNhap = new fDangNhap();
-            fDangNhap.Show();
         }
     }
 }

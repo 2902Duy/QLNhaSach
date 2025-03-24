@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(fLoaiSach));
             this.dgvLoaiS = new System.Windows.Forms.DataGridView();
             this.label1 = new System.Windows.Forms.Label();
             this.txtThemS = new System.Windows.Forms.TextBox();
@@ -46,14 +47,15 @@
             this.dgvLoaiS.Margin = new System.Windows.Forms.Padding(4);
             this.dgvLoaiS.Name = "dgvLoaiS";
             this.dgvLoaiS.RowHeadersWidth = 49;
-            this.dgvLoaiS.Size = new System.Drawing.Size(846, 345);
+            this.dgvLoaiS.Size = new System.Drawing.Size(846, 395);
             this.dgvLoaiS.TabIndex = 0;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.01739F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(355, 422);
+            this.label1.Location = new System.Drawing.Point(348, 465);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(82, 20);
@@ -62,7 +64,7 @@
             // 
             // txtThemS
             // 
-            this.txtThemS.Location = new System.Drawing.Point(458, 419);
+            this.txtThemS.Location = new System.Drawing.Point(451, 462);
             this.txtThemS.Margin = new System.Windows.Forms.Padding(4);
             this.txtThemS.Name = "txtThemS";
             this.txtThemS.Size = new System.Drawing.Size(214, 22);
@@ -70,8 +72,10 @@
             // 
             // button1
             // 
+            this.button1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button1.BackgroundImage")));
+            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.01739F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(387, 467);
+            this.button1.Location = new System.Drawing.Point(380, 510);
             this.button1.Margin = new System.Windows.Forms.Padding(4);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(127, 35);
@@ -82,8 +86,10 @@
             // 
             // button2
             // 
+            this.button2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button2.BackgroundImage")));
+            this.button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.01739F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(585, 467);
+            this.button2.Location = new System.Drawing.Point(578, 510);
             this.button2.Margin = new System.Windows.Forms.Padding(4);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(127, 35);
@@ -106,14 +112,17 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.PaleTurquoise;
-            this.ClientSize = new System.Drawing.Size(1062, 513);
+            this.BackColor = System.Drawing.Color.Honeydew;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ClientSize = new System.Drawing.Size(1090, 584);
             this.Controls.Add(this.btnQuayLai);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.txtThemS);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.dgvLoaiS);
+            this.DoubleBuffered = true;
             this.ForeColor = System.Drawing.Color.Black;
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "fLoaiSach";

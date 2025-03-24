@@ -29,11 +29,11 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(fThemTacGia));
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.btnThem = new System.Windows.Forms.Button();
-            this.btnThoat = new System.Windows.Forms.Button();
             this.txtMATG = new System.Windows.Forms.TextBox();
             this.txtTENTACGIA = new System.Windows.Forms.TextBox();
             this.txtQUEQUAN = new System.Windows.Forms.TextBox();
@@ -49,8 +49,9 @@
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(58, 351);
+            this.label1.Location = new System.Drawing.Point(60, 413);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(88, 16);
             this.label1.TabIndex = 0;
@@ -59,8 +60,9 @@
             // label2
             // 
             this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(329, 350);
+            this.label2.Location = new System.Drawing.Point(331, 412);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(123, 20);
             this.label2.TabIndex = 1;
@@ -69,8 +71,9 @@
             // label3
             // 
             this.label3.AutoSize = true;
+            this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(329, 399);
+            this.label3.Location = new System.Drawing.Point(331, 461);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(103, 20);
             this.label3.TabIndex = 2;
@@ -78,8 +81,10 @@
             // 
             // btnThem
             // 
+            this.btnThem.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnThem.BackgroundImage")));
+            this.btnThem.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnThem.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnThem.Location = new System.Drawing.Point(287, 457);
+            this.btnThem.Location = new System.Drawing.Point(289, 519);
             this.btnThem.Name = "btnThem";
             this.btnThem.Size = new System.Drawing.Size(112, 44);
             this.btnThem.TabIndex = 5;
@@ -87,20 +92,9 @@
             this.btnThem.UseVisualStyleBackColor = true;
             this.btnThem.Click += new System.EventHandler(this.btnThem_Click);
             // 
-            // btnThoat
-            // 
-            this.btnThoat.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnThoat.Location = new System.Drawing.Point(945, 465);
-            this.btnThoat.Name = "btnThoat";
-            this.btnThoat.Size = new System.Drawing.Size(105, 36);
-            this.btnThoat.TabIndex = 6;
-            this.btnThoat.Text = "Thoát";
-            this.btnThoat.UseVisualStyleBackColor = true;
-            this.btnThoat.Click += new System.EventHandler(this.btnThoat_Click);
-            // 
             // txtMATG
             // 
-            this.txtMATG.Location = new System.Drawing.Point(158, 345);
+            this.txtMATG.Location = new System.Drawing.Point(160, 407);
             this.txtMATG.Name = "txtMATG";
             this.txtMATG.Size = new System.Drawing.Size(124, 22);
             this.txtMATG.TabIndex = 7;
@@ -109,7 +103,7 @@
             // 
             // txtTENTACGIA
             // 
-            this.txtTENTACGIA.Location = new System.Drawing.Point(458, 348);
+            this.txtTENTACGIA.Location = new System.Drawing.Point(460, 410);
             this.txtTENTACGIA.Name = "txtTENTACGIA";
             this.txtTENTACGIA.Size = new System.Drawing.Size(214, 22);
             this.txtTENTACGIA.TabIndex = 8;
@@ -117,7 +111,7 @@
             // 
             // txtQUEQUAN
             // 
-            this.txtQUEQUAN.Location = new System.Drawing.Point(458, 397);
+            this.txtQUEQUAN.Location = new System.Drawing.Point(460, 459);
             this.txtQUEQUAN.Name = "txtQUEQUAN";
             this.txtQUEQUAN.Size = new System.Drawing.Size(214, 22);
             this.txtQUEQUAN.TabIndex = 9;
@@ -131,18 +125,20 @@
             this.dgvTacGia.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgvTacGia.BackgroundColor = System.Drawing.Color.White;
             this.dgvTacGia.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvTacGia.Location = new System.Drawing.Point(55, 32);
+            this.dgvTacGia.Location = new System.Drawing.Point(55, 38);
             this.dgvTacGia.Name = "dgvTacGia";
             this.dgvTacGia.RowHeadersWidth = 51;
             this.dgvTacGia.RowTemplate.Height = 24;
-            this.dgvTacGia.Size = new System.Drawing.Size(891, 296);
+            this.dgvTacGia.Size = new System.Drawing.Size(891, 355);
             this.dgvTacGia.TabIndex = 12;
             this.dgvTacGia.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvTacGia_CellContentClick);
             // 
             // btnXoa
             // 
+            this.btnXoa.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnXoa.BackgroundImage")));
+            this.btnXoa.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnXoa.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnXoa.Location = new System.Drawing.Point(643, 457);
+            this.btnXoa.Location = new System.Drawing.Point(645, 519);
             this.btnXoa.Name = "btnXoa";
             this.btnXoa.Size = new System.Drawing.Size(112, 44);
             this.btnXoa.TabIndex = 13;
@@ -152,8 +148,10 @@
             // 
             // btnSua
             // 
+            this.btnSua.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnSua.BackgroundImage")));
+            this.btnSua.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnSua.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSua.Location = new System.Drawing.Point(469, 457);
+            this.btnSua.Location = new System.Drawing.Point(471, 519);
             this.btnSua.Name = "btnSua";
             this.btnSua.Size = new System.Drawing.Size(112, 44);
             this.btnSua.TabIndex = 14;
@@ -176,7 +174,9 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.PaleTurquoise;
-            this.ClientSize = new System.Drawing.Size(1062, 513);
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ClientSize = new System.Drawing.Size(1062, 589);
             this.Controls.Add(this.btnQuayLai);
             this.Controls.Add(this.btnSua);
             this.Controls.Add(this.btnXoa);
@@ -184,11 +184,11 @@
             this.Controls.Add(this.txtQUEQUAN);
             this.Controls.Add(this.txtTENTACGIA);
             this.Controls.Add(this.txtMATG);
-            this.Controls.Add(this.btnThoat);
             this.Controls.Add(this.btnThem);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+            this.DoubleBuffered = true;
             this.Name = "fThemTacGia";
             this.Text = "TÁC GIẢ";
             this.Load += new System.EventHandler(this.fThemTacGia_Load);
@@ -205,7 +205,6 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button btnThem;
-        private System.Windows.Forms.Button btnThoat;
         private System.Windows.Forms.TextBox txtMATG;
         private System.Windows.Forms.TextBox txtTENTACGIA;
         private System.Windows.Forms.TextBox txtQUEQUAN;

@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(fChiTietHD));
             this.dgvChiTHD = new System.Windows.Forms.DataGridView();
             this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dgvChiTHD)).BeginInit();
@@ -35,6 +36,7 @@
             // 
             // dgvChiTHD
             // 
+            this.dgvChiTHD.BackgroundColor = System.Drawing.SystemColors.ButtonFace;
             this.dgvChiTHD.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvChiTHD.Location = new System.Drawing.Point(-1, 40);
             this.dgvChiTHD.Name = "dgvChiTHD";
@@ -57,10 +59,12 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 337);
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.ClientSize = new System.Drawing.Size(801, 338);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.dgvChiTHD);
             this.Name = "fChiTietHD";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "CHI TIẾT HÓA ĐƠN";
             this.Load += new System.EventHandler(this.fChiTietHD_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvChiTHD)).EndInit();

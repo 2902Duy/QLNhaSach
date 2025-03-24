@@ -91,5 +91,10 @@ namespace QLNhaSach
             BindingSource.DataSource = dss.Where(s => (s.MASACH + " " + s.TENSACH + " " + s.TENTACGIA + " " + s.TENNHAXUATBAN + " " + s.NAMXUATBAN).ToLower().ToString().Contains(txttim.Text)).ToList();
             dgvSach.DataSource = BindingSource;
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -19,7 +19,7 @@ namespace QLNhaSach
             InitializeComponent();
             txtMatK.UseSystemPasswordChar = true;
         }
-        private void btnDangNhap1_Click(object sender, EventArgs e)
+        private void btnDangNhap1_Click_1(object sender, EventArgs e)
         {
             try
             {
@@ -54,8 +54,7 @@ namespace QLNhaSach
 
             }
         }
-
-        private void chkHienMatKhau1_CheckedChanged(object sender, EventArgs e)
+        private void chkHienMatKhau1_CheckedChanged_1(object sender, EventArgs e)
         {
             if (chkHienMatKhau1.CheckState == CheckState.Checked)
             {
@@ -65,16 +64,6 @@ namespace QLNhaSach
             {
                 txtMatK.UseSystemPasswordChar = true;
             }
-        }
-
-        private void panel7_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void txtMatK_TextChanged(object sender, EventArgs e)
-        {
-
         }
     }
 }

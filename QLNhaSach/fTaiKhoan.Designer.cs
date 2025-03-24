@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(fTaiKhoan));
             this.lblTaiKhoan = new System.Windows.Forms.Label();
             this.dgvTaiKhoan = new System.Windows.Forms.DataGridView();
             this.lblTaiKhoanThemXoaSua = new System.Windows.Forms.Label();
@@ -44,6 +45,7 @@
             // lblTaiKhoan
             // 
             this.lblTaiKhoan.AutoSize = true;
+            this.lblTaiKhoan.BackColor = System.Drawing.Color.Transparent;
             this.lblTaiKhoan.Font = new System.Drawing.Font("Rockwell", 16.27826F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTaiKhoan.Location = new System.Drawing.Point(13, 9);
             this.lblTaiKhoan.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
@@ -55,19 +57,21 @@
             // dgvTaiKhoan
             // 
             this.dgvTaiKhoan.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dgvTaiKhoan.BackgroundColor = System.Drawing.SystemColors.ButtonHighlight;
             this.dgvTaiKhoan.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvTaiKhoan.Location = new System.Drawing.Point(79, 57);
-            this.dgvTaiKhoan.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dgvTaiKhoan.Margin = new System.Windows.Forms.Padding(4);
             this.dgvTaiKhoan.Name = "dgvTaiKhoan";
             this.dgvTaiKhoan.RowHeadersWidth = 49;
-            this.dgvTaiKhoan.Size = new System.Drawing.Size(918, 257);
+            this.dgvTaiKhoan.Size = new System.Drawing.Size(918, 320);
             this.dgvTaiKhoan.TabIndex = 1;
             // 
             // lblTaiKhoanThemXoaSua
             // 
             this.lblTaiKhoanThemXoaSua.AutoSize = true;
+            this.lblTaiKhoanThemXoaSua.BackColor = System.Drawing.Color.Transparent;
             this.lblTaiKhoanThemXoaSua.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.lblTaiKhoanThemXoaSua.Location = new System.Drawing.Point(342, 356);
+            this.lblTaiKhoanThemXoaSua.Location = new System.Drawing.Point(324, 400);
             this.lblTaiKhoanThemXoaSua.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblTaiKhoanThemXoaSua.Name = "lblTaiKhoanThemXoaSua";
             this.lblTaiKhoanThemXoaSua.Size = new System.Drawing.Size(98, 20);
@@ -78,8 +82,9 @@
             // lblMatKhauThemXoaSua
             // 
             this.lblMatKhauThemXoaSua.AutoSize = true;
+            this.lblMatKhauThemXoaSua.BackColor = System.Drawing.Color.Transparent;
             this.lblMatKhauThemXoaSua.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.lblMatKhauThemXoaSua.Location = new System.Drawing.Point(342, 407);
+            this.lblMatKhauThemXoaSua.Location = new System.Drawing.Point(324, 451);
             this.lblMatKhauThemXoaSua.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblMatKhauThemXoaSua.Name = "lblMatKhauThemXoaSua";
             this.lblMatKhauThemXoaSua.Size = new System.Drawing.Size(95, 20);
@@ -88,25 +93,27 @@
             // 
             // txtTaiKhoan
             // 
-            this.txtTaiKhoan.Location = new System.Drawing.Point(448, 356);
-            this.txtTaiKhoan.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtTaiKhoan.Location = new System.Drawing.Point(430, 400);
+            this.txtTaiKhoan.Margin = new System.Windows.Forms.Padding(4);
             this.txtTaiKhoan.Name = "txtTaiKhoan";
             this.txtTaiKhoan.Size = new System.Drawing.Size(269, 22);
             this.txtTaiKhoan.TabIndex = 4;
             // 
             // txtMatKhau
             // 
-            this.txtMatKhau.Location = new System.Drawing.Point(448, 407);
-            this.txtMatKhau.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtMatKhau.Location = new System.Drawing.Point(430, 451);
+            this.txtMatKhau.Margin = new System.Windows.Forms.Padding(4);
             this.txtMatKhau.Name = "txtMatKhau";
             this.txtMatKhau.Size = new System.Drawing.Size(269, 22);
             this.txtMatKhau.TabIndex = 5;
             // 
             // btnThem
             // 
+            this.btnThem.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnThem.BackgroundImage")));
+            this.btnThem.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnThem.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.01739F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnThem.Location = new System.Drawing.Point(312, 468);
-            this.btnThem.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnThem.Location = new System.Drawing.Point(294, 512);
+            this.btnThem.Margin = new System.Windows.Forms.Padding(4);
             this.btnThem.Name = "btnThem";
             this.btnThem.Size = new System.Drawing.Size(134, 41);
             this.btnThem.TabIndex = 6;
@@ -116,9 +123,11 @@
             // 
             // btnXoa
             // 
+            this.btnXoa.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnXoa.BackgroundImage")));
+            this.btnXoa.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnXoa.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.01739F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnXoa.Location = new System.Drawing.Point(481, 468);
-            this.btnXoa.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnXoa.Location = new System.Drawing.Point(463, 512);
+            this.btnXoa.Margin = new System.Windows.Forms.Padding(4);
             this.btnXoa.Name = "btnXoa";
             this.btnXoa.Size = new System.Drawing.Size(134, 41);
             this.btnXoa.TabIndex = 7;
@@ -128,9 +137,11 @@
             // 
             // btnCapNhap
             // 
+            this.btnCapNhap.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnCapNhap.BackgroundImage")));
+            this.btnCapNhap.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnCapNhap.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.01739F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCapNhap.Location = new System.Drawing.Point(648, 468);
-            this.btnCapNhap.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnCapNhap.Location = new System.Drawing.Point(630, 512);
+            this.btnCapNhap.Margin = new System.Windows.Forms.Padding(4);
             this.btnCapNhap.Name = "btnCapNhap";
             this.btnCapNhap.Size = new System.Drawing.Size(134, 41);
             this.btnCapNhap.TabIndex = 8;
@@ -141,13 +152,14 @@
             // chkHienMatKhau
             // 
             this.chkHienMatKhau.AutoSize = true;
-            this.chkHienMatKhau.Location = new System.Drawing.Point(738, 407);
-            this.chkHienMatKhau.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.chkHienMatKhau.BackColor = System.Drawing.Color.Transparent;
+            this.chkHienMatKhau.Location = new System.Drawing.Point(720, 451);
+            this.chkHienMatKhau.Margin = new System.Windows.Forms.Padding(4);
             this.chkHienMatKhau.Name = "chkHienMatKhau";
             this.chkHienMatKhau.Size = new System.Drawing.Size(111, 20);
             this.chkHienMatKhau.TabIndex = 9;
             this.chkHienMatKhau.Text = "Hiện mật khẩu";
-            this.chkHienMatKhau.UseVisualStyleBackColor = true;
+            this.chkHienMatKhau.UseVisualStyleBackColor = false;
             this.chkHienMatKhau.CheckedChanged += new System.EventHandler(this.chkHienMatKhau_CheckedChanged);
             // 
             // fTaiKhoan
@@ -155,7 +167,9 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.PowderBlue;
-            this.ClientSize = new System.Drawing.Size(1062, 513);
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ClientSize = new System.Drawing.Size(1062, 599);
             this.Controls.Add(this.chkHienMatKhau);
             this.Controls.Add(this.btnCapNhap);
             this.Controls.Add(this.btnXoa);
@@ -166,7 +180,8 @@
             this.Controls.Add(this.lblTaiKhoanThemXoaSua);
             this.Controls.Add(this.dgvTaiKhoan);
             this.Controls.Add(this.lblTaiKhoan);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.DoubleBuffered = true;
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "fTaiKhoan";
             this.Text = "TÀI KHOẢN";
             this.Load += new System.EventHandler(this.fTaiKhoan_Load);

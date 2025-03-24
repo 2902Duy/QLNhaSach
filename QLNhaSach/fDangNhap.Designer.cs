@@ -30,7 +30,6 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(fDangNhap));
-            this.err = new System.Windows.Forms.ErrorProvider(this.components);
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
             this.txtTaiKhoan = new System.Windows.Forms.TextBox();
@@ -44,37 +43,30 @@
             this.chkHienMatKhau = new System.Windows.Forms.CheckBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.lblTaiKhoan = new System.Windows.Forms.Label();
-            this.lblDangNhap = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             this.btnDangNhap1 = new System.Windows.Forms.Button();
-            this.panel5 = new System.Windows.Forms.Panel();
             this.chkHienMatKhau1 = new System.Windows.Forms.CheckBox();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel7 = new System.Windows.Forms.Panel();
             this.txtTaiK = new System.Windows.Forms.TextBox();
             this.panel8 = new System.Windows.Forms.Panel();
             this.panel9 = new System.Windows.Forms.Panel();
             this.panel10 = new System.Windows.Forms.Panel();
             this.txtMatK = new System.Windows.Forms.TextBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.err)).BeginInit();
+            this.err = new System.Windows.Forms.ErrorProvider(this.components);
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            this.panel5.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel7.SuspendLayout();
             this.panel9.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.err)).BeginInit();
             this.SuspendLayout();
-            // 
-            // err
-            // 
-            this.err.ContainerControl = this;
             // 
             // panel1
             // 
@@ -195,123 +187,64 @@
             this.lblTaiKhoan.TabIndex = 2;
             this.lblTaiKhoan.Text = "TÀI KHOẢN:";
             // 
-            // lblDangNhap
+            // label1
             // 
-            this.lblDangNhap.AutoSize = true;
-            this.lblDangNhap.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.89565F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblDangNhap.Location = new System.Drawing.Point(45, 183);
-            this.lblDangNhap.Name = "lblDangNhap";
-            this.lblDangNhap.Size = new System.Drawing.Size(101, 24);
-            this.lblDangNhap.TabIndex = 0;
-            this.lblDangNhap.Text = "Tài Khoản:";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.27826F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(151, 67);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(75, 30);
-            this.label3.TabIndex = 1;
-            this.label3.Text = "Login";
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.89565F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(45, 257);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(91, 24);
-            this.label4.TabIndex = 2;
-            this.label4.Text = "Mật khẩu:";
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Uighur", 36.31305F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.label1.Location = new System.Drawing.Point(600, 82);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(164, 70);
+            this.label1.TabIndex = 24;
+            this.label1.Text = "LOGIN";
             // 
             // btnDangNhap1
             // 
-            this.btnDangNhap1.BackColor = System.Drawing.Color.Transparent;
+            this.btnDangNhap1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.btnDangNhap1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.01739F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnDangNhap1.Location = new System.Drawing.Point(122, 474);
+            this.btnDangNhap1.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.btnDangNhap1.Location = new System.Drawing.Point(604, 428);
             this.btnDangNhap1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnDangNhap1.Name = "btnDangNhap1";
-            this.btnDangNhap1.Size = new System.Drawing.Size(141, 48);
-            this.btnDangNhap1.TabIndex = 3;
+            this.btnDangNhap1.Size = new System.Drawing.Size(159, 54);
+            this.btnDangNhap1.TabIndex = 23;
             this.btnDangNhap1.Text = "Đăng Nhập";
             this.btnDangNhap1.UseVisualStyleBackColor = false;
-            this.btnDangNhap1.Click += new System.EventHandler(this.btnDangNhap1_Click);
-            // 
-            // panel5
-            // 
-            this.panel5.AutoSize = true;
-            this.panel5.Controls.Add(this.chkHienMatKhau1);
-            this.panel5.Controls.Add(this.pictureBox4);
-            this.panel5.Controls.Add(this.pictureBox1);
-            this.panel5.Controls.Add(this.panel7);
-            this.panel5.Controls.Add(this.btnDangNhap1);
-            this.panel5.Controls.Add(this.panel9);
-            this.panel5.Controls.Add(this.lblDangNhap);
-            this.panel5.Controls.Add(this.label4);
-            this.panel5.Controls.Add(this.label3);
-            this.panel5.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panel5.Location = new System.Drawing.Point(0, 0);
-            this.panel5.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(405, 533);
-            this.panel5.TabIndex = 4;
+            this.btnDangNhap1.Click += new System.EventHandler(this.btnDangNhap1_Click_1);
             // 
             // chkHienMatKhau1
             // 
             this.chkHienMatKhau1.AutoSize = true;
-            this.chkHienMatKhau1.Location = new System.Drawing.Point(152, 297);
+            this.chkHienMatKhau1.Location = new System.Drawing.Point(619, 335);
             this.chkHienMatKhau1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.chkHienMatKhau1.Name = "chkHienMatKhau1";
             this.chkHienMatKhau1.Size = new System.Drawing.Size(111, 20);
-            this.chkHienMatKhau1.TabIndex = 11;
+            this.chkHienMatKhau1.TabIndex = 22;
             this.chkHienMatKhau1.Text = "Hiện mật khẩu";
             this.chkHienMatKhau1.UseVisualStyleBackColor = true;
-            this.chkHienMatKhau1.CheckedChanged += new System.EventHandler(this.chkHienMatKhau1_CheckedChanged);
-            // 
-            // pictureBox4
-            // 
-            this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
-            this.pictureBox4.Location = new System.Drawing.Point(7, 249);
-            this.pictureBox4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(32, 32);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox4.TabIndex = 10;
-            this.pictureBox4.TabStop = false;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(7, 178);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(32, 32);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 9;
-            this.pictureBox1.TabStop = false;
+            this.chkHienMatKhau1.CheckedChanged += new System.EventHandler(this.chkHienMatKhau1_CheckedChanged_1);
             // 
             // panel7
             // 
             this.panel7.Controls.Add(this.txtTaiK);
             this.panel7.Controls.Add(this.panel8);
-            this.panel7.Location = new System.Drawing.Point(151, 169);
+            this.panel7.Location = new System.Drawing.Point(580, 171);
             this.panel7.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel7.Name = "panel7";
             this.panel7.Size = new System.Drawing.Size(251, 39);
-            this.panel7.TabIndex = 6;
-            this.panel7.Paint += new System.Windows.Forms.PaintEventHandler(this.panel7_Paint);
+            this.panel7.TabIndex = 20;
             // 
             // txtTaiK
             // 
             this.txtTaiK.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.txtTaiK.BackColor = System.Drawing.Color.PowderBlue;
+            this.txtTaiK.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.txtTaiK.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtTaiK.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.765218F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtTaiK.Location = new System.Drawing.Point(5, 16);
+            this.txtTaiK.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.89565F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtTaiK.ForeColor = System.Drawing.Color.Black;
+            this.txtTaiK.Location = new System.Drawing.Point(5, 11);
             this.txtTaiK.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtTaiK.Name = "txtTaiK";
-            this.txtTaiK.Size = new System.Drawing.Size(213, 16);
+            this.txtTaiK.Size = new System.Drawing.Size(213, 22);
             this.txtTaiK.TabIndex = 8;
             // 
             // panel8
@@ -327,11 +260,11 @@
             // 
             this.panel9.Controls.Add(this.panel10);
             this.panel9.Controls.Add(this.txtMatK);
-            this.panel9.Location = new System.Drawing.Point(151, 242);
+            this.panel9.Location = new System.Drawing.Point(580, 283);
             this.panel9.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel9.Name = "panel9";
             this.panel9.Size = new System.Drawing.Size(251, 39);
-            this.panel9.TabIndex = 8;
+            this.panel9.TabIndex = 21;
             // 
             // panel10
             // 
@@ -345,56 +278,84 @@
             // txtMatK
             // 
             this.txtMatK.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.txtMatK.BackColor = System.Drawing.Color.PowderBlue;
+            this.txtMatK.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.txtMatK.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtMatK.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.765218F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtMatK.Location = new System.Drawing.Point(5, 18);
+            this.txtMatK.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.89565F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtMatK.ForeColor = System.Drawing.Color.Black;
+            this.txtMatK.Location = new System.Drawing.Point(5, 11);
             this.txtMatK.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtMatK.Name = "txtMatK";
-            this.txtMatK.Size = new System.Drawing.Size(213, 16);
+            this.txtMatK.Size = new System.Drawing.Size(213, 22);
             this.txtMatK.TabIndex = 7;
-            this.txtMatK.TextChanged += new System.EventHandler(this.txtMatK_TextChanged);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(493, 255);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(110, 114);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 19;
+            this.pictureBox1.TabStop = false;
+            // 
+            // pictureBox4
+            // 
+            this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
+            this.pictureBox4.Location = new System.Drawing.Point(493, 142);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(110, 114);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox4.TabIndex = 18;
+            this.pictureBox4.TabStop = false;
             // 
             // pictureBox5
             // 
-            this.pictureBox5.Dock = System.Windows.Forms.DockStyle.Right;
             this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
-            this.pictureBox5.Location = new System.Drawing.Point(407, 0);
-            this.pictureBox5.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.pictureBox5.Location = new System.Drawing.Point(-71, -42);
             this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(632, 533);
-            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.pictureBox5.TabIndex = 5;
+            this.pictureBox5.Size = new System.Drawing.Size(703, 623);
+            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox5.TabIndex = 17;
             this.pictureBox5.TabStop = false;
+            // 
+            // err
+            // 
+            this.err.ContainerControl = this;
             // 
             // fDangNhap
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.PowderBlue;
-            this.ClientSize = new System.Drawing.Size(1039, 533);
+            this.BackColor = System.Drawing.Color.White;
+            this.ClientSize = new System.Drawing.Size(843, 533);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.btnDangNhap1);
+            this.Controls.Add(this.chkHienMatKhau1);
+            this.Controls.Add(this.panel7);
+            this.Controls.Add(this.panel9);
+            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.pictureBox4);
             this.Controls.Add(this.pictureBox5);
-            this.Controls.Add(this.panel5);
             this.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(5);
             this.Name = "fDangNhap";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ĐĂNG NHẬP TÀI KHOẢN";
-            ((System.ComponentModel.ISupportInitialize)(this.err)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            this.panel5.ResumeLayout(false);
-            this.panel5.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel7.ResumeLayout(false);
             this.panel7.PerformLayout();
             this.panel9.ResumeLayout(false);
             this.panel9.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.err)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -405,7 +366,6 @@
         private System.Windows.Forms.Label lblMatKhau;
         private System.Windows.Forms.Button btnDangNhap;
         private System.Windows.Forms.CheckBox chkHienMatKhau;
-        private System.Windows.Forms.ErrorProvider err;
         private object lblThongBao;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.PictureBox pictureBox2;
@@ -416,21 +376,19 @@
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.TextBox txtMatKhau;
         private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button btnDangNhap1;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label lblDangNhap;
-        private System.Windows.Forms.Panel panel5;
-        private System.Windows.Forms.PictureBox pictureBox4;
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.CheckBox chkHienMatKhau1;
         private System.Windows.Forms.Panel panel7;
+        private System.Windows.Forms.TextBox txtTaiK;
         private System.Windows.Forms.Panel panel8;
         private System.Windows.Forms.Panel panel9;
         private System.Windows.Forms.Panel panel10;
         private System.Windows.Forms.TextBox txtMatK;
-        private System.Windows.Forms.CheckBox chkHienMatKhau1;
-        private System.Windows.Forms.TextBox txtTaiK;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox pictureBox4;
         private System.Windows.Forms.PictureBox pictureBox5;
+        private System.Windows.Forms.ErrorProvider err;
     }
 }
 

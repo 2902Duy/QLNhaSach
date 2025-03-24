@@ -1,114 +1,118 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\DELL\\Downloads\\QLNhaSach\\",
+  "WorkspaceRootPath": "D:\\QLNhaSach\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CEE0838A-89BA-434F-AB12-9D065C8B543E}|QLNhaSach\\QLNhaSach.csproj|c:\\users\\dell\\downloads\\qlnhasach\\qlnhasach\\fdangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CEE0838A-89BA-434F-AB12-9D065C8B543E}|QLNhaSach\\QLNhaSach.csproj|solutionrelative:qlnhasach\\fdangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CEE0838A-89BA-434F-AB12-9D065C8B543E}|QLNhaSach\\QLNhaSach.csproj|c:\\users\\dell\\downloads\\qlnhasach\\qlnhasach\\fdangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{CEE0838A-89BA-434F-AB12-9D065C8B543E}|QLNhaSach\\QLNhaSach.csproj|solutionrelative:qlnhasach\\fdangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CEE0838A-89BA-434F-AB12-9D065C8B543E}|QLNhaSach\\QLNhaSach.csproj|c:\\users\\dell\\downloads\\qlnhasach\\qlnhasach\\floaisach.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CEE0838A-89BA-434F-AB12-9D065C8B543E}|QLNhaSach\\QLNhaSach.csproj|solutionrelative:qlnhasach\\floaisach.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CEE0838A-89BA-434F-AB12-9D065C8B543E}|QLNhaSach\\QLNhaSach.csproj|c:\\users\\dell\\downloads\\qlnhasach\\qlnhasach\\floaisach.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{CEE0838A-89BA-434F-AB12-9D065C8B543E}|QLNhaSach\\QLNhaSach.csproj|solutionrelative:qlnhasach\\floaisach.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CEE0838A-89BA-434F-AB12-9D065C8B543E}|QLNhaSach\\QLNhaSach.csproj|c:\\users\\dell\\downloads\\qlnhasach\\qlnhasach\\fnhaxuatban.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CEE0838A-89BA-434F-AB12-9D065C8B543E}|QLNhaSach\\QLNhaSach.csproj|solutionrelative:qlnhasach\\fnhaxuatban.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CEE0838A-89BA-434F-AB12-9D065C8B543E}|QLNhaSach\\QLNhaSach.csproj|c:\\users\\dell\\downloads\\qlnhasach\\qlnhasach\\fnhaxuatban.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{CEE0838A-89BA-434F-AB12-9D065C8B543E}|QLNhaSach\\QLNhaSach.csproj|solutionrelative:qlnhasach\\fnhaxuatban.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CEE0838A-89BA-434F-AB12-9D065C8B543E}|QLNhaSach\\QLNhaSach.csproj|c:\\users\\dell\\downloads\\qlnhasach\\qlnhasach\\fsuasach.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{CEE0838A-89BA-434F-AB12-9D065C8B543E}|QLNhaSach\\QLNhaSach.csproj|solutionrelative:qlnhasach\\fsuasach.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CEE0838A-89BA-434F-AB12-9D065C8B543E}|QLNhaSach\\QLNhaSach.csproj|c:\\users\\dell\\downloads\\qlnhasach\\qlnhasach\\fthemtacgia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{CEE0838A-89BA-434F-AB12-9D065C8B543E}|QLNhaSach\\QLNhaSach.csproj|solutionrelative:qlnhasach\\fthemtacgia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CEE0838A-89BA-434F-AB12-9D065C8B543E}|QLNhaSach\\QLNhaSach.csproj|c:\\users\\dell\\downloads\\qlnhasach\\qlnhasach\\fchitiethd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{CEE0838A-89BA-434F-AB12-9D065C8B543E}|QLNhaSach\\QLNhaSach.csproj|solutionrelative:qlnhasach\\fchitiethd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CEE0838A-89BA-434F-AB12-9D065C8B543E}|QLNhaSach\\QLNhaSach.csproj|c:\\users\\dell\\downloads\\qlnhasach\\qlnhasach\\fhoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{CEE0838A-89BA-434F-AB12-9D065C8B543E}|QLNhaSach\\QLNhaSach.csproj|solutionrelative:qlnhasach\\fhoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CEE0838A-89BA-434F-AB12-9D065C8B543E}|QLNhaSach\\QLNhaSach.csproj|c:\\users\\dell\\downloads\\qlnhasach\\qlnhasach\\ftaikhoan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{CEE0838A-89BA-434F-AB12-9D065C8B543E}|QLNhaSach\\QLNhaSach.csproj|solutionrelative:qlnhasach\\ftaikhoan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CEE0838A-89BA-434F-AB12-9D065C8B543E}|QLNhaSach\\QLNhaSach.csproj|c:\\users\\dell\\downloads\\qlnhasach\\qlnhasach\\fthongke.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{CEE0838A-89BA-434F-AB12-9D065C8B543E}|QLNhaSach\\QLNhaSach.csproj|solutionrelative:qlnhasach\\fthongke.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CEE0838A-89BA-434F-AB12-9D065C8B543E}|QLNhaSach\\QLNhaSach.csproj|c:\\users\\dell\\downloads\\qlnhasach\\qlnhasach\\midform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{CEE0838A-89BA-434F-AB12-9D065C8B543E}|QLNhaSach\\QLNhaSach.csproj|d:\\qlnhasach\\qlnhasach\\midform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{CEE0838A-89BA-434F-AB12-9D065C8B543E}|QLNhaSach\\QLNhaSach.csproj|solutionrelative:qlnhasach\\midform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CEE0838A-89BA-434F-AB12-9D065C8B543E}|QLNhaSach\\QLNhaSach.csproj|c:\\users\\dell\\downloads\\qlnhasach\\qlnhasach\\ftonghop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{CEE0838A-89BA-434F-AB12-9D065C8B543E}|QLNhaSach\\QLNhaSach.csproj|solutionrelative:qlnhasach\\ftonghop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{CEE0838A-89BA-434F-AB12-9D065C8B543E}|QLNhaSach\\QLNhaSach.csproj|D:\\QLNhaSach\\QLNhaSach\\fDangNhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CEE0838A-89BA-434F-AB12-9D065C8B543E}|QLNhaSach\\QLNhaSach.csproj|solutionrelative:QLNhaSach\\fDangNhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CEE0838A-89BA-434F-AB12-9D065C8B543E}|QLNhaSach\\QLNhaSach.csproj|c:\\users\\dell\\downloads\\qlnhasach\\qlnhasach\\fkho.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{CEE0838A-89BA-434F-AB12-9D065C8B543E}|QLNhaSach\\QLNhaSach.csproj|solutionrelative:qlnhasach\\fkho.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{CEE0838A-89BA-434F-AB12-9D065C8B543E}|QLNhaSach\\QLNhaSach.csproj|D:\\QLNhaSach\\QLNhaSach\\fHoaDon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CEE0838A-89BA-434F-AB12-9D065C8B543E}|QLNhaSach\\QLNhaSach.csproj|solutionrelative:QLNhaSach\\fHoaDon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CEE0838A-89BA-434F-AB12-9D065C8B543E}|QLNhaSach\\QLNhaSach.csproj|c:\\users\\dell\\downloads\\qlnhasach\\qlnhasach\\reporthoadon.rdlc||{46F6D2A1-5E86-4080-A799-01F3D0E23796}",
-      "RelativeMoniker": "D:0:0:{CEE0838A-89BA-434F-AB12-9D065C8B543E}|QLNhaSach\\QLNhaSach.csproj|solutionrelative:qlnhasach\\reporthoadon.rdlc||{46F6D2A1-5E86-4080-A799-01F3D0E23796}"
+      "AbsoluteMoniker": "D:0:0:{CEE0838A-89BA-434F-AB12-9D065C8B543E}|QLNhaSach\\QLNhaSach.csproj|D:\\QLNhaSach\\QLNhaSach\\fKho.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CEE0838A-89BA-434F-AB12-9D065C8B543E}|QLNhaSach\\QLNhaSach.csproj|solutionrelative:QLNhaSach\\fKho.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CEE0838A-89BA-434F-AB12-9D065C8B543E}|QLNhaSach\\QLNhaSach.csproj|c:\\users\\dell\\downloads\\qlnhasach\\qlnhasach\\reporthd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{CEE0838A-89BA-434F-AB12-9D065C8B543E}|QLNhaSach\\QLNhaSach.csproj|solutionrelative:qlnhasach\\reporthd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CEE0838A-89BA-434F-AB12-9D065C8B543E}|QLNhaSach\\QLNhaSach.csproj|c:\\users\\dell\\downloads\\qlnhasach\\qlnhasach\\fhoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CEE0838A-89BA-434F-AB12-9D065C8B543E}|QLNhaSach\\QLNhaSach.csproj|solutionrelative:qlnhasach\\fhoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CEE0838A-89BA-434F-AB12-9D065C8B543E}|QLNhaSach\\QLNhaSach.csproj|c:\\users\\dell\\downloads\\qlnhasach\\qlnhasach\\midform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CEE0838A-89BA-434F-AB12-9D065C8B543E}|QLNhaSach\\QLNhaSach.csproj|d:\\qlnhasach\\qlnhasach\\midform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CEE0838A-89BA-434F-AB12-9D065C8B543E}|QLNhaSach\\QLNhaSach.csproj|solutionrelative:qlnhasach\\midform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CEE0838A-89BA-434F-AB12-9D065C8B543E}|QLNhaSach\\QLNhaSach.csproj|c:\\users\\dell\\downloads\\qlnhasach\\qlnhasach\\fthongke.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CEE0838A-89BA-434F-AB12-9D065C8B543E}|QLNhaSach\\QLNhaSach.csproj|solutionrelative:qlnhasach\\fthongke.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CEE0838A-89BA-434F-AB12-9D065C8B543E}|QLNhaSach\\QLNhaSach.csproj|D:\\QLNhaSach\\QLNhaSach\\fNhaXuatBan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CEE0838A-89BA-434F-AB12-9D065C8B543E}|QLNhaSach\\QLNhaSach.csproj|solutionrelative:QLNhaSach\\fNhaXuatBan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CEE0838A-89BA-434F-AB12-9D065C8B543E}|QLNhaSach\\QLNhaSach.csproj|c:\\users\\dell\\downloads\\qlnhasach\\qlnhasach\\fsuasach.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CEE0838A-89BA-434F-AB12-9D065C8B543E}|QLNhaSach\\QLNhaSach.csproj|solutionrelative:qlnhasach\\fsuasach.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CEE0838A-89BA-434F-AB12-9D065C8B543E}|QLNhaSach\\QLNhaSach.csproj|D:\\QLNhaSach\\QLNhaSach\\FLoaiSach.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CEE0838A-89BA-434F-AB12-9D065C8B543E}|QLNhaSach\\QLNhaSach.csproj|solutionrelative:QLNhaSach\\FLoaiSach.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CEE0838A-89BA-434F-AB12-9D065C8B543E}|QLNhaSach\\QLNhaSach.csproj|c:\\users\\dell\\downloads\\qlnhasach\\qlnhasach\\fthemtacgia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CEE0838A-89BA-434F-AB12-9D065C8B543E}|QLNhaSach\\QLNhaSach.csproj|solutionrelative:qlnhasach\\fthemtacgia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CEE0838A-89BA-434F-AB12-9D065C8B543E}|QLNhaSach\\QLNhaSach.csproj|d:\\qlnhasach\\qlnhasach\\floaisach.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEE0838A-89BA-434F-AB12-9D065C8B543E}|QLNhaSach\\QLNhaSach.csproj|solutionrelative:qlnhasach\\floaisach.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CEE0838A-89BA-434F-AB12-9D065C8B543E}|QLNhaSach\\QLNhaSach.csproj|c:\\users\\dell\\downloads\\qlnhasach\\qlnhasach\\ftonghop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CEE0838A-89BA-434F-AB12-9D065C8B543E}|QLNhaSach\\QLNhaSach.csproj|solutionrelative:qlnhasach\\ftonghop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CEE0838A-89BA-434F-AB12-9D065C8B543E}|QLNhaSach\\QLNhaSach.csproj|D:\\QLNhaSach\\QLNhaSach\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEE0838A-89BA-434F-AB12-9D065C8B543E}|QLNhaSach\\QLNhaSach.csproj|solutionrelative:QLNhaSach\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7C22474B-C9E6-446B-BE1D-35C8EC918896}|DAL\\DAL.csproj|c:\\users\\dell\\downloads\\qlnhasach\\dal\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{7C22474B-C9E6-446B-BE1D-35C8EC918896}|DAL\\DAL.csproj|solutionrelative:dal\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+      "AbsoluteMoniker": "D:0:0:{CEE0838A-89BA-434F-AB12-9D065C8B543E}|QLNhaSach\\QLNhaSach.csproj|D:\\QLNhaSach\\QLNhaSach\\FLoaiSach.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEE0838A-89BA-434F-AB12-9D065C8B543E}|QLNhaSach\\QLNhaSach.csproj|solutionrelative:QLNhaSach\\FLoaiSach.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5563A55F-B4EB-4F43-A3E0-BBA5A7E862A8}|BUS\\BUS.csproj|c:\\users\\dell\\downloads\\qlnhasach\\bus\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{5563A55F-B4EB-4F43-A3E0-BBA5A7E862A8}|BUS\\BUS.csproj|solutionrelative:bus\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+      "AbsoluteMoniker": "D:0:0:{CEE0838A-89BA-434F-AB12-9D065C8B543E}|QLNhaSach\\QLNhaSach.csproj|D:\\QLNhaSach\\QLNhaSach\\fSuaSach.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CEE0838A-89BA-434F-AB12-9D065C8B543E}|QLNhaSach\\QLNhaSach.csproj|solutionrelative:QLNhaSach\\fSuaSach.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CEE0838A-89BA-434F-AB12-9D065C8B543E}|QLNhaSach\\QLNhaSach.csproj|c:\\users\\dell\\downloads\\qlnhasach\\qlnhasach\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "AbsoluteMoniker": "D:0:0:{CEE0838A-89BA-434F-AB12-9D065C8B543E}|QLNhaSach\\QLNhaSach.csproj|D:\\QLNhaSach\\QLNhaSach\\fTaiKhoan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CEE0838A-89BA-434F-AB12-9D065C8B543E}|QLNhaSach\\QLNhaSach.csproj|solutionrelative:QLNhaSach\\fTaiKhoan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEE0838A-89BA-434F-AB12-9D065C8B543E}|QLNhaSach\\QLNhaSach.csproj|D:\\QLNhaSach\\QLNhaSach\\fChiTietHD.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CEE0838A-89BA-434F-AB12-9D065C8B543E}|QLNhaSach\\QLNhaSach.csproj|solutionrelative:QLNhaSach\\fChiTietHD.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEE0838A-89BA-434F-AB12-9D065C8B543E}|QLNhaSach\\QLNhaSach.csproj|D:\\QLNhaSach\\QLNhaSach\\fThongKe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CEE0838A-89BA-434F-AB12-9D065C8B543E}|QLNhaSach\\QLNhaSach.csproj|solutionrelative:QLNhaSach\\fThongKe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEE0838A-89BA-434F-AB12-9D065C8B543E}|QLNhaSach\\QLNhaSach.csproj|D:\\QLNhaSach\\QLNhaSach\\fThemTacGia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CEE0838A-89BA-434F-AB12-9D065C8B543E}|QLNhaSach\\QLNhaSach.csproj|solutionrelative:QLNhaSach\\fThemTacGia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEE0838A-89BA-434F-AB12-9D065C8B543E}|QLNhaSach\\QLNhaSach.csproj|D:\\QLNhaSach\\QLNhaSach\\fTongHop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CEE0838A-89BA-434F-AB12-9D065C8B543E}|QLNhaSach\\QLNhaSach.csproj|solutionrelative:QLNhaSach\\fTongHop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEE0838A-89BA-434F-AB12-9D065C8B543E}|QLNhaSach\\QLNhaSach.csproj|D:\\QLNhaSach\\QLNhaSach\\fSuaSach.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEE0838A-89BA-434F-AB12-9D065C8B543E}|QLNhaSach\\QLNhaSach.csproj|solutionrelative:QLNhaSach\\fSuaSach.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEE0838A-89BA-434F-AB12-9D065C8B543E}|QLNhaSach\\QLNhaSach.csproj|d:\\qlnhasach\\qlnhasach\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{CEE0838A-89BA-434F-AB12-9D065C8B543E}|QLNhaSach\\QLNhaSach.csproj|solutionrelative:qlnhasach\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CEE0838A-89BA-434F-AB12-9D065C8B543E}|QLNhaSach\\QLNhaSach.csproj|c:\\users\\dell\\downloads\\qlnhasach\\qlnhasach\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CEE0838A-89BA-434F-AB12-9D065C8B543E}|QLNhaSach\\QLNhaSach.csproj|solutionrelative:qlnhasach\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CEE0838A-89BA-434F-AB12-9D065C8B543E}|QLNhaSach\\QLNhaSach.csproj|D:\\QLNhaSach\\QLNhaSach\\fTongHop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEE0838A-89BA-434F-AB12-9D065C8B543E}|QLNhaSach\\QLNhaSach.csproj|solutionrelative:QLNhaSach\\fTongHop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEE0838A-89BA-434F-AB12-9D065C8B543E}|QLNhaSach\\QLNhaSach.csproj|D:\\QLNhaSach\\QLNhaSach\\fDangNhap.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEE0838A-89BA-434F-AB12-9D065C8B543E}|QLNhaSach\\QLNhaSach.csproj|solutionrelative:QLNhaSach\\fDangNhap.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEE0838A-89BA-434F-AB12-9D065C8B543E}|QLNhaSach\\QLNhaSach.csproj|D:\\QLNhaSach\\QLNhaSach\\ReportHoaDon.rdlc||{46F6D2A1-5E86-4080-A799-01F3D0E23796}",
+      "RelativeMoniker": "D:0:0:{CEE0838A-89BA-434F-AB12-9D065C8B543E}|QLNhaSach\\QLNhaSach.csproj|solutionrelative:QLNhaSach\\ReportHoaDon.rdlc||{46F6D2A1-5E86-4080-A799-01F3D0E23796}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEE0838A-89BA-434F-AB12-9D065C8B543E}|QLNhaSach\\QLNhaSach.csproj|D:\\QLNhaSach\\QLNhaSach\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{CEE0838A-89BA-434F-AB12-9D065C8B543E}|QLNhaSach\\QLNhaSach.csproj|solutionrelative:QLNhaSach\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEE0838A-89BA-434F-AB12-9D065C8B543E}|QLNhaSach\\QLNhaSach.csproj|D:\\QLNhaSach\\qlnhasach\\fdangnhap.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
+      "RelativeMoniker": "D:0:0:{CEE0838A-89BA-434F-AB12-9D065C8B543E}|QLNhaSach\\QLNhaSach.csproj|solutionrelative:qlnhasach\\fdangnhap.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEE0838A-89BA-434F-AB12-9D065C8B543E}|QLNhaSach\\QLNhaSach.csproj|D:\\QLNhaSach\\QLNhaSach\\fNhaXuatBan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEE0838A-89BA-434F-AB12-9D065C8B543E}|QLNhaSach\\QLNhaSach.csproj|solutionrelative:QLNhaSach\\fNhaXuatBan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEE0838A-89BA-434F-AB12-9D065C8B543E}|QLNhaSach\\QLNhaSach.csproj|D:\\QLNhaSach\\QLNhaSach\\ReportHD.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CEE0838A-89BA-434F-AB12-9D065C8B543E}|QLNhaSach\\QLNhaSach.csproj|solutionrelative:QLNhaSach\\ReportHD.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEE0838A-89BA-434F-AB12-9D065C8B543E}|QLNhaSach\\QLNhaSach.csproj|D:\\QLNhaSach\\QLNhaSach\\fHoaDon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEE0838A-89BA-434F-AB12-9D065C8B543E}|QLNhaSach\\QLNhaSach.csproj|solutionrelative:QLNhaSach\\fHoaDon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEE0838A-89BA-434F-AB12-9D065C8B543E}|QLNhaSach\\QLNhaSach.csproj|D:\\QLNhaSach\\QLNhaSach\\fThemTacGia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEE0838A-89BA-434F-AB12-9D065C8B543E}|QLNhaSach\\QLNhaSach.csproj|solutionrelative:QLNhaSach\\fThemTacGia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEE0838A-89BA-434F-AB12-9D065C8B543E}|QLNhaSach\\QLNhaSach.csproj|D:\\QLNhaSach\\QLNhaSach\\fThongKe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEE0838A-89BA-434F-AB12-9D065C8B543E}|QLNhaSach\\QLNhaSach.csproj|solutionrelative:QLNhaSach\\fThongKe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -118,8 +122,35 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\QLNhaSach\\QLNhaSach\\Program.cs",
+              "RelativeDocumentMoniker": "QLNhaSach\\Program.cs",
+              "ToolTip": "D:\\QLNhaSach\\QLNhaSach\\Program.cs",
+              "RelativeToolTip": "QLNhaSach\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T15:16:59.885Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MidForm.cs [Design]",
+              "DocumentMoniker": "D:\\QLNhaSach\\QLNhaSach\\MidForm.cs",
+              "RelativeDocumentMoniker": "QLNhaSach\\MidForm.cs",
+              "ToolTip": "D:\\QLNhaSach\\QLNhaSach\\MidForm.cs [Design]",
+              "RelativeToolTip": "QLNhaSach\\MidForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T04:43:16.341Z",
+              "IsPinned": true,
+              "EditorCaption": " [Design]"
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
@@ -130,182 +161,23 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "fDangNhap.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\Downloads\\QLNhaSach\\QLNhaSach\\fDangNhap.cs",
+              "DocumentIndex": 1,
+              "Title": "fDangNhap.cs [Design]",
+              "DocumentMoniker": "D:\\QLNhaSach\\QLNhaSach\\fDangNhap.cs",
               "RelativeDocumentMoniker": "QLNhaSach\\fDangNhap.cs",
-              "ToolTip": "C:\\Users\\DELL\\Downloads\\QLNhaSach\\QLNhaSach\\fDangNhap.cs",
-              "RelativeToolTip": "QLNhaSach\\fDangNhap.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACMAAAAAAAAA",
+              "ToolTip": "D:\\QLNhaSach\\QLNhaSach\\fDangNhap.cs [Design]",
+              "RelativeToolTip": "QLNhaSach\\fDangNhap.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-02T15:50:51.38Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "fThemTacGia.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\DELL\\Downloads\\QLNhaSach\\QLNhaSach\\fThemTacGia.cs",
-              "RelativeDocumentMoniker": "QLNhaSach\\fThemTacGia.cs",
-              "ToolTip": "C:\\Users\\DELL\\Downloads\\QLNhaSach\\QLNhaSach\\fThemTacGia.cs [Design]",
-              "RelativeToolTip": "QLNhaSach\\fThemTacGia.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-02T15:25:25.239Z",
+              "WhenOpened": "2025-03-24T09:09:07.666Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "fLoaiSach.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\DELL\\Downloads\\QLNhaSach\\QLNhaSach\\FLoaiSach.cs",
-              "RelativeDocumentMoniker": "QLNhaSach\\FLoaiSach.cs",
-              "ToolTip": "C:\\Users\\DELL\\Downloads\\QLNhaSach\\QLNhaSach\\FLoaiSach.cs [Design]",
-              "RelativeToolTip": "QLNhaSach\\FLoaiSach.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-02T15:19:48.628Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "fNhaXuatBan.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\DELL\\Downloads\\QLNhaSach\\QLNhaSach\\fNhaXuatBan.cs",
-              "RelativeDocumentMoniker": "QLNhaSach\\fNhaXuatBan.cs",
-              "ToolTip": "C:\\Users\\DELL\\Downloads\\QLNhaSach\\QLNhaSach\\fNhaXuatBan.cs [Design]",
-              "RelativeToolTip": "QLNhaSach\\fNhaXuatBan.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-02T15:23:45.813Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "fLoaiSach.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\Downloads\\QLNhaSach\\QLNhaSach\\FLoaiSach.cs",
-              "RelativeDocumentMoniker": "QLNhaSach\\FLoaiSach.cs",
-              "ToolTip": "C:\\Users\\DELL\\Downloads\\QLNhaSach\\QLNhaSach\\FLoaiSach.cs",
-              "RelativeToolTip": "QLNhaSach\\FLoaiSach.cs",
-              "ViewState": "AQIAAEAAAAAAAAAAAAAAwFQAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-02T15:23:04.563Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "fNhaXuatBan.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\Downloads\\QLNhaSach\\QLNhaSach\\fNhaXuatBan.cs",
-              "RelativeDocumentMoniker": "QLNhaSach\\fNhaXuatBan.cs",
-              "ToolTip": "C:\\Users\\DELL\\Downloads\\QLNhaSach\\QLNhaSach\\fNhaXuatBan.cs",
-              "RelativeToolTip": "QLNhaSach\\fNhaXuatBan.cs",
-              "ViewState": "AQIAAEUAAAAAAAAAAAAAwFgAAAA6AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-02T15:24:52.936Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "fDangNhap.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\DELL\\Downloads\\QLNhaSach\\QLNhaSach\\fDangNhap.cs",
-              "RelativeDocumentMoniker": "QLNhaSach\\fDangNhap.cs",
-              "ToolTip": "C:\\Users\\DELL\\Downloads\\QLNhaSach\\QLNhaSach\\fDangNhap.cs [Design]",
-              "RelativeToolTip": "QLNhaSach\\fDangNhap.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-02T15:19:42.315Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "fChiTietHD.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\DELL\\Downloads\\QLNhaSach\\QLNhaSach\\fChiTietHD.cs",
-              "RelativeDocumentMoniker": "QLNhaSach\\fChiTietHD.cs",
-              "ToolTip": "C:\\Users\\DELL\\Downloads\\QLNhaSach\\QLNhaSach\\fChiTietHD.cs [Design]",
-              "RelativeToolTip": "QLNhaSach\\fChiTietHD.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-02T15:39:52.113Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "fSuaSach.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\DELL\\Downloads\\QLNhaSach\\QLNhaSach\\fSuaSach.cs",
-              "RelativeDocumentMoniker": "QLNhaSach\\fSuaSach.cs",
-              "ToolTip": "C:\\Users\\DELL\\Downloads\\QLNhaSach\\QLNhaSach\\fSuaSach.cs [Design]",
-              "RelativeToolTip": "QLNhaSach\\fSuaSach.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-02T15:24:54.616Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "fHoaDon.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\DELL\\Downloads\\QLNhaSach\\QLNhaSach\\fHoaDon.cs",
-              "RelativeDocumentMoniker": "QLNhaSach\\fHoaDon.cs",
-              "ToolTip": "C:\\Users\\DELL\\Downloads\\QLNhaSach\\QLNhaSach\\fHoaDon.cs [Design]",
-              "RelativeToolTip": "QLNhaSach\\fHoaDon.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-02T15:35:41.301Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "fTaiKhoan.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\DELL\\Downloads\\QLNhaSach\\QLNhaSach\\fTaiKhoan.cs",
-              "RelativeDocumentMoniker": "QLNhaSach\\fTaiKhoan.cs",
-              "ToolTip": "C:\\Users\\DELL\\Downloads\\QLNhaSach\\QLNhaSach\\fTaiKhoan.cs [Design]",
-              "RelativeToolTip": "QLNhaSach\\fTaiKhoan.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-02T15:25:29.735Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "fTongHop.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\DELL\\Downloads\\QLNhaSach\\QLNhaSach\\fTongHop.cs",
-              "RelativeDocumentMoniker": "QLNhaSach\\fTongHop.cs",
-              "ToolTip": "C:\\Users\\DELL\\Downloads\\QLNhaSach\\QLNhaSach\\fTongHop.cs [Design]",
-              "RelativeToolTip": "QLNhaSach\\fTongHop.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-02T15:18:50.352Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "fThongKe.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\DELL\\Downloads\\QLNhaSach\\QLNhaSach\\fThongKe.cs",
-              "RelativeDocumentMoniker": "QLNhaSach\\fThongKe.cs",
-              "ToolTip": "C:\\Users\\DELL\\Downloads\\QLNhaSach\\QLNhaSach\\fThongKe.cs [Design]",
-              "RelativeToolTip": "QLNhaSach\\fThongKe.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-02T15:25:36.221Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "MidForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\DELL\\Downloads\\QLNhaSach\\QLNhaSach\\MidForm.cs",
-              "RelativeDocumentMoniker": "QLNhaSach\\MidForm.cs",
-              "ToolTip": "C:\\Users\\DELL\\Downloads\\QLNhaSach\\QLNhaSach\\MidForm.cs [Design]",
-              "RelativeToolTip": "QLNhaSach\\MidForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-02T15:18:45.838Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
               "Title": "fKho.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\DELL\\Downloads\\QLNhaSach\\QLNhaSach\\fKho.cs",
+              "DocumentMoniker": "D:\\QLNhaSach\\QLNhaSach\\fKho.cs",
               "RelativeDocumentMoniker": "QLNhaSach\\fKho.cs",
-              "ToolTip": "C:\\Users\\DELL\\Downloads\\QLNhaSach\\QLNhaSach\\fKho.cs [Design]",
+              "ToolTip": "D:\\QLNhaSach\\QLNhaSach\\fKho.cs [Design]",
               "RelativeToolTip": "QLNhaSach\\fKho.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-02T15:40:20.542Z",
@@ -313,48 +185,269 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "fHoaDon.cs [Design]",
+              "DocumentMoniker": "D:\\QLNhaSach\\QLNhaSach\\fHoaDon.cs",
+              "RelativeDocumentMoniker": "QLNhaSach\\fHoaDon.cs",
+              "ToolTip": "D:\\QLNhaSach\\QLNhaSach\\fHoaDon.cs [Design]",
+              "RelativeToolTip": "QLNhaSach\\fHoaDon.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T09:42:11.829Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MidForm.cs",
+              "DocumentMoniker": "D:\\QLNhaSach\\QLNhaSach\\MidForm.cs",
+              "RelativeDocumentMoniker": "QLNhaSach\\MidForm.cs",
+              "ToolTip": "D:\\QLNhaSach\\QLNhaSach\\MidForm.cs",
+              "RelativeToolTip": "QLNhaSach\\MidForm.cs",
+              "ViewState": "AQIAAKIAAAAAAAAAAAAmwLcAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T12:33:03.894Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "fNhaXuatBan.cs [Design]",
+              "DocumentMoniker": "D:\\QLNhaSach\\QLNhaSach\\fNhaXuatBan.cs",
+              "RelativeDocumentMoniker": "QLNhaSach\\fNhaXuatBan.cs",
+              "ToolTip": "D:\\QLNhaSach\\QLNhaSach\\fNhaXuatBan.cs [Design]",
+              "RelativeToolTip": "QLNhaSach\\fNhaXuatBan.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T07:00:39.22Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "fLoaiSach.cs [Design]",
+              "DocumentMoniker": "D:\\QLNhaSach\\QLNhaSach\\FLoaiSach.cs",
+              "RelativeDocumentMoniker": "QLNhaSach\\FLoaiSach.cs",
+              "ToolTip": "D:\\QLNhaSach\\QLNhaSach\\FLoaiSach.cs [Design]",
+              "RelativeToolTip": "QLNhaSach\\FLoaiSach.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T12:30:54.685Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "fLoaiSach.Designer.cs",
+              "DocumentMoniker": "D:\\QLNhaSach\\QLNhaSach\\FLoaiSach.Designer.cs",
+              "RelativeDocumentMoniker": "QLNhaSach\\FLoaiSach.Designer.cs",
+              "ToolTip": "D:\\QLNhaSach\\QLNhaSach\\FLoaiSach.Designer.cs",
+              "RelativeToolTip": "QLNhaSach\\FLoaiSach.Designer.cs",
+              "ViewState": "AQIAAH0AAAAAAAAAAAAvwG4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T12:46:10.499Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "fSuaSach.cs [Design]",
+              "DocumentMoniker": "D:\\QLNhaSach\\QLNhaSach\\fSuaSach.cs",
+              "RelativeDocumentMoniker": "QLNhaSach\\fSuaSach.cs",
+              "ToolTip": "D:\\QLNhaSach\\QLNhaSach\\fSuaSach.cs [Design]",
+              "RelativeToolTip": "QLNhaSach\\fSuaSach.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T15:24:54.616Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "fTaiKhoan.cs [Design]",
+              "DocumentMoniker": "D:\\QLNhaSach\\QLNhaSach\\fTaiKhoan.cs",
+              "RelativeDocumentMoniker": "QLNhaSach\\fTaiKhoan.cs",
+              "ToolTip": "D:\\QLNhaSach\\QLNhaSach\\fTaiKhoan.cs [Design]",
+              "RelativeToolTip": "QLNhaSach\\fTaiKhoan.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T15:25:29.735Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "fLoaiSach.cs",
+              "DocumentMoniker": "D:\\QLNhaSach\\QLNhaSach\\FLoaiSach.cs",
+              "RelativeDocumentMoniker": "QLNhaSach\\FLoaiSach.cs",
+              "ToolTip": "D:\\QLNhaSach\\QLNhaSach\\FLoaiSach.cs",
+              "RelativeToolTip": "QLNhaSach\\FLoaiSach.cs",
+              "ViewState": "AQIAAEgAAAAAAAAAAAAmwFIAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T15:23:04.563Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "fChiTietHD.cs [Design]",
+              "DocumentMoniker": "D:\\QLNhaSach\\QLNhaSach\\fChiTietHD.cs",
+              "RelativeDocumentMoniker": "QLNhaSach\\fChiTietHD.cs",
+              "ToolTip": "D:\\QLNhaSach\\QLNhaSach\\fChiTietHD.cs [Design]",
+              "RelativeToolTip": "QLNhaSach\\fChiTietHD.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T15:39:52.113Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "fThongKe.cs [Design]",
+              "DocumentMoniker": "D:\\QLNhaSach\\QLNhaSach\\fThongKe.cs",
+              "RelativeDocumentMoniker": "QLNhaSach\\fThongKe.cs",
+              "ToolTip": "D:\\QLNhaSach\\QLNhaSach\\fThongKe.cs [Design]",
+              "RelativeToolTip": "QLNhaSach\\fThongKe.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T15:25:36.221Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "fThemTacGia.cs [Design]",
+              "DocumentMoniker": "D:\\QLNhaSach\\QLNhaSach\\fThemTacGia.cs",
+              "RelativeDocumentMoniker": "QLNhaSach\\fThemTacGia.cs",
+              "ToolTip": "D:\\QLNhaSach\\QLNhaSach\\fThemTacGia.cs [Design]",
+              "RelativeToolTip": "QLNhaSach\\fThemTacGia.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T07:00:40.87Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 15,
-              "Title": "ReportHoaDon.rdlc [Design]",
-              "DocumentMoniker": "C:\\Users\\DELL\\Downloads\\QLNhaSach\\QLNhaSach\\ReportHoaDon.rdlc",
-              "RelativeDocumentMoniker": "QLNhaSach\\ReportHoaDon.rdlc",
-              "ToolTip": "C:\\Users\\DELL\\Downloads\\QLNhaSach\\QLNhaSach\\ReportHoaDon.rdlc [Design]",
-              "RelativeToolTip": "QLNhaSach\\ReportHoaDon.rdlc [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001755|",
-              "WhenOpened": "2024-11-02T15:38:28.52Z",
+              "Title": "fTongHop.cs [Design]",
+              "DocumentMoniker": "D:\\QLNhaSach\\QLNhaSach\\fTongHop.cs",
+              "RelativeDocumentMoniker": "QLNhaSach\\fTongHop.cs",
+              "ToolTip": "D:\\QLNhaSach\\QLNhaSach\\fTongHop.cs [Design]",
+              "RelativeToolTip": "QLNhaSach\\fTongHop.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T15:18:50.352Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 16,
-              "Title": "ReportHD.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\DELL\\Downloads\\QLNhaSach\\QLNhaSach\\ReportHD.cs",
-              "RelativeDocumentMoniker": "QLNhaSach\\ReportHD.cs",
-              "ToolTip": "C:\\Users\\DELL\\Downloads\\QLNhaSach\\QLNhaSach\\ReportHD.cs [Design]",
-              "RelativeToolTip": "QLNhaSach\\ReportHD.cs [Design]",
+              "Title": "fSuaSach.cs",
+              "DocumentMoniker": "D:\\QLNhaSach\\QLNhaSach\\fSuaSach.cs",
+              "RelativeDocumentMoniker": "QLNhaSach\\fSuaSach.cs",
+              "ToolTip": "D:\\QLNhaSach\\QLNhaSach\\fSuaSach.cs",
+              "RelativeToolTip": "QLNhaSach\\fSuaSach.cs",
+              "ViewState": "AQIAADIAAAAAAAAAAAAAAD0AAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-02T15:38:26.309Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "MidForm.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\Downloads\\QLNhaSach\\QLNhaSach\\MidForm.cs",
-              "RelativeDocumentMoniker": "QLNhaSach\\MidForm.cs",
-              "ToolTip": "C:\\Users\\DELL\\Downloads\\QLNhaSach\\QLNhaSach\\MidForm.cs",
-              "RelativeToolTip": "QLNhaSach\\MidForm.cs",
-              "ViewState": "AQIAAF8AAAAAAAAAAAAAwGwAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-02T15:34:09.816Z",
+              "WhenOpened": "2024-11-02T15:33:25.006Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 17,
+              "Title": "App.config",
+              "DocumentMoniker": "D:\\QLNhaSach\\QLNhaSach\\App.config",
+              "RelativeDocumentMoniker": "QLNhaSach\\App.config",
+              "ToolTip": "D:\\QLNhaSach\\QLNhaSach\\App.config",
+              "RelativeToolTip": "QLNhaSach\\App.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-03-24T11:48:16.956Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "fTongHop.cs",
+              "DocumentMoniker": "D:\\QLNhaSach\\QLNhaSach\\fTongHop.cs",
+              "RelativeDocumentMoniker": "QLNhaSach\\fTongHop.cs",
+              "ToolTip": "D:\\QLNhaSach\\QLNhaSach\\fTongHop.cs",
+              "RelativeToolTip": "QLNhaSach\\fTongHop.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAAwBoAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T15:18:51.904Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "fDangNhap.Designer.cs",
+              "DocumentMoniker": "D:\\QLNhaSach\\QLNhaSach\\fDangNhap.Designer.cs",
+              "RelativeDocumentMoniker": "QLNhaSach\\fDangNhap.Designer.cs",
+              "ToolTip": "D:\\QLNhaSach\\QLNhaSach\\fDangNhap.Designer.cs",
+              "RelativeToolTip": "QLNhaSach\\fDangNhap.Designer.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAAABYAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T05:50:34.472Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ReportHoaDon.rdlc [Design]",
+              "DocumentMoniker": "D:\\QLNhaSach\\QLNhaSach\\ReportHoaDon.rdlc",
+              "RelativeDocumentMoniker": "QLNhaSach\\ReportHoaDon.rdlc",
+              "ToolTip": "D:\\QLNhaSach\\QLNhaSach\\ReportHoaDon.rdlc [Design]",
+              "RelativeToolTip": "QLNhaSach\\ReportHoaDon.rdlc [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001755|",
+              "WhenOpened": "2025-03-24T09:38:29.833Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "packages.config",
+              "DocumentMoniker": "D:\\QLNhaSach\\QLNhaSach\\packages.config",
+              "RelativeDocumentMoniker": "QLNhaSach\\packages.config",
+              "ToolTip": "D:\\QLNhaSach\\QLNhaSach\\packages.config",
+              "RelativeToolTip": "QLNhaSach\\packages.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-03-24T07:24:00.855Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "fDangNhap.resx",
+              "DocumentMoniker": "D:\\QLNhaSach\\QLNhaSach\\fDangNhap.resx",
+              "RelativeDocumentMoniker": "QLNhaSach\\fDangNhap.resx",
+              "ToolTip": "D:\\QLNhaSach\\QLNhaSach\\fDangNhap.resx",
+              "RelativeToolTip": "QLNhaSach\\fDangNhap.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2025-03-24T09:11:07.72Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "fNhaXuatBan.cs",
+              "DocumentMoniker": "D:\\QLNhaSach\\QLNhaSach\\fNhaXuatBan.cs",
+              "RelativeDocumentMoniker": "QLNhaSach\\fNhaXuatBan.cs",
+              "ToolTip": "D:\\QLNhaSach\\QLNhaSach\\fNhaXuatBan.cs",
+              "RelativeToolTip": "QLNhaSach\\fNhaXuatBan.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T15:24:52.936Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ReportHD.cs",
+              "DocumentMoniker": "D:\\QLNhaSach\\QLNhaSach\\ReportHD.cs",
+              "RelativeDocumentMoniker": "QLNhaSach\\ReportHD.cs",
+              "ToolTip": "D:\\QLNhaSach\\QLNhaSach\\ReportHD.cs",
+              "RelativeToolTip": "QLNhaSach\\ReportHD.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T15:38:26.309Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
               "Title": "fHoaDon.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\Downloads\\QLNhaSach\\QLNhaSach\\fHoaDon.cs",
+              "DocumentMoniker": "D:\\QLNhaSach\\QLNhaSach\\fHoaDon.cs",
               "RelativeDocumentMoniker": "QLNhaSach\\fHoaDon.cs",
-              "ToolTip": "C:\\Users\\DELL\\Downloads\\QLNhaSach\\QLNhaSach\\fHoaDon.cs",
+              "ToolTip": "D:\\QLNhaSach\\QLNhaSach\\fHoaDon.cs",
               "RelativeToolTip": "QLNhaSach\\fHoaDon.cs",
               "ViewState": "AQIAABwAAAAAAAAAAAApwDIAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -363,24 +456,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "fSuaSach.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\Downloads\\QLNhaSach\\QLNhaSach\\fSuaSach.cs",
-              "RelativeDocumentMoniker": "QLNhaSach\\fSuaSach.cs",
-              "ToolTip": "C:\\Users\\DELL\\Downloads\\QLNhaSach\\QLNhaSach\\fSuaSach.cs",
-              "RelativeToolTip": "QLNhaSach\\fSuaSach.cs",
-              "ViewState": "AQIAAAsBAAAAAAAAAAAxwCoBAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-02T15:33:25.006Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 26,
               "Title": "fThemTacGia.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\Downloads\\QLNhaSach\\QLNhaSach\\fThemTacGia.cs",
+              "DocumentMoniker": "D:\\QLNhaSach\\QLNhaSach\\fThemTacGia.cs",
               "RelativeDocumentMoniker": "QLNhaSach\\fThemTacGia.cs",
-              "ToolTip": "C:\\Users\\DELL\\Downloads\\QLNhaSach\\QLNhaSach\\fThemTacGia.cs",
+              "ToolTip": "D:\\QLNhaSach\\QLNhaSach\\fThemTacGia.cs",
               "RelativeToolTip": "QLNhaSach\\fThemTacGia.cs",
               "ViewState": "AQIAAKwAAAAAAAAAAAAqwMsAAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -389,80 +469,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 27,
               "Title": "fThongKe.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\Downloads\\QLNhaSach\\QLNhaSach\\fThongKe.cs",
+              "DocumentMoniker": "D:\\QLNhaSach\\QLNhaSach\\fThongKe.cs",
               "RelativeDocumentMoniker": "QLNhaSach\\fThongKe.cs",
-              "ToolTip": "C:\\Users\\DELL\\Downloads\\QLNhaSach\\QLNhaSach\\fThongKe.cs",
+              "ToolTip": "D:\\QLNhaSach\\QLNhaSach\\fThongKe.cs",
               "RelativeToolTip": "QLNhaSach\\fThongKe.cs",
               "ViewState": "AQIAAEwAAAAAAAAAAAAqwGoAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-02T15:30:59.306Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "fTongHop.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\Downloads\\QLNhaSach\\QLNhaSach\\fTongHop.cs",
-              "RelativeDocumentMoniker": "QLNhaSach\\fTongHop.cs",
-              "ToolTip": "C:\\Users\\DELL\\Downloads\\QLNhaSach\\QLNhaSach\\fTongHop.cs",
-              "RelativeToolTip": "QLNhaSach\\fTongHop.cs",
-              "ViewState": "AQIAADoAAAAAAAAAAAAUwEgAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-02T15:18:51.904Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "App.config",
-              "DocumentMoniker": "C:\\Users\\DELL\\Downloads\\QLNhaSach\\DAL\\App.config",
-              "RelativeDocumentMoniker": "DAL\\App.config",
-              "ToolTip": "C:\\Users\\DELL\\Downloads\\QLNhaSach\\DAL\\App.config",
-              "RelativeToolTip": "DAL\\App.config",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAABWAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2024-11-02T15:17:52.495Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "App.config",
-              "DocumentMoniker": "C:\\Users\\DELL\\Downloads\\QLNhaSach\\BUS\\App.config",
-              "RelativeDocumentMoniker": "BUS\\App.config",
-              "ToolTip": "C:\\Users\\DELL\\Downloads\\QLNhaSach\\BUS\\App.config",
-              "RelativeToolTip": "BUS\\App.config",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAABWAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2024-11-02T15:17:45.349Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "App.config",
-              "DocumentMoniker": "C:\\Users\\DELL\\Downloads\\QLNhaSach\\QLNhaSach\\App.config",
-              "RelativeDocumentMoniker": "QLNhaSach\\App.config",
-              "ToolTip": "C:\\Users\\DELL\\Downloads\\QLNhaSach\\QLNhaSach\\App.config",
-              "RelativeToolTip": "QLNhaSach\\App.config",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAB9AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2024-11-02T15:17:09.605Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\Downloads\\QLNhaSach\\QLNhaSach\\Program.cs",
-              "RelativeDocumentMoniker": "QLNhaSach\\Program.cs",
-              "ToolTip": "C:\\Users\\DELL\\Downloads\\QLNhaSach\\QLNhaSach\\Program.cs",
-              "RelativeToolTip": "QLNhaSach\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAApAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-02T15:16:59.885Z",
               "EditorCaption": ""
             }
           ]

@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(fThongKe));
             this.btnThoat = new System.Windows.Forms.Button();
             this.btnXuatBC = new System.Windows.Forms.Button();
             this.btnTkiem = new System.Windows.Forms.Button();
@@ -44,7 +45,7 @@
             // btnThoat
             // 
             this.btnThoat.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnThoat.Location = new System.Drawing.Point(737, 460);
+            this.btnThoat.Location = new System.Drawing.Point(736, 498);
             this.btnThoat.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnThoat.Name = "btnThoat";
             this.btnThoat.Size = new System.Drawing.Size(168, 42);
@@ -56,7 +57,7 @@
             // btnXuatBC
             // 
             this.btnXuatBC.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnXuatBC.Location = new System.Drawing.Point(116, 460);
+            this.btnXuatBC.Location = new System.Drawing.Point(115, 498);
             this.btnXuatBC.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnXuatBC.Name = "btnXuatBC";
             this.btnXuatBC.Size = new System.Drawing.Size(168, 42);
@@ -88,13 +89,14 @@
             this.dgvThongKe.Name = "dgvThongKe";
             this.dgvThongKe.RowHeadersWidth = 49;
             this.dgvThongKe.RowTemplate.Height = 24;
-            this.dgvThongKe.Size = new System.Drawing.Size(969, 319);
+            this.dgvThongKe.Size = new System.Drawing.Size(969, 381);
             this.dgvThongKe.TabIndex = 12;
             this.dgvThongKe.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvThongKe_CellContentClick);
             // 
             // label2
             // 
             this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.01739F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(345, 30);
             this.label2.Name = "label2";
@@ -105,6 +107,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.01739F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(12, 30);
             this.label1.Name = "label1";
@@ -159,7 +162,9 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.PaleTurquoise;
-            this.ClientSize = new System.Drawing.Size(1062, 513);
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ClientSize = new System.Drawing.Size(1062, 593);
             this.Controls.Add(this.btnQuayLai);
             this.Controls.Add(this.btndatlai);
             this.Controls.Add(this.btnThoat);
@@ -170,6 +175,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.dtpDenNgay);
             this.Controls.Add(this.dtpTuNgay);
+            this.DoubleBuffered = true;
             this.ForeColor = System.Drawing.Color.Black;
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "fThongKe";

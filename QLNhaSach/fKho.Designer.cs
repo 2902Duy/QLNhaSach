@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(fKho));
             this.dgvKho = new System.Windows.Forms.DataGridView();
             this.btnSua = new System.Windows.Forms.Button();
             this.btnXoa = new System.Windows.Forms.Button();
@@ -56,8 +57,10 @@
             // 
             // btnSua
             // 
+            this.btnSua.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnSua.BackgroundImage")));
+            this.btnSua.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnSua.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.01739F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSua.Location = new System.Drawing.Point(795, 369);
+            this.btnSua.Location = new System.Drawing.Point(216, 507);
             this.btnSua.Name = "btnSua";
             this.btnSua.Size = new System.Drawing.Size(229, 50);
             this.btnSua.TabIndex = 17;
@@ -67,8 +70,10 @@
             // 
             // btnXoa
             // 
+            this.btnXoa.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnXoa.BackgroundImage")));
+            this.btnXoa.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnXoa.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.01739F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnXoa.Location = new System.Drawing.Point(795, 437);
+            this.btnXoa.Location = new System.Drawing.Point(576, 507);
             this.btnXoa.Name = "btnXoa";
             this.btnXoa.Size = new System.Drawing.Size(229, 50);
             this.btnXoa.TabIndex = 18;
@@ -79,37 +84,40 @@
             // lblTen
             // 
             this.lblTen.AutoSize = true;
+            this.lblTen.BackColor = System.Drawing.Color.Transparent;
             this.lblTen.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.01739F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTen.Location = new System.Drawing.Point(28, 384);
+            this.lblTen.Location = new System.Drawing.Point(212, 374);
             this.lblTen.Name = "lblTen";
-            this.lblTen.Size = new System.Drawing.Size(91, 20);
+            this.lblTen.Size = new System.Drawing.Size(86, 20);
             this.lblTen.TabIndex = 19;
             this.lblTen.Text = "MÃ SÁCH ";
             // 
             // lblSL
             // 
             this.lblSL.AutoSize = true;
+            this.lblSL.BackColor = System.Drawing.Color.Transparent;
             this.lblSL.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.01739F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSL.Location = new System.Drawing.Point(345, 384);
+            this.lblSL.Location = new System.Drawing.Point(529, 374);
             this.lblSL.Name = "lblSL";
-            this.lblSL.Size = new System.Drawing.Size(98, 20);
+            this.lblSL.Size = new System.Drawing.Size(93, 20);
             this.lblSL.TabIndex = 21;
             this.lblSL.Text = "SỐ LƯỢNG";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Rockwell", 16.27826F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.InfoText;
             this.label1.Location = new System.Drawing.Point(12, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(167, 33);
+            this.label1.Size = new System.Drawing.Size(155, 32);
             this.label1.TabIndex = 24;
             this.label1.Text = "KHO SÁCH";
             // 
             // txtMaKho
             // 
-            this.txtMaKho.Location = new System.Drawing.Point(127, 446);
+            this.txtMaKho.Location = new System.Drawing.Point(311, 436);
             this.txtMaKho.Name = "txtMaKho";
             this.txtMaKho.Size = new System.Drawing.Size(160, 22);
             this.txtMaKho.TabIndex = 31;
@@ -118,8 +126,9 @@
             // label2
             // 
             this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(28, 448);
+            this.label2.Location = new System.Drawing.Point(212, 438);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(76, 20);
             this.label2.TabIndex = 32;
@@ -127,14 +136,14 @@
             // 
             // txtSluong
             // 
-            this.txtSluong.Location = new System.Drawing.Point(461, 382);
+            this.txtSluong.Location = new System.Drawing.Point(645, 372);
             this.txtSluong.Name = "txtSluong";
             this.txtSluong.Size = new System.Drawing.Size(160, 22);
             this.txtSluong.TabIndex = 33;
             // 
             // txtMaS
             // 
-            this.txtMaS.Location = new System.Drawing.Point(127, 382);
+            this.txtMaS.Location = new System.Drawing.Point(311, 372);
             this.txtMaS.Name = "txtMaS";
             this.txtMaS.Size = new System.Drawing.Size(160, 22);
             this.txtMaS.TabIndex = 34;
@@ -143,8 +152,9 @@
             // label3
             // 
             this.label3.AutoSize = true;
+            this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(346, 452);
+            this.label3.Location = new System.Drawing.Point(530, 442);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(94, 20);
             this.label3.TabIndex = 35;
@@ -152,7 +162,7 @@
             // 
             // txtTenSach
             // 
-            this.txtTenSach.Location = new System.Drawing.Point(461, 450);
+            this.txtTenSach.Location = new System.Drawing.Point(645, 440);
             this.txtTenSach.Name = "txtTenSach";
             this.txtTenSach.Size = new System.Drawing.Size(160, 22);
             this.txtTenSach.TabIndex = 36;
@@ -162,7 +172,9 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.PowderBlue;
-            this.ClientSize = new System.Drawing.Size(1062, 513);
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ClientSize = new System.Drawing.Size(1062, 585);
             this.Controls.Add(this.txtTenSach);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.txtMaS);
@@ -175,6 +187,7 @@
             this.Controls.Add(this.btnXoa);
             this.Controls.Add(this.btnSua);
             this.Controls.Add(this.dgvKho);
+            this.DoubleBuffered = true;
             this.Name = "fKho";
             this.Text = "KHO";
             this.Load += new System.EventHandler(this.fKho_Load);
